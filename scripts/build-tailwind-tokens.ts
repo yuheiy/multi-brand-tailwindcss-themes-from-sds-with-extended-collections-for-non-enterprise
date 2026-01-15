@@ -204,13 +204,13 @@ const themeTokensEntries = Object.entries({
   return [`./packages/themes/${key}/tokens/theme.tokens.json`, themeTokens] as const;
 });
 
-const componentsTokens = {
+const typographyTokens = {
   typography: omit(figmaTokens['Typography-styles'], ['.Utilities']),
 };
 
 const tailwindTokensFiles = new Map<string, Record<string, unknown>>([
   ...themeTokensEntries,
-  ['./packages/ui/tokens/components.tokens.json', componentsTokens],
+  ['./packages/ui/tokens/typography.tokens.json', typographyTokens],
 ]);
 
 function rewriteReferences(value: string) {

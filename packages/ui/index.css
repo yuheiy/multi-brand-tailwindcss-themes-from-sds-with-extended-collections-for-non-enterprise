@@ -54,4 +54,4 @@
   }
 }
 
-@import './components.generated.css' layer(components);
+@import './typography.generated.css';

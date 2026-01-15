@@ -22,8 +22,8 @@ const button = tv({
         'bg-transparent text-danger-default inset-ring-transparent hover:bg-danger-tertiary-hover',
     },
     size: {
-      small: 'typography-body-small p-space-200',
-      medium: 'typography-body-base p-space-300',
+      small: 'p-space-200 typography-body-small',
+      medium: 'p-space-300 typography-body-base',
     },
     disabled: {
       true: 'pointer-events-none cursor-default bg-disabled-default text-disabled-default inset-ring-disabled-default',

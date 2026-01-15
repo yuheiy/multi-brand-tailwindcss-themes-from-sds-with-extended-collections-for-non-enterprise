@@ -1,0 +1,157 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+@utility typography-title-hero {
+  font-family: var(--font-title-hero);
+  font-size: var(--text-title-hero);
+  line-height: var(--leading-title-hero);
+  font-weight: 700;
+  letter-spacing: var(--tracking-title-hero);
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+}
+
+@utility typography-title-page {
+  font-family: var(--font-title-page);
+  font-size: var(--text-title-page);
+  line-height: var(--leading-title-page);
+  font-weight: 600;
+  letter-spacing: var(--tracking-title-page);
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+}
+
+@utility typography-subtitle {
+  font-family: var(--font-subtitle);
+  font-size: var(--text-subtitle);
+  line-height: var(--leading-subtitle);
+  font-weight: 600;
+  letter-spacing: var(--tracking-subtitle);
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+}
+
+@utility typography-heading {
+  font-family: var(--font-heading);
+  font-size: var(--text-heading);
+  line-height: var(--leading-heading);
+  font-weight: 600;
+  letter-spacing: var(--tracking-heading);
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+}
+
+@utility typography-subheading {
+  font-family: var(--font-subheading);
+  font-size: var(--text-subheading);
+  line-height: var(--leading-subheading);
+  font-weight: 600;
+  letter-spacing: var(--tracking-subheading);
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+}
+
+@utility typography-body-base {
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  line-height: var(--leading-body);
+  font-weight: 400;
+  letter-spacing: var(--tracking-body);
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+}
+
+@utility typography-body-strong {
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  line-height: var(--leading-body);
+  font-weight: 400;
+  letter-spacing: var(--tracking-body);
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+}
+
+@utility typography-body-emphasis {
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  line-height: var(--leading-body);
+  font-weight: 400;
+  letter-spacing: var(--tracking-body);
+  text-transform: none;
+  font-style: italic;
+  text-decoration: none;
+}
+
+@utility typography-body-link {
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  line-height: var(--leading-body);
+  font-weight: 400;
+  letter-spacing: var(--tracking-body);
+  text-transform: none;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+@utility typography-body-small {
+  font-family: var(--font-body);
+  font-size: var(--text-body-small);
+  line-height: var(--leading-body-small);
+  font-weight: 400;
+  letter-spacing: var(--tracking-body);
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+}
+
+@utility typography-body-small-strong {
+  font-family: var(--font-body);
+  font-size: var(--text-body-small);
+  line-height: var(--leading-body-small);
+  font-weight: 400;
+  letter-spacing: var(--tracking-body);
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+}
+
+@utility typography-body-code {
+  font-family: var(--font-code);
+  font-size: var(--text-code);
+  line-height: var(--leading-code);
+  font-weight: 400;
+  letter-spacing: var(--tracking-code);
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+}
+
+@utility typography-single-line-body-base {
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  line-height: var(--leading-body-single);
+  font-weight: 400;
+  letter-spacing: var(--tracking-body);
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+}
+
+@utility typography-single-line-body-small-strong {
+  font-family: var(--font-body);
+  font-size: var(--text-body-small);
+  line-height: var(--leading-body-small-single);
+  font-weight: 400;
+  letter-spacing: var(--tracking-body);
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+}

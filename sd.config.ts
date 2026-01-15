@@ -34,7 +34,7 @@ StyleDictionary.registerTransform({
 });
 
 StyleDictionary.registerFormat({
-  name: 'custom/components',
+  name: 'custom/typography',
   format: async ({ dictionary }) => {
     const header = await fileHeader({});
 
@@ -44,71 +44,46 @@ StyleDictionary.registerFormat({
 
     const content = dictionary.allTokens
       .map((token) => {
-        const classNames = [];
+        const declarations: [string, string][] = [];
+        const tokenValue = token.original.$value;
 
-        for (const [prop, { classRoot, classMap }] of Object.entries({
-          fontFamily: {
-            classRoot: 'font',
-            classMap: {},
-          },
-          fontSize: {
-            classRoot: 'text',
-            classMap: {},
-          },
-          lineHeight: {
-            classRoot: 'leading',
-            classMap: {},
-          },
-          fontWeight: {
-            classRoot: 'font',
-            classMap: {},
-          },
-          letterSpacing: {
-            classRoot: 'tracking',
-            classMap: {},
-          },
-          textCase: {
-            classRoot: null,
-            classMap: {
-              ORIGINAL: null,
+        for (const [property, value] of [
+          ['font-family', tokenValue.fontFamily],
+          ['font-size', tokenValue.fontSize],
+          ['line-height', tokenValue.lineHeight],
+          ['font-weight', String(tokenValue.fontWeight)],
+          ['letter-spacing', tokenValue.letterSpacing],
+          [
+            'text-transform',
+            {
+              ORIGINAL: 'none',
               UPPER: 'uppercase',
               LOWER: 'lowercase',
-              TITLE: null,
-            },
-          },
-          fontStyle: {
-            classRoot: null,
-            classMap: {
-              normal: null,
-              italic: 'italic',
-            },
-          },
-          textDecoration: {
-            classRoot: null,
-            classMap: {
-              NONE: null,
+              TITLE: 'none',
+            }[tokenValue.textCase as never],
+          ],
+          ['font-style', tokenValue.fontStyle],
+          [
+            'text-decoration',
+            {
+              NONE: 'none',
               UNDERLINE: 'underline',
               STRIKETHROUGH: 'line-through',
-            },
-          },
-        })) {
-          const value: string = token.original.$value[prop];
-          const prefix = classRoot ? `${classRoot}-` : '';
-
-          if (value in classMap) {
-            const className = (classMap as any)[value];
-
-            if (className) {
-              classNames.push(prefix + className);
-            }
-          } else if (typeof value === 'string' && value.includes('{')) {
-            classNames.push(kebabCase(value));
-          } else {
-            classNames.push(prefix + `[${value}]`);
+            }[tokenValue.textDecoration as never],
+          ],
+        ]) {
+          if (typeof value === 'string') {
+            declarations.push([
+              property,
+              value.includes('{') ? `var(--${kebabCase(value)})` : value,
+            ]);
           }
         }
 
-        return nestInSelector(`  @apply ${[...new Set(classNames)].join(' ')};`, `.${token.name}`);
+        return nestInSelector(
+          declarations.map(([property, value]) => `  ${property}: ${value};`).join('\n'),
+          `@utility ${token.name}`,
+        );
       })
       .join('\n\n');
 
@@ -186,13 +161,13 @@ const config: Config = {
         },
       ]),
     ),
-    components: {
+    typography: {
       transforms: [transforms.nameKebab, transforms.fontFamilyCss],
       files: [
         {
-          destination: './packages/ui/components.generated.css',
-          format: 'custom/components',
-          filter: ({ filePath }) => filePath === 'packages/ui/tokens/components.tokens.json',
+          destination: './packages/ui/typography.generated.css',
+          format: 'custom/typography',
+          filter: ({ filePath }) => filePath === 'packages/ui/tokens/typography.tokens.json',
         },
       ],
     },
