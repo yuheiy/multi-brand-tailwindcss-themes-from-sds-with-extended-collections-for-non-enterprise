@@ -29,13 +29,9 @@ const button = tv({
       true: 'pointer-events-none cursor-default bg-disabled-default text-disabled-default inset-ring-disabled-default',
     },
   },
-  defaultVariants: {
-    variant: 'primary',
-    size: 'medium',
-  },
 });
 
-export function Button({ variant, size, ...props }: ButtonProps) {
+export function Button({ variant = 'primary', size = 'medium', ...props }: ButtonProps) {
   return (
     <button type="button" {...props} className={button({ variant, size, ...props })}>
       <span className="absolute inset-[calc(var(--offset)*-1)] rounded-[calc(var(--border-radius)+var(--offset))] ring [--offset:calc(var(--default-border-width)*2)] not-group-focus-visible:hidden" />
