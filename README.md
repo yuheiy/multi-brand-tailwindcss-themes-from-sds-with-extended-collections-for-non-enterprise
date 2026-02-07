@@ -145,7 +145,7 @@ The export creates `scripts/figma.tokens.json` with this structure:
 | `Theme.Icon.*`            | `text-color.icon.*`  |
 | `Theme.Border.*`          | `border-color.*`     |
 | `Color Primitives.*`      | `color.*`            |
-| `Size.Space.*`            | `spacing.Space.*`    |
+| `Size.Space.*`            | `spacing.*`          |
 | `Size.Radius.*`           | `radius.*`           |
 | `Typography Primitives.*` | `font.*`, `text.*`   |
 | `Effect-styles.*`         | `shadow.*`           |
@@ -196,13 +196,14 @@ Style Dictionary (`sd.config.ts`) generates the final CSS:
   --text-color-default-secondary: light-dark(var(--color-gray-500), var(--color-white-500));
   --text-color-default-tertiary: light-dark(var(--color-gray-400), var(--color-white-400));
 
-  --spacing-space-100: var(--is-size-base, 4px) var(--is-size-compact, 2px) var(--is-size-comfortable, 8px);
+  --spacing-100: var(--is-size-base, 4px) var(--is-size-compact, 2px) var(--is-size-comfortable, 8px);
   --radius-200: var(--is-size-base, 8px) var(--is-size-compact, 6px) var(--is-size-comfortable, 12px);
 }
 ```
 
 **Typography CSS** (`typography.generated.css`):
 
+<!-- prettier-ignore -->
 ```css
 @utility typography-title-hero {
   font-family: var(--font-title-hero);
@@ -388,7 +389,7 @@ Import Tailwind CSS with your theme:
 Use the generated Tailwind utilities in your HTML/JSX:
 
 ```html
-<div class="bg-brand-default p-space-400 text-brand-on-brand">
+<div class="bg-brand-default p-400 text-brand-on-brand">
   <h1 class="typography-title-hero">Hello World</h1>
 </div>
 ```

@@ -8,7 +8,7 @@ export interface ButtonProps
   extends ButtonVariants, React.ButtonHTMLAttributes<HTMLButtonElement> {}
 
 const button = tv({
-  base: 'group relative inline-flex cursor-pointer items-center justify-center gap-space-200 rounded-(--border-radius) leading-none whitespace-nowrap inset-ring-(length:--default-border-width) [--border-radius:var(--radius-200)] focus-visible:outline-none',
+  base: 'group relative inline-flex cursor-pointer items-center justify-center gap-200 rounded-(--border-radius) leading-none whitespace-nowrap inset-ring-(length:--default-border-width) [--border-radius:var(--radius-200)] focus-visible:outline-none',
   variants: {
     variant: {
       primary: 'bg-brand-default text-brand-on-brand inset-ring-brand-default hover:bg-brand-hover',
@@ -22,8 +22,8 @@ const button = tv({
         'bg-transparent text-danger-default inset-ring-transparent hover:bg-danger-tertiary-hover',
     },
     size: {
-      small: 'p-space-200 typography-body-small',
-      medium: 'p-space-300 typography-body-base',
+      small: 'p-200 typography-body-small',
+      medium: 'p-300 typography-body-base',
     },
     disabled: {
       true: 'pointer-events-none cursor-default bg-disabled-default text-disabled-default inset-ring-disabled-default',

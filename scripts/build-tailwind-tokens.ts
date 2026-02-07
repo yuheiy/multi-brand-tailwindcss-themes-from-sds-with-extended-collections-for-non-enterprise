@@ -109,7 +109,9 @@ const themeTokensEntries = Object.entries({
     },
 
     spacing: {
-      ...pick(figmaTokens.Size, ['Space', 'Depth', 'Icon']),
+      ...mapTokens(figmaTokens.Size.Space, (key, token) => [key, pxToRem(token)]),
+      Depth: figmaTokens.Size.Depth,
+      Icon: mapTokens(figmaTokens.Size.Icon, (key, token) => [key, pxToRem(token)]),
     },
 
     font: {

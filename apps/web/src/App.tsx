@@ -2,9 +2,9 @@ import { Button } from '@acme/ui';
 
 function App() {
   return (
-    <div className="m-space-400 space-y-space-300">
+    <div className="m-400 space-y-300">
       {([{ size: 'medium' }, { size: 'small' }] as const).map((props, i) => (
-        <div key={i} className="flex flex-wrap gap-space-300">
+        <div key={i} className="flex flex-wrap gap-300">
           <Button variant="primary" {...props}>
             Primary
           </Button>

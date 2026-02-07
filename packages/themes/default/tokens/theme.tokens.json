@@ -2579,221 +2579,219 @@
     }
   },
   "spacing": {
-    "Space": {
-      "0": {
-        "$type": "dimension",
-        "$value": "0px",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "0px",
-            "Compact": "0px",
-            "Comfortable": "0px"
-          }
+    "0": {
+      "$type": "dimension",
+      "$value": "0rem",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "0rem",
+          "Compact": "0rem",
+          "Comfortable": "0rem"
         }
-      },
-      "100": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, 4px) var(--is-size-compact, 2px) var(--is-size-comfortable, 8px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "4px",
-            "Compact": "2px",
-            "Comfortable": "8px"
-          }
+      }
+    },
+    "100": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, 0.25rem) var(--is-size-compact, 0.125rem) var(--is-size-comfortable, 0.5rem)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "0.25rem",
+          "Compact": "0.125rem",
+          "Comfortable": "0.5rem"
         }
-      },
-      "150": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, 6px) var(--is-size-compact, 4px) var(--is-size-comfortable, 10px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "6px",
-            "Compact": "4px",
-            "Comfortable": "10px"
-          }
+      }
+    },
+    "150": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, 0.375rem) var(--is-size-compact, 0.25rem) var(--is-size-comfortable, 0.625rem)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "0.375rem",
+          "Compact": "0.25rem",
+          "Comfortable": "0.625rem"
         }
-      },
-      "200": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, 8px) var(--is-size-compact, 6px) var(--is-size-comfortable, 12px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "8px",
-            "Compact": "6px",
-            "Comfortable": "12px"
-          }
+      }
+    },
+    "200": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, 0.5rem) var(--is-size-compact, 0.375rem) var(--is-size-comfortable, 0.75rem)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "0.5rem",
+          "Compact": "0.375rem",
+          "Comfortable": "0.75rem"
         }
-      },
-      "300": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, 12px) var(--is-size-compact, 10px) var(--is-size-comfortable, 16px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "12px",
-            "Compact": "10px",
-            "Comfortable": "16px"
-          }
+      }
+    },
+    "300": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, 0.75rem) var(--is-size-compact, 0.625rem) var(--is-size-comfortable, 1rem)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "0.75rem",
+          "Compact": "0.625rem",
+          "Comfortable": "1rem"
         }
-      },
-      "400": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, 16px) var(--is-size-compact, 12px) var(--is-size-comfortable, 20px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "16px",
-            "Compact": "12px",
-            "Comfortable": "20px"
-          }
+      }
+    },
+    "400": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, 1rem) var(--is-size-compact, 0.75rem) var(--is-size-comfortable, 1.25rem)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "1rem",
+          "Compact": "0.75rem",
+          "Comfortable": "1.25rem"
         }
-      },
-      "600": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, 24px) var(--is-size-compact, 16px) var(--is-size-comfortable, 28px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "24px",
-            "Compact": "16px",
-            "Comfortable": "28px"
-          }
+      }
+    },
+    "600": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, 1.5rem) var(--is-size-compact, 1rem) var(--is-size-comfortable, 1.75rem)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "1.5rem",
+          "Compact": "1rem",
+          "Comfortable": "1.75rem"
         }
-      },
-      "800": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, 32px) var(--is-size-compact, 24px) var(--is-size-comfortable, 40px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "32px",
-            "Compact": "24px",
-            "Comfortable": "40px"
-          }
+      }
+    },
+    "800": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, 2rem) var(--is-size-compact, 1.5rem) var(--is-size-comfortable, 2.5rem)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "2rem",
+          "Compact": "1.5rem",
+          "Comfortable": "2.5rem"
         }
-      },
-      "1200": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, 48px) var(--is-size-compact, 32px) var(--is-size-comfortable, 56px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "48px",
-            "Compact": "32px",
-            "Comfortable": "56px"
-          }
+      }
+    },
+    "1200": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, 3rem) var(--is-size-compact, 2rem) var(--is-size-comfortable, 3.5rem)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "3rem",
+          "Compact": "2rem",
+          "Comfortable": "3.5rem"
         }
-      },
-      "1600": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, 64px) var(--is-size-compact, 48px) var(--is-size-comfortable, 72px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "64px",
-            "Compact": "48px",
-            "Comfortable": "72px"
-          }
+      }
+    },
+    "1600": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, 4rem) var(--is-size-compact, 3rem) var(--is-size-comfortable, 4.5rem)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "4rem",
+          "Compact": "3rem",
+          "Comfortable": "4.5rem"
         }
-      },
-      "2400": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, 96px) var(--is-size-compact, 72px) var(--is-size-comfortable, 120px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "96px",
-            "Compact": "72px",
-            "Comfortable": "120px"
-          }
+      }
+    },
+    "2400": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, 6rem) var(--is-size-compact, 4.5rem) var(--is-size-comfortable, 7.5rem)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "6rem",
+          "Compact": "4.5rem",
+          "Comfortable": "7.5rem"
         }
-      },
-      "4000": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, 160px) var(--is-size-compact, 96px) var(--is-size-comfortable, 200px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "160px",
-            "Compact": "96px",
-            "Comfortable": "200px"
-          }
+      }
+    },
+    "4000": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, 10rem) var(--is-size-compact, 6rem) var(--is-size-comfortable, 12.5rem)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "10rem",
+          "Compact": "6rem",
+          "Comfortable": "12.5rem"
         }
-      },
-      "Negative 100": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, -4px) var(--is-size-compact, -2px) var(--is-size-comfortable, -8px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "-4px",
-            "Compact": "-2px",
-            "Comfortable": "-8px"
-          }
+      }
+    },
+    "Negative 100": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, -0.25rem) var(--is-size-compact, -0.125rem) var(--is-size-comfortable, -0.5rem)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "-0.25rem",
+          "Compact": "-0.125rem",
+          "Comfortable": "-0.5rem"
         }
-      },
-      "Negative 200": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, -8px) var(--is-size-compact, -6px) var(--is-size-comfortable, -12px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "-8px",
-            "Compact": "-6px",
-            "Comfortable": "-12px"
-          }
+      }
+    },
+    "Negative 200": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, -0.5rem) var(--is-size-compact, -0.375rem) var(--is-size-comfortable, -0.75rem)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "-0.5rem",
+          "Compact": "-0.375rem",
+          "Comfortable": "-0.75rem"
         }
-      },
-      "Negative 300": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, -12px) var(--is-size-compact, -10px) var(--is-size-comfortable, -16px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "-12px",
-            "Compact": "-10px",
-            "Comfortable": "-16px"
-          }
+      }
+    },
+    "Negative 300": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, -0.75rem) var(--is-size-compact, -0.625rem) var(--is-size-comfortable, -1rem)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "-0.75rem",
+          "Compact": "-0.625rem",
+          "Comfortable": "-1rem"
         }
-      },
-      "Negative 400": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, -16px) var(--is-size-compact, -12px) var(--is-size-comfortable, -20px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "-16px",
-            "Compact": "-12px",
-            "Comfortable": "-20px"
-          }
+      }
+    },
+    "Negative 400": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, -1rem) var(--is-size-compact, -0.75rem) var(--is-size-comfortable, -1.25rem)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "-1rem",
+          "Compact": "-0.75rem",
+          "Comfortable": "-1.25rem"
         }
-      },
-      "Negative 600": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, -24px) var(--is-size-compact, -16px) var(--is-size-comfortable, -28px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "-24px",
-            "Compact": "-16px",
-            "Comfortable": "-28px"
-          }
+      }
+    },
+    "Negative 600": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, -1.5rem) var(--is-size-compact, -1rem) var(--is-size-comfortable, -1.75rem)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "-1.5rem",
+          "Compact": "-1rem",
+          "Comfortable": "-1.75rem"
         }
-      },
-      "050": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, 2px) var(--is-size-compact, 1px) var(--is-size-comfortable, 4px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "2px",
-            "Compact": "1px",
-            "Comfortable": "4px"
-          }
+      }
+    },
+    "050": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, 0.125rem) var(--is-size-compact, 0.0625rem) var(--is-size-comfortable, 0.25rem)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "0.125rem",
+          "Compact": "0.0625rem",
+          "Comfortable": "0.25rem"
         }
       }
     },
@@ -2958,37 +2956,37 @@
     "Icon": {
       "Small": {
         "$type": "dimension",
-        "$value": "24px",
+        "$value": "1.5rem",
         "$description": "",
         "$extensions": {
           "mode": {
-            "Base": "24px",
-            "Compact": "24px",
-            "Comfortable": "24px"
+            "Base": "1.5rem",
+            "Compact": "1.5rem",
+            "Comfortable": "1.5rem"
           }
         }
       },
       "Medium": {
         "$type": "dimension",
-        "$value": "32px",
+        "$value": "2rem",
         "$description": "",
         "$extensions": {
           "mode": {
-            "Base": "32px",
-            "Compact": "32px",
-            "Comfortable": "32px"
+            "Base": "2rem",
+            "Compact": "2rem",
+            "Comfortable": "2rem"
           }
         }
       },
       "Large": {
         "$type": "dimension",
-        "$value": "40px",
+        "$value": "2.5rem",
         "$description": "",
         "$extensions": {
           "mode": {
-            "Base": "40px",
-            "Compact": "40px",
-            "Comfortable": "40px"
+            "Base": "2.5rem",
+            "Compact": "2.5rem",
+            "Comfortable": "2.5rem"
           }
         }
       }

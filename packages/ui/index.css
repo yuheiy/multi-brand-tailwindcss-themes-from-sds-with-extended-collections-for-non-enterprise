@@ -1,6 +1,7 @@
 @theme {
   --font-*: initial;
   --color-*: initial;
+  --spacing: initial;
   --text-*: initial;
   --font-weight-*: initial;
   --tracking-*: initial;
