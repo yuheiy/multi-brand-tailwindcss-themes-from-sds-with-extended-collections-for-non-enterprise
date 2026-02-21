@@ -30,12 +30,12 @@ Based on [Simple Design System with Extended Collections](https://www.figma.com/
 │     │  Transform via build-tailwind-tokens.ts                               │
 │     │    • Map Figma structure → Tailwind theme keys                        │
 │     │    • Rewrite token references                                         │
-│     │    • Embed mode switching (light-dark(), CSS variables)               │
 │     ▼                                                                       │
 │   packages/themes/*/tokens/theme.tokens.json                                │
 │   packages/ui/tokens/typography.tokens.json                                 │
 │     │                                                                       │
 │     │  Generate via Style Dictionary                                        │
+│     │    • Resolve modes (light-dark(), CSS variable toggles)               │
 │     │    • CSS variables in @theme blocks                                   │
 │     │    • Typography utilities with @utility                               │
 │     │    • tailwind-merge configuration                                     │
@@ -160,9 +160,13 @@ Token references are rewritten to match the new structure:
 {Typography Primitives.Scale.Scale 14} → {text.14}
 ```
 
-**Mode embedding:**
+### 3. CSS Generation (JSON → CSS)
 
-Tokens with modes are transformed into CSS-compatible values:
+Style Dictionary (`sd.config.ts`) generates the final CSS.
+
+**Mode resolution (preprocessor):**
+
+The `custom/resolve-modes` preprocessor transforms tokens with `$extensions.mode` into CSS-compatible values before CSS generation:
 
 ```typescript
 // Light/Dark modes → light-dark() function
@@ -176,9 +180,7 @@ Tokens with modes are transformed into CSS-compatible values:
 "var(--is-size-base, 16px) var(--is-size-compact, 12px) var(--is-size-comfortable, 20px)"
 ```
 
-### 3. CSS Generation (JSON → CSS)
-
-Style Dictionary (`sd.config.ts`) generates the final CSS:
+**Output:**
 
 **Theme CSS** (`theme.generated.css`):
 
@@ -271,15 +273,7 @@ function rewriteReferences(value: string) {
 
 ### Mode Handling
 
-**Light/Dark modes** use the CSS `light-dark()` function:
-
-```typescript
-// In build-tailwind-tokens.ts
-case 'Light' in mode && 'Dark' in mode: {
-  token.$value = `light-dark(${mode.Light}, ${mode.Dark})`;
-  break;
-}
-```
+**Light/Dark modes** use the CSS `light-dark()` function, resolved by the `custom/resolve-modes` preprocessor in `sd.config.ts`.
 
 Enable dark mode in your application:
 

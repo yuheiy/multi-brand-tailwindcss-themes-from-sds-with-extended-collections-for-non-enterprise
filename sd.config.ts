@@ -1,8 +1,64 @@
 import { kebabCase } from 'es-toolkit';
 import StyleDictionary, { type Config } from 'style-dictionary';
 import { formats, transforms, transformTypes } from 'style-dictionary/enums';
+import type { PreprocessedTokens } from 'style-dictionary/types';
 import { fileHeader } from 'style-dictionary/utils';
 import type { ConfigExtension, DefaultClassGroupIds, DefaultThemeGroupIds } from 'tailwind-merge';
+
+function resolveModes(tokens: Record<string, unknown>): Record<string, unknown> {
+  const result: Record<string, unknown> = {};
+
+  for (const [key, value] of Object.entries(tokens)) {
+    if (value === null || typeof value !== 'object' || Array.isArray(value)) {
+      result[key] = value;
+      continue;
+    }
+
+    const obj = value as Record<string, unknown>;
+
+    if (
+      '$value' in obj &&
+      '$extensions' in obj &&
+      typeof obj.$extensions === 'object' &&
+      obj.$extensions !== null &&
+      'mode' in obj.$extensions
+    ) {
+      const mode = (obj.$extensions as { mode: Record<string, unknown> }).mode;
+
+      if ('Light' in mode && 'Dark' in mode) {
+        if (mode.Light !== mode.Dark) {
+          const $value =
+            obj.$type === 'color'
+              ? `light-dark(${mode.Light}, ${mode.Dark})`
+              : `var(--is-light, ${mode.Light}) var(--is-dark, ${mode.Dark})`;
+          result[key] = { ...obj, $value };
+        } else {
+          result[key] = obj;
+        }
+        continue;
+      }
+
+      if ('Base' in mode && 'Compact' in mode && 'Comfortable' in mode) {
+        if (!(mode.Base === mode.Compact && mode.Compact === mode.Comfortable)) {
+          const $value = `var(--is-size-base, ${mode.Base}) var(--is-size-compact, ${mode.Compact}) var(--is-size-comfortable, ${mode.Comfortable})`;
+          result[key] = { ...obj, $value };
+        } else {
+          result[key] = obj;
+        }
+        continue;
+      }
+    }
+
+    result[key] = resolveModes(obj);
+  }
+
+  return result;
+}
+
+StyleDictionary.registerPreprocessor({
+  name: 'custom/resolve-modes',
+  preprocessor: (dictionary) => resolveModes(dictionary) as PreprocessedTokens,
+});
 
 StyleDictionary.registerTransform({
   name: 'custom/shadow',
@@ -136,6 +192,7 @@ StyleDictionary.registerFormat({
 
 const config: Config = {
   source: ['./packages/ui/tokens/*.tokens.json', './packages/themes/*/tokens/*.tokens.json'],
+  preprocessors: ['custom/resolve-modes'],
   platforms: {
     ...Object.fromEntries(
       [

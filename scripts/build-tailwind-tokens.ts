@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { omit, pick } from 'es-toolkit';
+import { omit } from 'es-toolkit';
 import mapObject, { mapObjectSkip } from 'map-obj';
 import figmaTokens from './figma.tokens.json' with { type: 'json' };
 
@@ -268,32 +268,6 @@ function rewriteReferencesInToken(token: ExtractToken<typeof figmaTokens>) {
   }
 }
 
-function embedModeSwitchingIntoValue(token: ExtractToken<typeof figmaTokens>) {
-  if ('$extensions' in token && 'mode' in token.$extensions) {
-    const { mode } = token.$extensions;
-
-    switch (true) {
-      case 'Light' in mode && 'Dark' in mode: {
-        if (!(mode.Light === mode.Dark)) {
-          const fn: (light: string, dark: string) => string =
-            token.$type === 'color'
-              ? (light, dark) => `light-dark(${light}, ${dark})`
-              : (light, dark) => `var(--is-light, ${light}) var(--is-dark, ${dark})`;
-          token.$value = fn(mode.Light, mode.Dark);
-        }
-        break;
-      }
-
-      case 'Base' in mode && 'Compact' in mode && 'Comfortable' in mode: {
-        if (!(mode.Base === mode.Compact && mode.Compact === mode.Comfortable)) {
-          token.$value = `var(--is-size-base, ${mode.Base}) var(--is-size-compact, ${mode.Compact}) var(--is-size-comfortable, ${mode.Comfortable})`;
-        }
-        break;
-      }
-    }
-  }
-}
-
 async function outputTokens(file: string, tokens: Record<string, unknown>) {
   const dir = path.dirname(file);
   await fs.mkdir(dir, { recursive: true });
@@ -303,7 +277,6 @@ async function outputTokens(file: string, tokens: Record<string, unknown>) {
 for (const [file, tokens] of tailwindTokensFiles) {
   const transformedTokens = mapTokens(tokens, (key, token) => {
     rewriteReferencesInToken(token);
-    embedModeSwitchingIntoValue(token);
     return [key, token];
   });
 
