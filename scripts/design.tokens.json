@@ -913,7 +913,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.White.1000}",
-              "Dark": "{Color Primitives.Gray.900}"
+              "Dark": "{Color Primitives.Gray.900}",
+              "Brand #2 - Light": "{Color Primitives.White.1000}",
+              "Brand #2 - Dark": "{Color Primitives.Gray.900}",
+              "Brand #3 - Light": "{Color Primitives.White.1000}",
+              "Brand #3 - Dark": "{Color Primitives.Gray.900}"
             }
           }
         },
@@ -924,7 +928,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Gray.100}",
-              "Dark": "{Color Primitives.Gray.800}"
+              "Dark": "{Color Primitives.Gray.800}",
+              "Brand #2 - Light": "{Color Primitives.Gray.100}",
+              "Brand #2 - Dark": "{Color Primitives.Gray.800}",
+              "Brand #3 - Light": "{Color Primitives.Gray.100}",
+              "Brand #3 - Dark": "{Color Primitives.Gray.800}"
             }
           }
         },
@@ -935,7 +943,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Gray.300}",
-              "Dark": "{Color Primitives.Gray.600}"
+              "Dark": "{Color Primitives.Gray.600}",
+              "Brand #2 - Light": "{Color Primitives.Gray.300}",
+              "Brand #2 - Dark": "{Color Primitives.Gray.600}",
+              "Brand #3 - Light": "{Color Primitives.Gray.300}",
+              "Brand #3 - Dark": "{Color Primitives.Gray.600}"
             }
           }
         },
@@ -946,7 +958,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Gray.100}",
-              "Dark": "{Color Primitives.Gray.700}"
+              "Dark": "{Color Primitives.Gray.700}",
+              "Brand #2 - Light": "{Color Primitives.Gray.100}",
+              "Brand #2 - Dark": "{Color Primitives.Gray.700}",
+              "Brand #3 - Light": "{Color Primitives.Gray.100}",
+              "Brand #3 - Dark": "{Color Primitives.Gray.700}"
             }
           }
         },
@@ -957,7 +973,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Gray.200}",
-              "Dark": "{Color Primitives.Gray.900}"
+              "Dark": "{Color Primitives.Gray.900}",
+              "Brand #2 - Light": "{Color Primitives.Gray.200}",
+              "Brand #2 - Dark": "{Color Primitives.Gray.900}",
+              "Brand #3 - Light": "{Color Primitives.Gray.200}",
+              "Brand #3 - Dark": "{Color Primitives.Gray.900}"
             }
           }
         },
@@ -968,7 +988,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Gray.400}",
-              "Dark": "{Color Primitives.Gray.700}"
+              "Dark": "{Color Primitives.Gray.700}",
+              "Brand #2 - Light": "{Color Primitives.Gray.400}",
+              "Brand #2 - Dark": "{Color Primitives.Gray.700}",
+              "Brand #3 - Light": "{Color Primitives.Gray.400}",
+              "Brand #3 - Dark": "{Color Primitives.Gray.700}"
             }
           }
         }
@@ -981,7 +1005,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.800}",
-              "Dark": "{Color Primitives.Brand A.100}"
+              "Dark": "{Color Primitives.Brand A.100}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.800}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.100}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.800}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.100}"
             }
           }
         },
@@ -992,7 +1020,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.200}",
-              "Dark": "{Color Primitives.Brand A.600}"
+              "Dark": "{Color Primitives.Brand A.600}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.200}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.600}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.200}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.600}"
             }
           }
         },
@@ -1003,7 +1035,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.900}",
-              "Dark": "{Color Primitives.Brand A.300}"
+              "Dark": "{Color Primitives.Brand A.300}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.900}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.300}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.900}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.300}"
             }
           }
         },
@@ -1014,7 +1050,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.300}",
-              "Dark": "{Color Primitives.Brand A.500}"
+              "Dark": "{Color Primitives.Brand A.500}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.300}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.500}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.300}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.500}"
             }
           }
         },
@@ -1025,7 +1065,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.100}",
-              "Dark": "{Color Primitives.Brand A.600}"
+              "Dark": "{Color Primitives.Brand A.600}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.100}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.600}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.100}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.600}"
             }
           }
         },
@@ -1036,7 +1080,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.200}",
-              "Dark": "{Color Primitives.Brand A.800}"
+              "Dark": "{Color Primitives.Brand A.800}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.200}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.800}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.200}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.800}"
             }
           }
         }
@@ -1049,7 +1097,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Green.500}",
-              "Dark": "{Color Primitives.Green.700}"
+              "Dark": "{Color Primitives.Green.700}",
+              "Brand #2 - Light": "{Color Primitives.Green.500}",
+              "Brand #2 - Dark": "{Color Primitives.Green.700}",
+              "Brand #3 - Light": "{Color Primitives.Green.500}",
+              "Brand #3 - Dark": "{Color Primitives.Green.700}"
             }
           }
         },
@@ -1060,7 +1112,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Green.200}",
-              "Dark": "{Color Primitives.Green.800}"
+              "Dark": "{Color Primitives.Green.800}",
+              "Brand #2 - Light": "{Color Primitives.Green.200}",
+              "Brand #2 - Dark": "{Color Primitives.Green.800}",
+              "Brand #3 - Light": "{Color Primitives.Green.200}",
+              "Brand #3 - Dark": "{Color Primitives.Green.800}"
             }
           }
         },
@@ -1071,7 +1127,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Green.600}",
-              "Dark": "{Color Primitives.Green.800}"
+              "Dark": "{Color Primitives.Green.800}",
+              "Brand #2 - Light": "{Color Primitives.Green.600}",
+              "Brand #2 - Dark": "{Color Primitives.Green.800}",
+              "Brand #3 - Light": "{Color Primitives.Green.600}",
+              "Brand #3 - Dark": "{Color Primitives.Green.800}"
             }
           }
         },
@@ -1082,7 +1142,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Green.300}",
-              "Dark": "{Color Primitives.Green.900}"
+              "Dark": "{Color Primitives.Green.900}",
+              "Brand #2 - Light": "{Color Primitives.Green.300}",
+              "Brand #2 - Dark": "{Color Primitives.Green.900}",
+              "Brand #3 - Light": "{Color Primitives.Green.300}",
+              "Brand #3 - Dark": "{Color Primitives.Green.900}"
             }
           }
         },
@@ -1093,7 +1157,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Green.100}",
-              "Dark": "{Color Primitives.Green.900}"
+              "Dark": "{Color Primitives.Green.900}",
+              "Brand #2 - Light": "{Color Primitives.Green.100}",
+              "Brand #2 - Dark": "{Color Primitives.Green.900}",
+              "Brand #3 - Light": "{Color Primitives.Green.100}",
+              "Brand #3 - Dark": "{Color Primitives.Green.900}"
             }
           }
         },
@@ -1104,7 +1172,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Green.200}",
-              "Dark": "{Color Primitives.Green.1000}"
+              "Dark": "{Color Primitives.Green.1000}",
+              "Brand #2 - Light": "{Color Primitives.Green.200}",
+              "Brand #2 - Dark": "{Color Primitives.Green.1000}",
+              "Brand #3 - Light": "{Color Primitives.Green.200}",
+              "Brand #3 - Dark": "{Color Primitives.Green.1000}"
             }
           }
         }
@@ -1117,7 +1189,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Yellow.400}",
-              "Dark": "{Color Primitives.Yellow.400}"
+              "Dark": "{Color Primitives.Yellow.400}",
+              "Brand #2 - Light": "{Color Primitives.Yellow.400}",
+              "Brand #2 - Dark": "{Color Primitives.Yellow.400}",
+              "Brand #3 - Light": "{Color Primitives.Yellow.400}",
+              "Brand #3 - Dark": "{Color Primitives.Yellow.400}"
             }
           }
         },
@@ -1128,7 +1204,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Yellow.200}",
-              "Dark": "{Color Primitives.Yellow.800}"
+              "Dark": "{Color Primitives.Yellow.800}",
+              "Brand #2 - Light": "{Color Primitives.Yellow.200}",
+              "Brand #2 - Dark": "{Color Primitives.Yellow.800}",
+              "Brand #3 - Light": "{Color Primitives.Yellow.200}",
+              "Brand #3 - Dark": "{Color Primitives.Yellow.800}"
             }
           }
         },
@@ -1139,7 +1219,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Yellow.500}",
-              "Dark": "{Color Primitives.Yellow.500}"
+              "Dark": "{Color Primitives.Yellow.500}",
+              "Brand #2 - Light": "{Color Primitives.Yellow.500}",
+              "Brand #2 - Dark": "{Color Primitives.Yellow.500}",
+              "Brand #3 - Light": "{Color Primitives.Yellow.500}",
+              "Brand #3 - Dark": "{Color Primitives.Yellow.500}"
             }
           }
         },
@@ -1150,7 +1234,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Yellow.300}",
-              "Dark": "{Color Primitives.Yellow.900}"
+              "Dark": "{Color Primitives.Yellow.900}",
+              "Brand #2 - Light": "{Color Primitives.Yellow.300}",
+              "Brand #2 - Dark": "{Color Primitives.Yellow.900}",
+              "Brand #3 - Light": "{Color Primitives.Yellow.300}",
+              "Brand #3 - Dark": "{Color Primitives.Yellow.900}"
             }
           }
         },
@@ -1161,7 +1249,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Yellow.100}",
-              "Dark": "{Color Primitives.Yellow.900}"
+              "Dark": "{Color Primitives.Yellow.900}",
+              "Brand #2 - Light": "{Color Primitives.Yellow.100}",
+              "Brand #2 - Dark": "{Color Primitives.Yellow.900}",
+              "Brand #3 - Light": "{Color Primitives.Yellow.100}",
+              "Brand #3 - Dark": "{Color Primitives.Yellow.900}"
             }
           }
         },
@@ -1172,7 +1264,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Yellow.200}",
-              "Dark": "{Color Primitives.Yellow.1000}"
+              "Dark": "{Color Primitives.Yellow.1000}",
+              "Brand #2 - Light": "{Color Primitives.Yellow.200}",
+              "Brand #2 - Dark": "{Color Primitives.Yellow.1000}",
+              "Brand #3 - Light": "{Color Primitives.Yellow.200}",
+              "Brand #3 - Dark": "{Color Primitives.Yellow.1000}"
             }
           }
         }
@@ -1185,7 +1281,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Red.500}",
-              "Dark": "{Color Primitives.Red.600}"
+              "Dark": "{Color Primitives.Red.600}",
+              "Brand #2 - Light": "{Color Primitives.Red.500}",
+              "Brand #2 - Dark": "{Color Primitives.Red.600}",
+              "Brand #3 - Light": "{Color Primitives.Red.500}",
+              "Brand #3 - Dark": "{Color Primitives.Red.600}"
             }
           }
         },
@@ -1196,7 +1296,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Red.200}",
-              "Dark": "{Color Primitives.Red.800}"
+              "Dark": "{Color Primitives.Red.800}",
+              "Brand #2 - Light": "{Color Primitives.Red.200}",
+              "Brand #2 - Dark": "{Color Primitives.Red.800}",
+              "Brand #3 - Light": "{Color Primitives.Red.200}",
+              "Brand #3 - Dark": "{Color Primitives.Red.800}"
             }
           }
         },
@@ -1207,7 +1311,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Red.600}",
-              "Dark": "{Color Primitives.Red.700}"
+              "Dark": "{Color Primitives.Red.700}",
+              "Brand #2 - Light": "{Color Primitives.Red.600}",
+              "Brand #2 - Dark": "{Color Primitives.Red.700}",
+              "Brand #3 - Light": "{Color Primitives.Red.600}",
+              "Brand #3 - Dark": "{Color Primitives.Red.700}"
             }
           }
         },
@@ -1218,7 +1326,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Red.300}",
-              "Dark": "{Color Primitives.Red.900}"
+              "Dark": "{Color Primitives.Red.900}",
+              "Brand #2 - Light": "{Color Primitives.Red.300}",
+              "Brand #2 - Dark": "{Color Primitives.Red.900}",
+              "Brand #3 - Light": "{Color Primitives.Red.300}",
+              "Brand #3 - Dark": "{Color Primitives.Red.900}"
             }
           }
         },
@@ -1229,7 +1341,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Red.100}",
-              "Dark": "{Color Primitives.Red.900}"
+              "Dark": "{Color Primitives.Red.900}",
+              "Brand #2 - Light": "{Color Primitives.Red.100}",
+              "Brand #2 - Dark": "{Color Primitives.Red.900}",
+              "Brand #3 - Light": "{Color Primitives.Red.100}",
+              "Brand #3 - Dark": "{Color Primitives.Red.900}"
             }
           }
         },
@@ -1240,7 +1356,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Red.200}",
-              "Dark": "{Color Primitives.Red.1000}"
+              "Dark": "{Color Primitives.Red.1000}",
+              "Brand #2 - Light": "{Color Primitives.Red.200}",
+              "Brand #2 - Dark": "{Color Primitives.Red.1000}",
+              "Brand #3 - Light": "{Color Primitives.Red.200}",
+              "Brand #3 - Dark": "{Color Primitives.Red.1000}"
             }
           }
         }
@@ -1253,7 +1373,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.300}",
-              "Dark": "{Color Primitives.Brand A.700}"
+              "Dark": "{Color Primitives.Brand A.700}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.300}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.700}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.300}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.700}"
             }
           }
         }
@@ -1266,7 +1390,11 @@
           "$extensions": {
             "mode": {
               "Light": "#ffffffcc",
-              "Dark": "#000000cc"
+              "Dark": "#000000cc",
+              "Brand #2 - Light": "#ffffffcc",
+              "Brand #2 - Dark": "#000000cc",
+              "Brand #3 - Light": "#ffffffcc",
+              "Brand #3 - Dark": "#000000cc"
             }
           }
         },
@@ -1277,7 +1405,11 @@
           "$extensions": {
             "mode": {
               "Light": "#00000080",
-              "Dark": "#00000080"
+              "Dark": "#00000080",
+              "Brand #2 - Light": "#00000080",
+              "Brand #2 - Dark": "#00000080",
+              "Brand #3 - Light": "#00000080",
+              "Brand #3 - Dark": "#00000080"
             }
           }
         },
@@ -1288,7 +1420,11 @@
           "$extensions": {
             "mode": {
               "Light": "#000000b3",
-              "Dark": "#000000b3"
+              "Dark": "#000000b3",
+              "Brand #2 - Light": "#000000b3",
+              "Brand #2 - Dark": "#000000b3",
+              "Brand #3 - Light": "#000000b3",
+              "Brand #3 - Dark": "#000000b3"
             }
           }
         },
@@ -1299,7 +1435,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Pink.200}",
-              "Dark": "{Color Primitives.Pink.800}"
+              "Dark": "{Color Primitives.Pink.800}",
+              "Brand #2 - Light": "{Color Primitives.Pink.200}",
+              "Brand #2 - Dark": "{Color Primitives.Pink.800}",
+              "Brand #3 - Light": "{Color Primitives.Pink.200}",
+              "Brand #3 - Dark": "{Color Primitives.Pink.800}"
             }
           }
         }
@@ -1312,7 +1452,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Slate.700}",
-              "Dark": "{Color Primitives.Slate.400}"
+              "Dark": "{Color Primitives.Slate.400}",
+              "Brand #2 - Light": "{Color Primitives.Slate.700}",
+              "Brand #2 - Dark": "{Color Primitives.Slate.400}",
+              "Brand #3 - Light": "{Color Primitives.Slate.700}",
+              "Brand #3 - Dark": "{Color Primitives.Slate.400}"
             }
           }
         },
@@ -1323,7 +1467,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Slate.800}",
-              "Dark": "{Color Primitives.Slate.500}"
+              "Dark": "{Color Primitives.Slate.500}",
+              "Brand #2 - Light": "{Color Primitives.Slate.800}",
+              "Brand #2 - Dark": "{Color Primitives.Slate.500}",
+              "Brand #3 - Light": "{Color Primitives.Slate.800}",
+              "Brand #3 - Dark": "{Color Primitives.Slate.500}"
             }
           }
         },
@@ -1334,7 +1482,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Slate.300}",
-              "Dark": "{Color Primitives.Slate.900}"
+              "Dark": "{Color Primitives.Slate.900}",
+              "Brand #2 - Light": "{Color Primitives.Slate.300}",
+              "Brand #2 - Dark": "{Color Primitives.Slate.900}",
+              "Brand #3 - Light": "{Color Primitives.Slate.300}",
+              "Brand #3 - Dark": "{Color Primitives.Slate.900}"
             }
           }
         },
@@ -1345,7 +1497,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Slate.400}",
-              "Dark": "{Color Primitives.Slate.1000}"
+              "Dark": "{Color Primitives.Slate.1000}",
+              "Brand #2 - Light": "{Color Primitives.Slate.400}",
+              "Brand #2 - Dark": "{Color Primitives.Slate.1000}",
+              "Brand #3 - Light": "{Color Primitives.Slate.400}",
+              "Brand #3 - Dark": "{Color Primitives.Slate.1000}"
             }
           }
         },
@@ -1356,7 +1512,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Slate.200}",
-              "Dark": "{Color Primitives.Slate.900}"
+              "Dark": "{Color Primitives.Slate.900}",
+              "Brand #2 - Light": "{Color Primitives.Slate.200}",
+              "Brand #2 - Dark": "{Color Primitives.Slate.900}",
+              "Brand #3 - Light": "{Color Primitives.Slate.200}",
+              "Brand #3 - Dark": "{Color Primitives.Slate.900}"
             }
           }
         },
@@ -1367,7 +1527,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Slate.300}",
-              "Dark": "{Color Primitives.Slate.1000}"
+              "Dark": "{Color Primitives.Slate.1000}",
+              "Brand #2 - Light": "{Color Primitives.Slate.300}",
+              "Brand #2 - Dark": "{Color Primitives.Slate.1000}",
+              "Brand #3 - Light": "{Color Primitives.Slate.300}",
+              "Brand #3 - Dark": "{Color Primitives.Slate.1000}"
             }
           }
         }
@@ -1382,7 +1546,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Gray.900}",
-              "Dark": "{Color Primitives.White.1000}"
+              "Dark": "{Color Primitives.White.1000}",
+              "Brand #2 - Light": "{Color Primitives.Gray.900}",
+              "Brand #2 - Dark": "{Color Primitives.White.1000}",
+              "Brand #3 - Light": "{Color Primitives.Gray.900}",
+              "Brand #3 - Dark": "{Color Primitives.White.1000}"
             }
           }
         },
@@ -1393,7 +1561,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Gray.500}",
-              "Dark": "{Color Primitives.White.500}"
+              "Dark": "{Color Primitives.White.500}",
+              "Brand #2 - Light": "{Color Primitives.Gray.500}",
+              "Brand #2 - Dark": "{Color Primitives.White.500}",
+              "Brand #3 - Light": "{Color Primitives.Gray.500}",
+              "Brand #3 - Dark": "{Color Primitives.White.500}"
             }
           }
         },
@@ -1404,7 +1576,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Gray.400}",
-              "Dark": "{Color Primitives.White.400}"
+              "Dark": "{Color Primitives.White.400}",
+              "Brand #2 - Light": "{Color Primitives.Gray.400}",
+              "Brand #2 - Dark": "{Color Primitives.White.400}",
+              "Brand #3 - Light": "{Color Primitives.Gray.400}",
+              "Brand #3 - Dark": "{Color Primitives.White.400}"
             }
           }
         }
@@ -1417,7 +1593,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.800}",
-              "Dark": "{Color Primitives.Brand A.100}"
+              "Dark": "{Color Primitives.Brand A.100}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.800}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.100}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.800}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.100}"
             }
           }
         },
@@ -1428,7 +1608,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.600}",
-              "Dark": "{Color Primitives.Brand A.300}"
+              "Dark": "{Color Primitives.Brand A.300}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.600}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.300}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.600}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.300}"
             }
           }
         },
@@ -1439,7 +1623,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.500}",
-              "Dark": "{Color Primitives.Brand A.400}"
+              "Dark": "{Color Primitives.Brand A.400}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.500}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.400}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.500}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.400}"
             }
           }
         },
@@ -1450,7 +1638,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.100}",
-              "Dark": "{Color Primitives.Brand A.900}"
+              "Dark": "{Color Primitives.Brand A.900}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.100}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.900}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.100}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.900}"
             }
           }
         },
@@ -1461,7 +1653,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.900}",
-              "Dark": "{Color Primitives.Brand A.100}"
+              "Dark": "{Color Primitives.Brand A.100}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.900}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.100}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.900}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.100}"
             }
           }
         },
@@ -1472,7 +1668,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.800}",
-              "Dark": "{Color Primitives.Brand A.100}"
+              "Dark": "{Color Primitives.Brand A.100}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.800}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.100}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.800}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.100}"
             }
           }
         }
@@ -1485,7 +1685,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Green.800}",
-              "Dark": "{Color Primitives.Green.200}"
+              "Dark": "{Color Primitives.Green.200}",
+              "Brand #2 - Light": "{Color Primitives.Green.800}",
+              "Brand #2 - Dark": "{Color Primitives.Green.200}",
+              "Brand #3 - Light": "{Color Primitives.Green.800}",
+              "Brand #3 - Dark": "{Color Primitives.Green.200}"
             }
           }
         },
@@ -1496,7 +1700,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Green.600}",
-              "Dark": "{Color Primitives.Green.400}"
+              "Dark": "{Color Primitives.Green.400}",
+              "Brand #2 - Light": "{Color Primitives.Green.600}",
+              "Brand #2 - Dark": "{Color Primitives.Green.400}",
+              "Brand #3 - Light": "{Color Primitives.Green.600}",
+              "Brand #3 - Dark": "{Color Primitives.Green.400}"
             }
           }
         },
@@ -1507,7 +1715,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Green.500}",
-              "Dark": "{Color Primitives.Green.600}"
+              "Dark": "{Color Primitives.Green.600}",
+              "Brand #2 - Light": "{Color Primitives.Green.500}",
+              "Brand #2 - Dark": "{Color Primitives.Green.600}",
+              "Brand #3 - Light": "{Color Primitives.Green.500}",
+              "Brand #3 - Dark": "{Color Primitives.Green.600}"
             }
           }
         },
@@ -1518,7 +1730,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Green.100}",
-              "Dark": "{Color Primitives.Green.100}"
+              "Dark": "{Color Primitives.Green.100}",
+              "Brand #2 - Light": "{Color Primitives.Green.100}",
+              "Brand #2 - Dark": "{Color Primitives.Green.100}",
+              "Brand #3 - Light": "{Color Primitives.Green.100}",
+              "Brand #3 - Dark": "{Color Primitives.Green.100}"
             }
           }
         },
@@ -1529,7 +1745,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Green.800}",
-              "Dark": "{Color Primitives.Green.100}"
+              "Dark": "{Color Primitives.Green.100}",
+              "Brand #2 - Light": "{Color Primitives.Green.800}",
+              "Brand #2 - Dark": "{Color Primitives.Green.100}",
+              "Brand #3 - Light": "{Color Primitives.Green.800}",
+              "Brand #3 - Dark": "{Color Primitives.Green.100}"
             }
           }
         },
@@ -1540,7 +1760,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Green.800}",
-              "Dark": "{Color Primitives.Green.100}"
+              "Dark": "{Color Primitives.Green.100}",
+              "Brand #2 - Light": "{Color Primitives.Green.800}",
+              "Brand #2 - Dark": "{Color Primitives.Green.100}",
+              "Brand #3 - Light": "{Color Primitives.Green.800}",
+              "Brand #3 - Dark": "{Color Primitives.Green.100}"
             }
           }
         }
@@ -1553,7 +1777,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Yellow.900}",
-              "Dark": "{Color Primitives.Yellow.200}"
+              "Dark": "{Color Primitives.Yellow.200}",
+              "Brand #2 - Light": "{Color Primitives.Yellow.900}",
+              "Brand #2 - Dark": "{Color Primitives.Yellow.200}",
+              "Brand #3 - Light": "{Color Primitives.Yellow.900}",
+              "Brand #3 - Dark": "{Color Primitives.Yellow.200}"
             }
           }
         },
@@ -1564,7 +1792,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Yellow.700}",
-              "Dark": "{Color Primitives.Yellow.400}"
+              "Dark": "{Color Primitives.Yellow.400}",
+              "Brand #2 - Light": "{Color Primitives.Yellow.700}",
+              "Brand #2 - Dark": "{Color Primitives.Yellow.400}",
+              "Brand #3 - Light": "{Color Primitives.Yellow.700}",
+              "Brand #3 - Dark": "{Color Primitives.Yellow.400}"
             }
           }
         },
@@ -1575,7 +1807,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Yellow.600}",
-              "Dark": "{Color Primitives.Yellow.600}"
+              "Dark": "{Color Primitives.Yellow.600}",
+              "Brand #2 - Light": "{Color Primitives.Yellow.600}",
+              "Brand #2 - Dark": "{Color Primitives.Yellow.600}",
+              "Brand #3 - Light": "{Color Primitives.Yellow.600}",
+              "Brand #3 - Dark": "{Color Primitives.Yellow.600}"
             }
           }
         },
@@ -1586,7 +1822,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Yellow.1000}",
-              "Dark": "{Color Primitives.Yellow.1000}"
+              "Dark": "{Color Primitives.Yellow.1000}",
+              "Brand #2 - Light": "{Color Primitives.Yellow.1000}",
+              "Brand #2 - Dark": "{Color Primitives.Yellow.1000}",
+              "Brand #3 - Light": "{Color Primitives.Yellow.1000}",
+              "Brand #3 - Dark": "{Color Primitives.Yellow.1000}"
             }
           }
         },
@@ -1597,7 +1837,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Yellow.800}",
-              "Dark": "{Color Primitives.Yellow.100}"
+              "Dark": "{Color Primitives.Yellow.100}",
+              "Brand #2 - Light": "{Color Primitives.Yellow.800}",
+              "Brand #2 - Dark": "{Color Primitives.Yellow.100}",
+              "Brand #3 - Light": "{Color Primitives.Yellow.800}",
+              "Brand #3 - Dark": "{Color Primitives.Yellow.100}"
             }
           }
         },
@@ -1608,7 +1852,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Yellow.900}",
-              "Dark": "{Color Primitives.Yellow.100}"
+              "Dark": "{Color Primitives.Yellow.100}",
+              "Brand #2 - Light": "{Color Primitives.Yellow.900}",
+              "Brand #2 - Dark": "{Color Primitives.Yellow.100}",
+              "Brand #3 - Light": "{Color Primitives.Yellow.900}",
+              "Brand #3 - Dark": "{Color Primitives.Yellow.100}"
             }
           }
         }
@@ -1621,7 +1869,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Red.700}",
-              "Dark": "{Color Primitives.Red.200}"
+              "Dark": "{Color Primitives.Red.200}",
+              "Brand #2 - Light": "{Color Primitives.Red.700}",
+              "Brand #2 - Dark": "{Color Primitives.Red.200}",
+              "Brand #3 - Light": "{Color Primitives.Red.700}",
+              "Brand #3 - Dark": "{Color Primitives.Red.200}"
             }
           }
         },
@@ -1632,7 +1884,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Red.600}",
-              "Dark": "{Color Primitives.Red.400}"
+              "Dark": "{Color Primitives.Red.400}",
+              "Brand #2 - Light": "{Color Primitives.Red.600}",
+              "Brand #2 - Dark": "{Color Primitives.Red.400}",
+              "Brand #3 - Light": "{Color Primitives.Red.600}",
+              "Brand #3 - Dark": "{Color Primitives.Red.400}"
             }
           }
         },
@@ -1643,7 +1899,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Red.500}",
-              "Dark": "{Color Primitives.Red.500}"
+              "Dark": "{Color Primitives.Red.500}",
+              "Brand #2 - Light": "{Color Primitives.Red.500}",
+              "Brand #2 - Dark": "{Color Primitives.Red.500}",
+              "Brand #3 - Light": "{Color Primitives.Red.500}",
+              "Brand #3 - Dark": "{Color Primitives.Red.500}"
             }
           }
         },
@@ -1654,7 +1914,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Red.100}",
-              "Dark": "{Color Primitives.Red.100}"
+              "Dark": "{Color Primitives.Red.100}",
+              "Brand #2 - Light": "{Color Primitives.Red.100}",
+              "Brand #2 - Dark": "{Color Primitives.Red.100}",
+              "Brand #3 - Light": "{Color Primitives.Red.100}",
+              "Brand #3 - Dark": "{Color Primitives.Red.100}"
             }
           }
         },
@@ -1665,7 +1929,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Red.700}",
-              "Dark": "{Color Primitives.Red.100}"
+              "Dark": "{Color Primitives.Red.100}",
+              "Brand #2 - Light": "{Color Primitives.Red.700}",
+              "Brand #2 - Dark": "{Color Primitives.Red.100}",
+              "Brand #3 - Light": "{Color Primitives.Red.700}",
+              "Brand #3 - Dark": "{Color Primitives.Red.100}"
             }
           }
         },
@@ -1676,7 +1944,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Red.700}",
-              "Dark": "{Color Primitives.Red.100}"
+              "Dark": "{Color Primitives.Red.100}",
+              "Brand #2 - Light": "{Color Primitives.Red.700}",
+              "Brand #2 - Dark": "{Color Primitives.Red.100}",
+              "Brand #3 - Light": "{Color Primitives.Red.700}",
+              "Brand #3 - Dark": "{Color Primitives.Red.100}"
             }
           }
         }
@@ -1689,7 +1961,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.400}",
-              "Dark": "{Color Primitives.Brand A.500}"
+              "Dark": "{Color Primitives.Brand A.500}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.400}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.500}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.400}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.500}"
             }
           }
         },
@@ -1700,7 +1976,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.400}",
-              "Dark": "{Color Primitives.Brand A.400}"
+              "Dark": "{Color Primitives.Brand A.400}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.400}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.400}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.400}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.400}"
             }
           }
         }
@@ -1713,7 +1993,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Black.1000}",
-              "Dark": "{Color Primitives.White.1000}"
+              "Dark": "{Color Primitives.White.1000}",
+              "Brand #2 - Light": "{Color Primitives.Black.1000}",
+              "Brand #2 - Dark": "{Color Primitives.White.1000}",
+              "Brand #3 - Light": "{Color Primitives.Black.1000}",
+              "Brand #3 - Dark": "{Color Primitives.White.1000}"
             }
           }
         },
@@ -1724,7 +2008,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Pink.800}",
-              "Dark": "{Color Primitives.Pink.200}"
+              "Dark": "{Color Primitives.Pink.200}",
+              "Brand #2 - Light": "{Color Primitives.Pink.800}",
+              "Brand #2 - Dark": "{Color Primitives.Pink.200}",
+              "Brand #3 - Light": "{Color Primitives.Pink.800}",
+              "Brand #3 - Dark": "{Color Primitives.Pink.200}"
             }
           }
         }
@@ -1737,7 +2025,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Slate.900}",
-              "Dark": "{Color Primitives.Slate.200}"
+              "Dark": "{Color Primitives.Slate.200}",
+              "Brand #2 - Light": "{Color Primitives.Slate.900}",
+              "Brand #2 - Dark": "{Color Primitives.Slate.200}",
+              "Brand #3 - Light": "{Color Primitives.Slate.900}",
+              "Brand #3 - Dark": "{Color Primitives.Slate.200}"
             }
           }
         },
@@ -1748,7 +2040,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Slate.700}",
-              "Dark": "{Color Primitives.Slate.300}"
+              "Dark": "{Color Primitives.Slate.300}",
+              "Brand #2 - Light": "{Color Primitives.Slate.700}",
+              "Brand #2 - Dark": "{Color Primitives.Slate.300}",
+              "Brand #3 - Light": "{Color Primitives.Slate.700}",
+              "Brand #3 - Dark": "{Color Primitives.Slate.300}"
             }
           }
         },
@@ -1759,7 +2055,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Slate.600}",
-              "Dark": "{Color Primitives.Slate.400}"
+              "Dark": "{Color Primitives.Slate.400}",
+              "Brand #2 - Light": "{Color Primitives.Slate.600}",
+              "Brand #2 - Dark": "{Color Primitives.Slate.400}",
+              "Brand #3 - Light": "{Color Primitives.Slate.600}",
+              "Brand #3 - Dark": "{Color Primitives.Slate.400}"
             }
           }
         },
@@ -1770,7 +2070,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Slate.100}",
-              "Dark": "{Color Primitives.Slate.1000}"
+              "Dark": "{Color Primitives.Slate.1000}",
+              "Brand #2 - Light": "{Color Primitives.Slate.100}",
+              "Brand #2 - Dark": "{Color Primitives.Slate.1000}",
+              "Brand #3 - Light": "{Color Primitives.Slate.100}",
+              "Brand #3 - Dark": "{Color Primitives.Slate.1000}"
             }
           }
         },
@@ -1781,7 +2085,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Slate.900}",
-              "Dark": "{Color Primitives.Slate.100}"
+              "Dark": "{Color Primitives.Slate.100}",
+              "Brand #2 - Light": "{Color Primitives.Slate.900}",
+              "Brand #2 - Dark": "{Color Primitives.Slate.100}",
+              "Brand #3 - Light": "{Color Primitives.Slate.900}",
+              "Brand #3 - Dark": "{Color Primitives.Slate.100}"
             }
           }
         },
@@ -1792,7 +2100,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Slate.800}",
-              "Dark": "{Color Primitives.Slate.100}"
+              "Dark": "{Color Primitives.Slate.100}",
+              "Brand #2 - Light": "{Color Primitives.Slate.800}",
+              "Brand #2 - Dark": "{Color Primitives.Slate.100}",
+              "Brand #3 - Light": "{Color Primitives.Slate.800}",
+              "Brand #3 - Dark": "{Color Primitives.Slate.100}"
             }
           }
         }
@@ -1807,7 +2119,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Gray.900}",
-              "Dark": "{Color Primitives.White.1000}"
+              "Dark": "{Color Primitives.White.1000}",
+              "Brand #2 - Light": "{Color Primitives.Gray.900}",
+              "Brand #2 - Dark": "{Color Primitives.White.1000}",
+              "Brand #3 - Light": "{Color Primitives.Gray.900}",
+              "Brand #3 - Dark": "{Color Primitives.White.1000}"
             }
           }
         },
@@ -1818,7 +2134,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Gray.500}",
-              "Dark": "{Color Primitives.White.500}"
+              "Dark": "{Color Primitives.White.500}",
+              "Brand #2 - Light": "{Color Primitives.Gray.500}",
+              "Brand #2 - Dark": "{Color Primitives.White.500}",
+              "Brand #3 - Light": "{Color Primitives.Gray.500}",
+              "Brand #3 - Dark": "{Color Primitives.White.500}"
             }
           }
         },
@@ -1829,7 +2149,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Gray.400}",
-              "Dark": "{Color Primitives.White.400}"
+              "Dark": "{Color Primitives.White.400}",
+              "Brand #2 - Light": "{Color Primitives.Gray.400}",
+              "Brand #2 - Dark": "{Color Primitives.White.400}",
+              "Brand #3 - Light": "{Color Primitives.Gray.400}",
+              "Brand #3 - Dark": "{Color Primitives.White.400}"
             }
           }
         }
@@ -1842,7 +2166,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.800}",
-              "Dark": "{Color Primitives.Brand A.100}"
+              "Dark": "{Color Primitives.Brand A.100}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.800}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.100}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.800}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.100}"
             }
           }
         },
@@ -1853,7 +2181,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.600}",
-              "Dark": "{Color Primitives.Brand A.300}"
+              "Dark": "{Color Primitives.Brand A.300}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.600}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.300}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.600}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.300}"
             }
           }
         },
@@ -1864,7 +2196,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.500}",
-              "Dark": "{Color Primitives.Brand A.400}"
+              "Dark": "{Color Primitives.Brand A.400}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.500}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.400}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.500}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.400}"
             }
           }
         },
@@ -1875,7 +2211,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.100}",
-              "Dark": "{Color Primitives.Brand A.900}"
+              "Dark": "{Color Primitives.Brand A.900}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.100}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.900}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.100}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.900}"
             }
           }
         },
@@ -1886,7 +2226,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.900}",
-              "Dark": "{Color Primitives.Brand A.100}"
+              "Dark": "{Color Primitives.Brand A.100}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.900}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.100}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.900}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.100}"
             }
           }
         },
@@ -1897,7 +2241,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.800}",
-              "Dark": "{Color Primitives.Brand A.100}"
+              "Dark": "{Color Primitives.Brand A.100}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.800}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.100}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.800}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.100}"
             }
           }
         }
@@ -1910,7 +2258,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Green.800}",
-              "Dark": "{Color Primitives.Green.200}"
+              "Dark": "{Color Primitives.Green.200}",
+              "Brand #2 - Light": "{Color Primitives.Green.800}",
+              "Brand #2 - Dark": "{Color Primitives.Green.200}",
+              "Brand #3 - Light": "{Color Primitives.Green.800}",
+              "Brand #3 - Dark": "{Color Primitives.Green.200}"
             }
           }
         },
@@ -1921,7 +2273,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Green.600}",
-              "Dark": "{Color Primitives.Green.400}"
+              "Dark": "{Color Primitives.Green.400}",
+              "Brand #2 - Light": "{Color Primitives.Green.600}",
+              "Brand #2 - Dark": "{Color Primitives.Green.400}",
+              "Brand #3 - Light": "{Color Primitives.Green.600}",
+              "Brand #3 - Dark": "{Color Primitives.Green.400}"
             }
           }
         },
@@ -1932,7 +2288,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Green.500}",
-              "Dark": "{Color Primitives.Green.600}"
+              "Dark": "{Color Primitives.Green.600}",
+              "Brand #2 - Light": "{Color Primitives.Green.500}",
+              "Brand #2 - Dark": "{Color Primitives.Green.600}",
+              "Brand #3 - Light": "{Color Primitives.Green.500}",
+              "Brand #3 - Dark": "{Color Primitives.Green.600}"
             }
           }
         },
@@ -1943,7 +2303,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Green.100}",
-              "Dark": "{Color Primitives.Green.100}"
+              "Dark": "{Color Primitives.Green.100}",
+              "Brand #2 - Light": "{Color Primitives.Green.100}",
+              "Brand #2 - Dark": "{Color Primitives.Green.100}",
+              "Brand #3 - Light": "{Color Primitives.Green.100}",
+              "Brand #3 - Dark": "{Color Primitives.Green.100}"
             }
           }
         },
@@ -1954,7 +2318,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Green.800}",
-              "Dark": "{Color Primitives.Green.100}"
+              "Dark": "{Color Primitives.Green.100}",
+              "Brand #2 - Light": "{Color Primitives.Green.800}",
+              "Brand #2 - Dark": "{Color Primitives.Green.100}",
+              "Brand #3 - Light": "{Color Primitives.Green.800}",
+              "Brand #3 - Dark": "{Color Primitives.Green.100}"
             }
           }
         },
@@ -1965,7 +2333,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Green.900}",
-              "Dark": "{Color Primitives.Green.100}"
+              "Dark": "{Color Primitives.Green.100}",
+              "Brand #2 - Light": "{Color Primitives.Green.900}",
+              "Brand #2 - Dark": "{Color Primitives.Green.100}",
+              "Brand #3 - Light": "{Color Primitives.Green.900}",
+              "Brand #3 - Dark": "{Color Primitives.Green.100}"
             }
           }
         }
@@ -1978,7 +2350,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Yellow.900}",
-              "Dark": "{Color Primitives.Yellow.200}"
+              "Dark": "{Color Primitives.Yellow.200}",
+              "Brand #2 - Light": "{Color Primitives.Yellow.900}",
+              "Brand #2 - Dark": "{Color Primitives.Yellow.200}",
+              "Brand #3 - Light": "{Color Primitives.Yellow.900}",
+              "Brand #3 - Dark": "{Color Primitives.Yellow.200}"
             }
           }
         },
@@ -1989,7 +2365,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Yellow.700}",
-              "Dark": "{Color Primitives.Yellow.400}"
+              "Dark": "{Color Primitives.Yellow.400}",
+              "Brand #2 - Light": "{Color Primitives.Yellow.700}",
+              "Brand #2 - Dark": "{Color Primitives.Yellow.400}",
+              "Brand #3 - Light": "{Color Primitives.Yellow.700}",
+              "Brand #3 - Dark": "{Color Primitives.Yellow.400}"
             }
           }
         },
@@ -2000,7 +2380,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Yellow.600}",
-              "Dark": "{Color Primitives.Yellow.600}"
+              "Dark": "{Color Primitives.Yellow.600}",
+              "Brand #2 - Light": "{Color Primitives.Yellow.600}",
+              "Brand #2 - Dark": "{Color Primitives.Yellow.600}",
+              "Brand #3 - Light": "{Color Primitives.Yellow.600}",
+              "Brand #3 - Dark": "{Color Primitives.Yellow.600}"
             }
           }
         },
@@ -2011,7 +2395,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Yellow.1000}",
-              "Dark": "{Color Primitives.Yellow.1000}"
+              "Dark": "{Color Primitives.Yellow.1000}",
+              "Brand #2 - Light": "{Color Primitives.Yellow.1000}",
+              "Brand #2 - Dark": "{Color Primitives.Yellow.1000}",
+              "Brand #3 - Light": "{Color Primitives.Yellow.1000}",
+              "Brand #3 - Dark": "{Color Primitives.Yellow.1000}"
             }
           }
         },
@@ -2022,7 +2410,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Yellow.800}",
-              "Dark": "{Color Primitives.Yellow.100}"
+              "Dark": "{Color Primitives.Yellow.100}",
+              "Brand #2 - Light": "{Color Primitives.Yellow.800}",
+              "Brand #2 - Dark": "{Color Primitives.Yellow.100}",
+              "Brand #3 - Light": "{Color Primitives.Yellow.800}",
+              "Brand #3 - Dark": "{Color Primitives.Yellow.100}"
             }
           }
         },
@@ -2033,7 +2425,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Yellow.900}",
-              "Dark": "{Color Primitives.Yellow.100}"
+              "Dark": "{Color Primitives.Yellow.100}",
+              "Brand #2 - Light": "{Color Primitives.Yellow.900}",
+              "Brand #2 - Dark": "{Color Primitives.Yellow.100}",
+              "Brand #3 - Light": "{Color Primitives.Yellow.900}",
+              "Brand #3 - Dark": "{Color Primitives.Yellow.100}"
             }
           }
         }
@@ -2046,7 +2442,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Red.700}",
-              "Dark": "{Color Primitives.Red.200}"
+              "Dark": "{Color Primitives.Red.200}",
+              "Brand #2 - Light": "{Color Primitives.Red.700}",
+              "Brand #2 - Dark": "{Color Primitives.Red.200}",
+              "Brand #3 - Light": "{Color Primitives.Red.700}",
+              "Brand #3 - Dark": "{Color Primitives.Red.200}"
             }
           }
         },
@@ -2057,7 +2457,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Red.600}",
-              "Dark": "{Color Primitives.Red.400}"
+              "Dark": "{Color Primitives.Red.400}",
+              "Brand #2 - Light": "{Color Primitives.Red.600}",
+              "Brand #2 - Dark": "{Color Primitives.Red.400}",
+              "Brand #3 - Light": "{Color Primitives.Red.600}",
+              "Brand #3 - Dark": "{Color Primitives.Red.400}"
             }
           }
         },
@@ -2068,7 +2472,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Red.500}",
-              "Dark": "{Color Primitives.Red.500}"
+              "Dark": "{Color Primitives.Red.500}",
+              "Brand #2 - Light": "{Color Primitives.Red.500}",
+              "Brand #2 - Dark": "{Color Primitives.Red.500}",
+              "Brand #3 - Light": "{Color Primitives.Red.500}",
+              "Brand #3 - Dark": "{Color Primitives.Red.500}"
             }
           }
         },
@@ -2079,7 +2487,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Red.100}",
-              "Dark": "{Color Primitives.Red.100}"
+              "Dark": "{Color Primitives.Red.100}",
+              "Brand #2 - Light": "{Color Primitives.Red.100}",
+              "Brand #2 - Dark": "{Color Primitives.Red.100}",
+              "Brand #3 - Light": "{Color Primitives.Red.100}",
+              "Brand #3 - Dark": "{Color Primitives.Red.100}"
             }
           }
         },
@@ -2090,7 +2502,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Red.700}",
-              "Dark": "{Color Primitives.Red.100}"
+              "Dark": "{Color Primitives.Red.100}",
+              "Brand #2 - Light": "{Color Primitives.Red.700}",
+              "Brand #2 - Dark": "{Color Primitives.Red.100}",
+              "Brand #3 - Light": "{Color Primitives.Red.700}",
+              "Brand #3 - Dark": "{Color Primitives.Red.100}"
             }
           }
         },
@@ -2101,7 +2517,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Red.700}",
-              "Dark": "{Color Primitives.Red.100}"
+              "Dark": "{Color Primitives.Red.100}",
+              "Brand #2 - Light": "{Color Primitives.Red.700}",
+              "Brand #2 - Dark": "{Color Primitives.Red.100}",
+              "Brand #3 - Light": "{Color Primitives.Red.700}",
+              "Brand #3 - Dark": "{Color Primitives.Red.100}"
             }
           }
         }
@@ -2114,7 +2534,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.400}",
-              "Dark": "{Color Primitives.Brand A.500}"
+              "Dark": "{Color Primitives.Brand A.500}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.400}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.500}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.400}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.500}"
             }
           }
         },
@@ -2125,7 +2549,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.400}",
-              "Dark": "{Color Primitives.Brand A.400}"
+              "Dark": "{Color Primitives.Brand A.400}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.400}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.400}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.400}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.400}"
             }
           }
         }
@@ -2138,7 +2566,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Slate.900}",
-              "Dark": "{Color Primitives.Slate.200}"
+              "Dark": "{Color Primitives.Slate.200}",
+              "Brand #2 - Light": "{Color Primitives.Slate.900}",
+              "Brand #2 - Dark": "{Color Primitives.Slate.200}",
+              "Brand #3 - Light": "{Color Primitives.Slate.900}",
+              "Brand #3 - Dark": "{Color Primitives.Slate.200}"
             }
           }
         },
@@ -2149,7 +2581,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Slate.700}",
-              "Dark": "{Color Primitives.Slate.300}"
+              "Dark": "{Color Primitives.Slate.300}",
+              "Brand #2 - Light": "{Color Primitives.Slate.700}",
+              "Brand #2 - Dark": "{Color Primitives.Slate.300}",
+              "Brand #3 - Light": "{Color Primitives.Slate.700}",
+              "Brand #3 - Dark": "{Color Primitives.Slate.300}"
             }
           }
         },
@@ -2160,7 +2596,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Slate.600}",
-              "Dark": "{Color Primitives.Slate.400}"
+              "Dark": "{Color Primitives.Slate.400}",
+              "Brand #2 - Light": "{Color Primitives.Slate.600}",
+              "Brand #2 - Dark": "{Color Primitives.Slate.400}",
+              "Brand #3 - Light": "{Color Primitives.Slate.600}",
+              "Brand #3 - Dark": "{Color Primitives.Slate.400}"
             }
           }
         },
@@ -2171,7 +2611,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Slate.100}",
-              "Dark": "{Color Primitives.Slate.1000}"
+              "Dark": "{Color Primitives.Slate.1000}",
+              "Brand #2 - Light": "{Color Primitives.Slate.100}",
+              "Brand #2 - Dark": "{Color Primitives.Slate.1000}",
+              "Brand #3 - Light": "{Color Primitives.Slate.100}",
+              "Brand #3 - Dark": "{Color Primitives.Slate.1000}"
             }
           }
         },
@@ -2182,7 +2626,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Slate.900}",
-              "Dark": "{Color Primitives.Slate.100}"
+              "Dark": "{Color Primitives.Slate.100}",
+              "Brand #2 - Light": "{Color Primitives.Slate.900}",
+              "Brand #2 - Dark": "{Color Primitives.Slate.100}",
+              "Brand #3 - Light": "{Color Primitives.Slate.900}",
+              "Brand #3 - Dark": "{Color Primitives.Slate.100}"
             }
           }
         },
@@ -2193,7 +2641,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Slate.800}",
-              "Dark": "{Color Primitives.Slate.100}"
+              "Dark": "{Color Primitives.Slate.100}",
+              "Brand #2 - Light": "{Color Primitives.Slate.800}",
+              "Brand #2 - Dark": "{Color Primitives.Slate.100}",
+              "Brand #3 - Light": "{Color Primitives.Slate.800}",
+              "Brand #3 - Dark": "{Color Primitives.Slate.100}"
             }
           }
         }
@@ -2206,7 +2658,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Pink.800}",
-              "Dark": "{Color Primitives.Pink.200}"
+              "Dark": "{Color Primitives.Pink.200}",
+              "Brand #2 - Light": "{Color Primitives.Pink.800}",
+              "Brand #2 - Dark": "{Color Primitives.Pink.200}",
+              "Brand #3 - Light": "{Color Primitives.Pink.800}",
+              "Brand #3 - Dark": "{Color Primitives.Pink.200}"
             }
           }
         },
@@ -2217,7 +2673,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Pink.600}",
-              "Dark": "{Color Primitives.Pink.400}"
+              "Dark": "{Color Primitives.Pink.400}",
+              "Brand #2 - Light": "{Color Primitives.Pink.600}",
+              "Brand #2 - Dark": "{Color Primitives.Pink.400}",
+              "Brand #3 - Light": "{Color Primitives.Pink.600}",
+              "Brand #3 - Dark": "{Color Primitives.Pink.400}"
             }
           }
         }
@@ -2232,7 +2692,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Gray.300}",
-              "Dark": "{Color Primitives.Gray.600}"
+              "Dark": "{Color Primitives.Gray.600}",
+              "Brand #2 - Light": "{Color Primitives.Gray.300}",
+              "Brand #2 - Dark": "{Color Primitives.Gray.600}",
+              "Brand #3 - Light": "{Color Primitives.Gray.300}",
+              "Brand #3 - Dark": "{Color Primitives.Gray.600}"
             }
           }
         },
@@ -2243,7 +2707,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Gray.500}",
-              "Dark": "{Color Primitives.Gray.500}"
+              "Dark": "{Color Primitives.Gray.500}",
+              "Brand #2 - Light": "{Color Primitives.Gray.500}",
+              "Brand #2 - Dark": "{Color Primitives.Gray.500}",
+              "Brand #3 - Light": "{Color Primitives.Gray.500}",
+              "Brand #3 - Dark": "{Color Primitives.Gray.500}"
             }
           }
         },
@@ -2254,7 +2722,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Gray.700}",
-              "Dark": "{Color Primitives.Gray.400}"
+              "Dark": "{Color Primitives.Gray.400}",
+              "Brand #2 - Light": "{Color Primitives.Gray.700}",
+              "Brand #2 - Dark": "{Color Primitives.Gray.400}",
+              "Brand #3 - Light": "{Color Primitives.Gray.700}",
+              "Brand #3 - Dark": "{Color Primitives.Gray.400}"
             }
           }
         }
@@ -2267,7 +2739,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.800}",
-              "Dark": "{Color Primitives.Brand A.100}"
+              "Dark": "{Color Primitives.Brand A.100}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.800}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.100}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.800}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.100}"
             }
           }
         },
@@ -2278,7 +2754,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.600}",
-              "Dark": "{Color Primitives.Brand A.300}"
+              "Dark": "{Color Primitives.Brand A.300}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.600}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.300}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.600}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.300}"
             }
           }
         },
@@ -2289,7 +2769,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.500}",
-              "Dark": "{Color Primitives.Brand A.400}"
+              "Dark": "{Color Primitives.Brand A.400}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.500}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.400}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.500}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.400}"
             }
           }
         }
@@ -2302,7 +2786,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Green.800}",
-              "Dark": "{Color Primitives.Green.200}"
+              "Dark": "{Color Primitives.Green.200}",
+              "Brand #2 - Light": "{Color Primitives.Green.800}",
+              "Brand #2 - Dark": "{Color Primitives.Green.200}",
+              "Brand #3 - Light": "{Color Primitives.Green.800}",
+              "Brand #3 - Dark": "{Color Primitives.Green.200}"
             }
           }
         },
@@ -2313,7 +2801,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Green.600}",
-              "Dark": "{Color Primitives.Green.400}"
+              "Dark": "{Color Primitives.Green.400}",
+              "Brand #2 - Light": "{Color Primitives.Green.600}",
+              "Brand #2 - Dark": "{Color Primitives.Green.400}",
+              "Brand #3 - Light": "{Color Primitives.Green.600}",
+              "Brand #3 - Dark": "{Color Primitives.Green.400}"
             }
           }
         },
@@ -2324,7 +2816,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Green.500}",
-              "Dark": "{Color Primitives.Green.600}"
+              "Dark": "{Color Primitives.Green.600}",
+              "Brand #2 - Light": "{Color Primitives.Green.500}",
+              "Brand #2 - Dark": "{Color Primitives.Green.600}",
+              "Brand #3 - Light": "{Color Primitives.Green.500}",
+              "Brand #3 - Dark": "{Color Primitives.Green.600}"
             }
           }
         }
@@ -2337,7 +2833,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Yellow.900}",
-              "Dark": "{Color Primitives.Yellow.200}"
+              "Dark": "{Color Primitives.Yellow.200}",
+              "Brand #2 - Light": "{Color Primitives.Yellow.900}",
+              "Brand #2 - Dark": "{Color Primitives.Yellow.200}",
+              "Brand #3 - Light": "{Color Primitives.Yellow.900}",
+              "Brand #3 - Dark": "{Color Primitives.Yellow.200}"
             }
           }
         },
@@ -2348,7 +2848,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Yellow.700}",
-              "Dark": "{Color Primitives.Yellow.400}"
+              "Dark": "{Color Primitives.Yellow.400}",
+              "Brand #2 - Light": "{Color Primitives.Yellow.700}",
+              "Brand #2 - Dark": "{Color Primitives.Yellow.400}",
+              "Brand #3 - Light": "{Color Primitives.Yellow.700}",
+              "Brand #3 - Dark": "{Color Primitives.Yellow.400}"
             }
           }
         },
@@ -2359,7 +2863,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Yellow.600}",
-              "Dark": "{Color Primitives.Yellow.600}"
+              "Dark": "{Color Primitives.Yellow.600}",
+              "Brand #2 - Light": "{Color Primitives.Yellow.600}",
+              "Brand #2 - Dark": "{Color Primitives.Yellow.600}",
+              "Brand #3 - Light": "{Color Primitives.Yellow.600}",
+              "Brand #3 - Dark": "{Color Primitives.Yellow.600}"
             }
           }
         }
@@ -2372,7 +2880,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Red.700}",
-              "Dark": "{Color Primitives.Red.200}"
+              "Dark": "{Color Primitives.Red.200}",
+              "Brand #2 - Light": "{Color Primitives.Red.700}",
+              "Brand #2 - Dark": "{Color Primitives.Red.200}",
+              "Brand #3 - Light": "{Color Primitives.Red.700}",
+              "Brand #3 - Dark": "{Color Primitives.Red.200}"
             }
           }
         },
@@ -2383,7 +2895,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Red.600}",
-              "Dark": "{Color Primitives.Red.400}"
+              "Dark": "{Color Primitives.Red.400}",
+              "Brand #2 - Light": "{Color Primitives.Red.600}",
+              "Brand #2 - Dark": "{Color Primitives.Red.400}",
+              "Brand #3 - Light": "{Color Primitives.Red.600}",
+              "Brand #3 - Dark": "{Color Primitives.Red.400}"
             }
           }
         },
@@ -2394,7 +2910,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Red.500}",
-              "Dark": "{Color Primitives.Red.500}"
+              "Dark": "{Color Primitives.Red.500}",
+              "Brand #2 - Light": "{Color Primitives.Red.500}",
+              "Brand #2 - Dark": "{Color Primitives.Red.500}",
+              "Brand #3 - Light": "{Color Primitives.Red.500}",
+              "Brand #3 - Dark": "{Color Primitives.Red.500}"
             }
           }
         }
@@ -2407,7 +2927,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Brand A.400}",
-              "Dark": "{Color Primitives.Brand A.600}"
+              "Dark": "{Color Primitives.Brand A.600}",
+              "Brand #2 - Light": "{Color Primitives.Brand A.400}",
+              "Brand #2 - Dark": "{Color Primitives.Brand A.600}",
+              "Brand #3 - Light": "{Color Primitives.Brand A.400}",
+              "Brand #3 - Dark": "{Color Primitives.Brand A.600}"
             }
           }
         }
@@ -2420,7 +2944,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Pink.400}",
-              "Dark": "{Color Primitives.Pink.600}"
+              "Dark": "{Color Primitives.Pink.600}",
+              "Brand #2 - Light": "{Color Primitives.Pink.400}",
+              "Brand #2 - Dark": "{Color Primitives.Pink.600}",
+              "Brand #3 - Light": "{Color Primitives.Pink.400}",
+              "Brand #3 - Dark": "{Color Primitives.Pink.600}"
             }
           }
         },
@@ -2431,7 +2959,11 @@
           "$extensions": {
             "mode": {
               "Light": "#0000003d",
-              "Dark": "#ffffff3d"
+              "Dark": "#ffffff3d",
+              "Brand #2 - Light": "#0000003d",
+              "Brand #2 - Dark": "#ffffff3d",
+              "Brand #3 - Light": "#0000003d",
+              "Brand #3 - Dark": "#ffffff3d"
             }
           }
         }
@@ -2444,7 +2976,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Slate.900}",
-              "Dark": "{Color Primitives.Slate.100}"
+              "Dark": "{Color Primitives.Slate.100}",
+              "Brand #2 - Light": "{Color Primitives.Slate.900}",
+              "Brand #2 - Dark": "{Color Primitives.Slate.100}",
+              "Brand #3 - Light": "{Color Primitives.Slate.900}",
+              "Brand #3 - Dark": "{Color Primitives.Slate.100}"
             }
           }
         },
@@ -2455,7 +2991,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Slate.600}",
-              "Dark": "{Color Primitives.Slate.500}"
+              "Dark": "{Color Primitives.Slate.500}",
+              "Brand #2 - Light": "{Color Primitives.Slate.600}",
+              "Brand #2 - Dark": "{Color Primitives.Slate.500}",
+              "Brand #3 - Light": "{Color Primitives.Slate.600}",
+              "Brand #3 - Dark": "{Color Primitives.Slate.500}"
             }
           }
         },
@@ -2466,7 +3006,11 @@
           "$extensions": {
             "mode": {
               "Light": "{Color Primitives.Slate.400}",
-              "Dark": "{Color Primitives.Slate.600}"
+              "Dark": "{Color Primitives.Slate.600}",
+              "Brand #2 - Light": "{Color Primitives.Slate.400}",
+              "Brand #2 - Dark": "{Color Primitives.Slate.600}",
+              "Brand #3 - Light": "{Color Primitives.Slate.400}",
+              "Brand #3 - Dark": "{Color Primitives.Slate.600}"
             }
           }
         }
@@ -2480,7 +3024,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Brand A.Family Sans}",
-            "Dark": "{Typography Primitives.Brand A.Family Sans}"
+            "Dark": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #2 - Light": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #2 - Dark": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #3 - Light": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #3 - Dark": "{Typography Primitives.Brand A.Family Sans}"
           }
         }
       },
@@ -2491,7 +3039,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Scale.Scale 10}",
-            "Dark": "{Typography Primitives.Scale.Scale 10}"
+            "Dark": "{Typography Primitives.Scale.Scale 10}",
+            "Brand #2 - Light": "{Typography Primitives.Scale.Scale 10}",
+            "Brand #2 - Dark": "{Typography Primitives.Scale.Scale 10}",
+            "Brand #3 - Light": "{Typography Primitives.Scale.Scale 10}",
+            "Brand #3 - Dark": "{Typography Primitives.Scale.Scale 10}"
           }
         }
       },
@@ -2502,7 +3054,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Weight.Weight Bold}",
-            "Dark": "{Typography Primitives.Weight.Weight Bold}"
+            "Dark": "{Typography Primitives.Weight.Weight Bold}",
+            "Brand #2 - Light": "{Typography Primitives.Weight.Weight Bold}",
+            "Brand #2 - Dark": "{Typography Primitives.Weight.Weight Bold}",
+            "Brand #3 - Light": "{Typography Primitives.Weight.Weight Bold}",
+            "Brand #3 - Dark": "{Typography Primitives.Weight.Weight Bold}"
           }
         }
       },
@@ -2513,7 +3069,11 @@
         "$extensions": {
           "mode": {
             "Light": "-2px",
-            "Dark": "-2px"
+            "Dark": "-2px",
+            "Brand #2 - Light": "-2px",
+            "Brand #2 - Dark": "-2px",
+            "Brand #3 - Light": "-2px",
+            "Brand #3 - Dark": "-2px"
           }
         }
       },
@@ -2524,7 +3084,11 @@
         "$extensions": {
           "mode": {
             "Light": "86.400002px",
-            "Dark": "86.400002px"
+            "Dark": "86.400002px",
+            "Brand #2 - Light": "86.400002px",
+            "Brand #2 - Dark": "86.400002px",
+            "Brand #3 - Light": "86.400002px",
+            "Brand #3 - Dark": "86.400002px"
           }
         }
       }
@@ -2537,7 +3101,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Brand A.Family Sans}",
-            "Dark": "{Typography Primitives.Brand A.Family Sans}"
+            "Dark": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #2 - Light": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #2 - Dark": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #3 - Light": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #3 - Dark": "{Typography Primitives.Brand A.Family Sans}"
           }
         }
       },
@@ -2548,7 +3116,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Scale.Scale 08}",
-            "Dark": "{Typography Primitives.Scale.Scale 08}"
+            "Dark": "{Typography Primitives.Scale.Scale 08}",
+            "Brand #2 - Light": "{Typography Primitives.Scale.Scale 08}",
+            "Brand #2 - Dark": "{Typography Primitives.Scale.Scale 08}",
+            "Brand #3 - Light": "{Typography Primitives.Scale.Scale 08}",
+            "Brand #3 - Dark": "{Typography Primitives.Scale.Scale 08}"
           }
         }
       },
@@ -2559,7 +3131,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Weight.Weight Semibold}",
-            "Dark": "{Typography Primitives.Weight.Weight Semibold}"
+            "Dark": "{Typography Primitives.Weight.Weight Semibold}",
+            "Brand #2 - Light": "{Typography Primitives.Weight.Weight Semibold}",
+            "Brand #2 - Dark": "{Typography Primitives.Weight.Weight Semibold}",
+            "Brand #3 - Light": "{Typography Primitives.Weight.Weight Semibold}",
+            "Brand #3 - Dark": "{Typography Primitives.Weight.Weight Semibold}"
           }
         }
       },
@@ -2570,7 +3146,11 @@
         "$extensions": {
           "mode": {
             "Light": "-2px",
-            "Dark": "-2px"
+            "Dark": "-2px",
+            "Brand #2 - Light": "-2px",
+            "Brand #2 - Dark": "-2px",
+            "Brand #3 - Light": "-2px",
+            "Brand #3 - Dark": "-2px"
           }
         }
       },
@@ -2581,7 +3161,11 @@
         "$extensions": {
           "mode": {
             "Light": "57.599998px",
-            "Dark": "57.599998px"
+            "Dark": "57.599998px",
+            "Brand #2 - Light": "57.599998px",
+            "Brand #2 - Dark": "57.599998px",
+            "Brand #3 - Light": "57.599998px",
+            "Brand #3 - Dark": "57.599998px"
           }
         }
       }
@@ -2594,7 +3178,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Brand A.Family Sans}",
-            "Dark": "{Typography Primitives.Brand A.Family Sans}"
+            "Dark": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #2 - Light": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #2 - Dark": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #3 - Light": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #3 - Dark": "{Typography Primitives.Brand A.Family Sans}"
           }
         }
       },
@@ -2605,7 +3193,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Scale.Scale 06}",
-            "Dark": "{Typography Primitives.Scale.Scale 06}"
+            "Dark": "{Typography Primitives.Scale.Scale 06}",
+            "Brand #2 - Light": "{Typography Primitives.Scale.Scale 06}",
+            "Brand #2 - Dark": "{Typography Primitives.Scale.Scale 06}",
+            "Brand #3 - Light": "{Typography Primitives.Scale.Scale 06}",
+            "Brand #3 - Dark": "{Typography Primitives.Scale.Scale 06}"
           }
         }
       },
@@ -2616,7 +3208,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Weight.Weight Semibold}",
-            "Dark": "{Typography Primitives.Weight.Weight Semibold}"
+            "Dark": "{Typography Primitives.Weight.Weight Semibold}",
+            "Brand #2 - Light": "{Typography Primitives.Weight.Weight Semibold}",
+            "Brand #2 - Dark": "{Typography Primitives.Weight.Weight Semibold}",
+            "Brand #3 - Light": "{Typography Primitives.Weight.Weight Semibold}",
+            "Brand #3 - Dark": "{Typography Primitives.Weight.Weight Semibold}"
           }
         }
       },
@@ -2627,7 +3223,11 @@
         "$extensions": {
           "mode": {
             "Light": "-2px",
-            "Dark": "-2px"
+            "Dark": "-2px",
+            "Brand #2 - Light": "-2px",
+            "Brand #2 - Dark": "-2px",
+            "Brand #3 - Light": "-2px",
+            "Brand #3 - Dark": "-2px"
           }
         }
       },
@@ -2638,7 +3238,11 @@
         "$extensions": {
           "mode": {
             "Light": "38.400002px",
-            "Dark": "0px"
+            "Dark": "0px",
+            "Brand #2 - Light": "38.400002px",
+            "Brand #2 - Dark": "0px",
+            "Brand #3 - Light": "38.400002px",
+            "Brand #3 - Dark": "0px"
           }
         }
       }
@@ -2651,7 +3255,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Brand A.Family Sans}",
-            "Dark": "{Typography Primitives.Brand A.Family Sans}"
+            "Dark": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #2 - Light": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #2 - Dark": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #3 - Light": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #3 - Dark": "{Typography Primitives.Brand A.Family Sans}"
           }
         }
       },
@@ -2662,7 +3270,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Scale.Scale 05}",
-            "Dark": "{Typography Primitives.Scale.Scale 05}"
+            "Dark": "{Typography Primitives.Scale.Scale 05}",
+            "Brand #2 - Light": "{Typography Primitives.Scale.Scale 05}",
+            "Brand #2 - Dark": "{Typography Primitives.Scale.Scale 05}",
+            "Brand #3 - Light": "{Typography Primitives.Scale.Scale 05}",
+            "Brand #3 - Dark": "{Typography Primitives.Scale.Scale 05}"
           }
         }
       },
@@ -2673,7 +3285,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Weight.Weight Semibold}",
-            "Dark": "{Typography Primitives.Weight.Weight Semibold}"
+            "Dark": "{Typography Primitives.Weight.Weight Semibold}",
+            "Brand #2 - Light": "{Typography Primitives.Weight.Weight Semibold}",
+            "Brand #2 - Dark": "{Typography Primitives.Weight.Weight Semibold}",
+            "Brand #3 - Light": "{Typography Primitives.Weight.Weight Semibold}",
+            "Brand #3 - Dark": "{Typography Primitives.Weight.Weight Semibold}"
           }
         }
       },
@@ -2684,7 +3300,11 @@
         "$extensions": {
           "mode": {
             "Light": "-0.5px",
-            "Dark": "-0.5px"
+            "Dark": "-0.5px",
+            "Brand #2 - Light": "-0.5px",
+            "Brand #2 - Dark": "-0.5px",
+            "Brand #3 - Light": "-0.5px",
+            "Brand #3 - Dark": "-0.5px"
           }
         }
       },
@@ -2695,7 +3315,11 @@
         "$extensions": {
           "mode": {
             "Light": "28.799999px",
-            "Dark": "28.799999px"
+            "Dark": "28.799999px",
+            "Brand #2 - Light": "28.799999px",
+            "Brand #2 - Dark": "28.799999px",
+            "Brand #3 - Light": "28.799999px",
+            "Brand #3 - Dark": "28.799999px"
           }
         }
       }
@@ -2708,7 +3332,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Brand A.Family Sans}",
-            "Dark": "{Typography Primitives.Brand A.Family Sans}"
+            "Dark": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #2 - Light": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #2 - Dark": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #3 - Light": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #3 - Dark": "{Typography Primitives.Brand A.Family Sans}"
           }
         }
       },
@@ -2719,7 +3347,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Scale.Scale 04}",
-            "Dark": "{Typography Primitives.Scale.Scale 04}"
+            "Dark": "{Typography Primitives.Scale.Scale 04}",
+            "Brand #2 - Light": "{Typography Primitives.Scale.Scale 04}",
+            "Brand #2 - Dark": "{Typography Primitives.Scale.Scale 04}",
+            "Brand #3 - Light": "{Typography Primitives.Scale.Scale 04}",
+            "Brand #3 - Dark": "{Typography Primitives.Scale.Scale 04}"
           }
         }
       },
@@ -2730,7 +3362,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Weight.Weight Semibold}",
-            "Dark": "{Typography Primitives.Weight.Weight Semibold}"
+            "Dark": "{Typography Primitives.Weight.Weight Semibold}",
+            "Brand #2 - Light": "{Typography Primitives.Weight.Weight Semibold}",
+            "Brand #2 - Dark": "{Typography Primitives.Weight.Weight Semibold}",
+            "Brand #3 - Light": "{Typography Primitives.Weight.Weight Semibold}",
+            "Brand #3 - Dark": "{Typography Primitives.Weight.Weight Semibold}"
           }
         }
       },
@@ -2741,7 +3377,11 @@
         "$extensions": {
           "mode": {
             "Light": "-2px",
-            "Dark": "-2px"
+            "Dark": "-2px",
+            "Brand #2 - Light": "-2px",
+            "Brand #2 - Dark": "-2px",
+            "Brand #3 - Light": "-2px",
+            "Brand #3 - Dark": "-2px"
           }
         }
       },
@@ -2752,7 +3392,11 @@
         "$extensions": {
           "mode": {
             "Light": "24px",
-            "Dark": "24px"
+            "Dark": "24px",
+            "Brand #2 - Light": "24px",
+            "Brand #2 - Dark": "24px",
+            "Brand #3 - Light": "24px",
+            "Brand #3 - Dark": "24px"
           }
         }
       }
@@ -2765,7 +3409,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Brand A.Family Sans}",
-            "Dark": "{Typography Primitives.Brand A.Family Sans}"
+            "Dark": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #2 - Light": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #2 - Dark": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #3 - Light": "{Typography Primitives.Brand A.Family Sans}",
+            "Brand #3 - Dark": "{Typography Primitives.Brand A.Family Sans}"
           }
         }
       },
@@ -2776,7 +3424,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Scale.Scale 03}",
-            "Dark": "{Typography Primitives.Scale.Scale 03}"
+            "Dark": "{Typography Primitives.Scale.Scale 03}",
+            "Brand #2 - Light": "{Typography Primitives.Scale.Scale 03}",
+            "Brand #2 - Dark": "{Typography Primitives.Scale.Scale 03}",
+            "Brand #3 - Light": "{Typography Primitives.Scale.Scale 03}",
+            "Brand #3 - Dark": "{Typography Primitives.Scale.Scale 03}"
           }
         }
       },
@@ -2787,7 +3439,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Weight.Weight Regular}",
-            "Dark": "{Typography Primitives.Weight.Weight Regular}"
+            "Dark": "{Typography Primitives.Weight.Weight Regular}",
+            "Brand #2 - Light": "{Typography Primitives.Weight.Weight Regular}",
+            "Brand #2 - Dark": "{Typography Primitives.Weight.Weight Regular}",
+            "Brand #3 - Light": "{Typography Primitives.Weight.Weight Regular}",
+            "Brand #3 - Dark": "{Typography Primitives.Weight.Weight Regular}"
           }
         }
       },
@@ -2798,7 +3454,11 @@
         "$extensions": {
           "mode": {
             "Light": "0px",
-            "Dark": "0px"
+            "Dark": "0px",
+            "Brand #2 - Light": "0px",
+            "Brand #2 - Dark": "0px",
+            "Brand #3 - Light": "0px",
+            "Brand #3 - Dark": "0px"
           }
         }
       },
@@ -2809,7 +3469,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Weight.Weight Regular}",
-            "Dark": "{Typography Primitives.Weight.Weight Regular}"
+            "Dark": "{Typography Primitives.Weight.Weight Regular}",
+            "Brand #2 - Light": "{Typography Primitives.Weight.Weight Regular}",
+            "Brand #2 - Dark": "{Typography Primitives.Weight.Weight Regular}",
+            "Brand #3 - Light": "{Typography Primitives.Weight.Weight Regular}",
+            "Brand #3 - Dark": "{Typography Primitives.Weight.Weight Regular}"
           }
         }
       },
@@ -2820,7 +3484,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Scale.Scale 02}",
-            "Dark": "{Typography Primitives.Scale.Scale 02}"
+            "Dark": "{Typography Primitives.Scale.Scale 02}",
+            "Brand #2 - Light": "{Typography Primitives.Scale.Scale 02}",
+            "Brand #2 - Dark": "{Typography Primitives.Scale.Scale 02}",
+            "Brand #3 - Light": "{Typography Primitives.Scale.Scale 02}",
+            "Brand #3 - Dark": "{Typography Primitives.Scale.Scale 02}"
           }
         }
       },
@@ -2831,7 +3499,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Scale.Scale 04}",
-            "Dark": "{Typography Primitives.Scale.Scale 04}"
+            "Dark": "{Typography Primitives.Scale.Scale 04}",
+            "Brand #2 - Light": "{Typography Primitives.Scale.Scale 04}",
+            "Brand #2 - Dark": "{Typography Primitives.Scale.Scale 04}",
+            "Brand #3 - Light": "{Typography Primitives.Scale.Scale 04}",
+            "Brand #3 - Dark": "{Typography Primitives.Scale.Scale 04}"
           }
         }
       },
@@ -2842,7 +3514,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Weight.Weight Regular Italic}",
-            "Dark": "{Typography Primitives.Weight.Weight Regular Italic}"
+            "Dark": "{Typography Primitives.Weight.Weight Regular Italic}",
+            "Brand #2 - Light": "{Typography Primitives.Weight.Weight Regular Italic}",
+            "Brand #2 - Dark": "{Typography Primitives.Weight.Weight Regular Italic}",
+            "Brand #3 - Light": "{Typography Primitives.Weight.Weight Regular Italic}",
+            "Brand #3 - Dark": "{Typography Primitives.Weight.Weight Regular Italic}"
           }
         }
       },
@@ -2853,7 +3529,11 @@
         "$extensions": {
           "mode": {
             "Light": "22.4px",
-            "Dark": "22.4px"
+            "Dark": "22.4px",
+            "Brand #2 - Light": "22.4px",
+            "Brand #2 - Dark": "22.4px",
+            "Brand #3 - Light": "22.4px",
+            "Brand #3 - Dark": "22.4px"
           }
         }
       },
@@ -2864,7 +3544,11 @@
         "$extensions": {
           "mode": {
             "Light": "28px",
-            "Dark": "28px"
+            "Dark": "28px",
+            "Brand #2 - Light": "28px",
+            "Brand #2 - Dark": "28px",
+            "Brand #3 - Light": "28px",
+            "Brand #3 - Dark": "28px"
           }
         }
       },
@@ -2875,7 +3559,11 @@
         "$extensions": {
           "mode": {
             "Light": "19.6px",
-            "Dark": "19.6px"
+            "Dark": "19.6px",
+            "Brand #2 - Light": "19.6px",
+            "Brand #2 - Dark": "19.6px",
+            "Brand #3 - Light": "19.6px",
+            "Brand #3 - Dark": "19.6px"
           }
         }
       },
@@ -2886,7 +3574,11 @@
         "$extensions": {
           "mode": {
             "Light": "16px",
-            "Dark": "16px"
+            "Dark": "16px",
+            "Brand #2 - Light": "16px",
+            "Brand #2 - Dark": "16px",
+            "Brand #3 - Light": "16px",
+            "Brand #3 - Dark": "16px"
           }
         }
       },
@@ -2897,7 +3589,11 @@
         "$extensions": {
           "mode": {
             "Light": "19.6px",
-            "Dark": "19.6px"
+            "Dark": "19.6px",
+            "Brand #2 - Light": "19.6px",
+            "Brand #2 - Dark": "19.6px",
+            "Brand #3 - Light": "19.6px",
+            "Brand #3 - Dark": "19.6px"
           }
         }
       }
@@ -2910,7 +3606,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Brand A.Family Mono}",
-            "Dark": "{Typography Primitives.Brand A.Family Mono}"
+            "Dark": "{Typography Primitives.Brand A.Family Mono}",
+            "Brand #2 - Light": "{Typography Primitives.Brand A.Family Mono}",
+            "Brand #2 - Dark": "{Typography Primitives.Brand A.Family Mono}",
+            "Brand #3 - Light": "{Typography Primitives.Brand A.Family Mono}",
+            "Brand #3 - Dark": "{Typography Primitives.Brand A.Family Mono}"
           }
         }
       },
@@ -2921,7 +3621,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Scale.Scale 03}",
-            "Dark": "{Typography Primitives.Scale.Scale 03}"
+            "Dark": "{Typography Primitives.Scale.Scale 03}",
+            "Brand #2 - Light": "{Typography Primitives.Scale.Scale 03}",
+            "Brand #2 - Dark": "{Typography Primitives.Scale.Scale 03}",
+            "Brand #3 - Light": "{Typography Primitives.Scale.Scale 03}",
+            "Brand #3 - Dark": "{Typography Primitives.Scale.Scale 03}"
           }
         }
       },
@@ -2932,7 +3636,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Weight.Weight Regular}",
-            "Dark": "{Typography Primitives.Weight.Weight Regular}"
+            "Dark": "{Typography Primitives.Weight.Weight Regular}",
+            "Brand #2 - Light": "{Typography Primitives.Weight.Weight Regular}",
+            "Brand #2 - Dark": "{Typography Primitives.Weight.Weight Regular}",
+            "Brand #3 - Light": "{Typography Primitives.Weight.Weight Regular}",
+            "Brand #3 - Dark": "{Typography Primitives.Weight.Weight Regular}"
           }
         }
       },
@@ -2943,7 +3651,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Weight.Weight Regular}",
-            "Dark": "{Typography Primitives.Weight.Weight Regular}"
+            "Dark": "{Typography Primitives.Weight.Weight Regular}",
+            "Brand #2 - Light": "{Typography Primitives.Weight.Weight Regular}",
+            "Brand #2 - Dark": "{Typography Primitives.Weight.Weight Regular}",
+            "Brand #3 - Light": "{Typography Primitives.Weight.Weight Regular}",
+            "Brand #3 - Dark": "{Typography Primitives.Weight.Weight Regular}"
           }
         }
       },
@@ -2954,7 +3666,11 @@
         "$extensions": {
           "mode": {
             "Light": "{Typography Primitives.Weight.Weight Regular Italic}",
-            "Dark": "{Typography Primitives.Weight.Weight Regular Italic}"
+            "Dark": "{Typography Primitives.Weight.Weight Regular Italic}",
+            "Brand #2 - Light": "{Typography Primitives.Weight.Weight Regular Italic}",
+            "Brand #2 - Dark": "{Typography Primitives.Weight.Weight Regular Italic}",
+            "Brand #3 - Light": "{Typography Primitives.Weight.Weight Regular Italic}",
+            "Brand #3 - Dark": "{Typography Primitives.Weight.Weight Regular Italic}"
           }
         }
       },
@@ -2965,7 +3681,11 @@
         "$extensions": {
           "mode": {
             "Light": "0px",
-            "Dark": "0px"
+            "Dark": "0px",
+            "Brand #2 - Light": "0px",
+            "Brand #2 - Dark": "0px",
+            "Brand #3 - Light": "0px",
+            "Brand #3 - Dark": "0px"
           }
         }
       },
@@ -2976,7 +3696,11 @@
         "$extensions": {
           "mode": {
             "Light": "16px",
-            "Dark": "16px"
+            "Dark": "16px",
+            "Brand #2 - Light": "16px",
+            "Brand #2 - Dark": "16px",
+            "Brand #3 - Light": "16px",
+            "Brand #3 - Dark": "16px"
           }
         }
       }
@@ -3865,7 +4589,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:845e8354434e37fe4da0a643226e3052f99985c7,"
+        "styleId": "S:e05065be790dd67e05ed8570612080019773b20e,"
       }
     },
     "Title Page": {
@@ -3884,7 +4608,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:a3fbd440c9df44346db0d6d49578a75a0ddabf8a,"
+        "styleId": "S:9675eb1e0bbd88db8fbcafb1c287d4e315dbabe4,"
       }
     },
     "Subtitle": {
@@ -3903,7 +4627,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:f5bcbf31092e640b5b480d17dbeca68fcf2d66a2,"
+        "styleId": "S:0b8b63fc1f75e7c6c075854f62f0e1e11f35a4ca,"
       }
     },
     "Heading": {
@@ -3922,7 +4646,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:27eea16368cfe0f28720141e51c9a8f81ed13333,"
+        "styleId": "S:3812a160408a5f194bc07a09dc0bdf8315ae1d79,"
       }
     },
     "Subheading": {
@@ -3941,7 +4665,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:af5003065e9fbfc5962fcdd94386b53d35cc2a8f,"
+        "styleId": "S:bf2f52457780889937465af5f0adda28f990f8a2,"
       }
     },
     "Body Base": {
@@ -3960,7 +4684,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:405ec549e21e2109eed6f2b97d39b1b4be5f97b5,"
+        "styleId": "S:7e416b4d963d209dc3866c7b55a197878e47806e,"
       }
     },
     "Body Strong": {
@@ -3979,7 +4703,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:90055d0ce86a788b006130cf21e5098f0cf66473,"
+        "styleId": "S:ad0a2ca3d03ad1e71dbafaaf70ca240b05da3aad,"
       }
     },
     "Body Emphasis": {
@@ -3998,7 +4722,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:fc8dc9bda7397fe5e75cd28149b38fa122036176,"
+        "styleId": "S:0bb0ffe04ae8d83a87012041273a21e045688a37,"
       }
     },
     "Body Link": {
@@ -4017,7 +4741,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:1223e8c47909339bda91a08ba4e61fbf0b9cec08,"
+        "styleId": "S:2f7fdd7bf779d3f7c769d48f5fc9c0cd5410f521,"
       }
     },
     "Body Small": {
@@ -4036,7 +4760,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:8e67965a7636ff54cad74414ab3ff3f3acd425ac,"
+        "styleId": "S:df69cd149814bb9dc1b0bd9850320a2dfaa266f9,"
       }
     },
     "Body Small Strong": {
@@ -4055,7 +4779,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:35d26ebda8366c4a7cf9ae8845e4026f8767dcc2,"
+        "styleId": "S:f150f0c8e877566767fac2c06bb8c2ccf91d195e,"
       }
     },
     "Body Code": {
@@ -4074,7 +4798,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:6b838144a55c9a593b14ef33f869ba93e0cac9c3,"
+        "styleId": "S:00515c9e85b32dd9d7f73a6103442e58863fa972,"
       }
     },
     "Single Line": {
@@ -4094,7 +4818,7 @@
         },
         "$description": "Used for any text element where you need 100% line height. For example, an input field, a label.",
         "$extensions": {
-          "styleId": "S:a149996630389cdf932367d19de1e82a007569cb,"
+          "styleId": "S:a350b2f2ddf64c563f7f6963d3a5181db34e96b6,"
         }
       },
       "Body Small Strong": {
@@ -4113,7 +4837,7 @@
         },
         "$description": "",
         "$extensions": {
-          "styleId": "S:0cddacf0e31a2fd9beb9df428e0cc3c93da0c05b,"
+          "styleId": "S:f319d523edd1b390db9bd466a98e4315d73ee78a,"
         }
       }
     },
@@ -4135,7 +4859,7 @@
           },
           "$description": "",
           "$extensions": {
-            "styleId": "S:b2f5ddada1771ca5b82f2febc11dbaf58a6406f8,"
+            "styleId": "S:2be3b8292c995df2bcba33c9ef8288b168f3103e,"
           }
         },
         "Bold": {
@@ -4154,7 +4878,7 @@
           },
           "$description": "",
           "$extensions": {
-            "styleId": "S:23448a5bf3af3be6fe52d419a1bb1a50a7c3105a,"
+            "styleId": "S:f4e4c11bf2b3e04c2d82f02c4492d12dea549d00,"
           }
         }
       }
@@ -4390,7 +5114,7 @@
         "Brand #2",
         "Brand #3"
       ],
-      "createdAt": "2026-01-14T07:10:35.209Z"
+      "createdAt": "2026-02-22T12:55:40.716Z"
     }
   }
 }

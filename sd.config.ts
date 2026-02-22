@@ -1,11 +1,21 @@
 import { kebabCase } from 'es-toolkit';
 import StyleDictionary, { type Config } from 'style-dictionary';
-import { formats, transforms, transformTypes } from 'style-dictionary/enums';
+import { formats, transforms } from 'style-dictionary/enums';
 import type { PreprocessedTokens } from 'style-dictionary/types';
 import { fileHeader } from 'style-dictionary/utils';
 import type { ConfigExtension, DefaultClassGroupIds, DefaultThemeGroupIds } from 'tailwind-merge';
 
-function resolveModes(tokens: Record<string, unknown>): Record<string, unknown> {
+const themes: Record<string, [lightModeKey: string, darkModeKey: string]> = {
+  default: ['Light', 'Dark'],
+  'brand-2': ['Brand #2 - Light', 'Brand #2 - Dark'],
+  'brand-3': ['Brand #3 - Light', 'Brand #3 - Dark'],
+};
+
+function resolveModes(
+  tokens: Record<string, unknown>,
+  modeKeys: [light: string, dark: string],
+): Record<string, unknown> {
+  const [lightModeKey, darkModeKey] = modeKeys;
   const result: Record<string, unknown> = {};
 
   for (const [key, value] of Object.entries(tokens)) {
@@ -25,40 +35,42 @@ function resolveModes(tokens: Record<string, unknown>): Record<string, unknown> 
     ) {
       const mode = (obj.$extensions as { mode: Record<string, unknown> }).mode;
 
-      if ('Light' in mode && 'Dark' in mode) {
-        if (mode.Light !== mode.Dark) {
+      if (lightModeKey in mode && darkModeKey in mode) {
+        if (mode[lightModeKey] === mode[darkModeKey]) {
+          result[key] = obj;
+        } else {
           const $value =
             obj.$type === 'color'
-              ? `light-dark(${mode.Light}, ${mode.Dark})`
-              : `var(--is-light, ${mode.Light}) var(--is-dark, ${mode.Dark})`;
+              ? `light-dark(${mode[lightModeKey]}, ${mode[darkModeKey]})`
+              : `var(--is-light, ${mode[lightModeKey]}) var(--is-dark, ${mode[darkModeKey]})`;
           result[key] = { ...obj, $value };
-        } else {
-          result[key] = obj;
         }
         continue;
       }
 
       if ('Base' in mode && 'Compact' in mode && 'Comfortable' in mode) {
-        if (!(mode.Base === mode.Compact && mode.Compact === mode.Comfortable)) {
+        if (mode.Base === mode.Compact && mode.Compact === mode.Comfortable) {
+          result[key] = obj;
+        } else {
           const $value = `var(--is-size-base, ${mode.Base}) var(--is-size-compact, ${mode.Compact}) var(--is-size-comfortable, ${mode.Comfortable})`;
           result[key] = { ...obj, $value };
-        } else {
-          result[key] = obj;
         }
         continue;
       }
     }
 
-    result[key] = resolveModes(obj);
+    result[key] = resolveModes(obj, modeKeys);
   }
 
   return result;
 }
 
-StyleDictionary.registerPreprocessor({
-  name: 'custom/resolve-modes',
-  preprocessor: (dictionary) => resolveModes(dictionary) as PreprocessedTokens,
-});
+for (const [key, modeKeys] of Object.entries(themes)) {
+  StyleDictionary.registerPreprocessor({
+    name: `custom/mode-${key}`,
+    preprocessor: (dictionary) => resolveModes(dictionary, modeKeys) as PreprocessedTokens,
+  });
+}
 
 StyleDictionary.registerFormat({
   name: 'custom/typography',
@@ -162,17 +174,13 @@ StyleDictionary.registerFormat({
 });
 
 const config: Config = {
-  source: ['./packages/ui/tokens/*.tokens.json', './packages/themes/*/tokens/*.tokens.json'],
-  preprocessors: ['custom/resolve-modes'],
+  source: ['./packages/ui/tokens/*.tokens.json'],
   platforms: {
     ...Object.fromEntries(
-      [
-        'default',
-        // 'brand-1',
-        // 'brand-2',
-      ].map((themeKey) => [
-        `theme/${themeKey}`,
+      Object.keys(themes).map((key) => [
+        `theme/${key}`,
         {
+          preprocessors: [`custom/mode-${key}`],
           transforms: [
             transforms.nameKebab,
             transforms.fontFamilyCss,
@@ -180,10 +188,9 @@ const config: Config = {
           ],
           files: [
             {
-              destination: `./packages/themes/${themeKey}/theme.generated.css`,
+              destination: `./packages/themes/${key}/theme.generated.css`,
               format: formats.cssVariables,
-              filter: ({ filePath }) =>
-                filePath === `packages/themes/${themeKey}/tokens/theme.tokens.json`,
+              filter: ({ filePath }) => filePath === 'packages/ui/tokens/theme.tokens.json',
             },
           ],
           options: {
@@ -209,7 +216,7 @@ const config: Config = {
         {
           destination: './packages/ui/src/tailwind-merge-config.json',
           format: 'custom/tailwind-merge',
-          filter: ({ filePath }) => filePath === 'packages/themes/default/tokens/theme.tokens.json',
+          filter: ({ filePath }) => filePath === 'packages/ui/tokens/theme.tokens.json',
         },
       ],
     },

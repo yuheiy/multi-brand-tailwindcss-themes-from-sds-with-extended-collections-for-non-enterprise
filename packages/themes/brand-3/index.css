@@ -1,0 +1,7 @@
+@theme {
+  --font-sans: var(--font-brand-a-sans);
+  --font-serif: var(--font-brand-a-serif);
+  --font-mono: var(--font-brand-a-mono);
+}
+
+@import './theme.generated.css' layer(theme);

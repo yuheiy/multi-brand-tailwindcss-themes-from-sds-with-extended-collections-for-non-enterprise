@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { omit } from 'es-toolkit';
 import mapObject, { mapObjectSkip } from 'map-obj';
-import figmaTokens from './figma.tokens.json' with { type: 'json' };
+import designTokens from './design.tokens.json' with { type: 'json' };
 
 function isObject(value: unknown) {
   return typeof value === 'object' && value !== null;
@@ -47,7 +47,7 @@ function mapTokens<T extends Record<string, unknown>>(
 
 const basePxFontSize = 16;
 
-function pxToRem(token: ExtractToken<typeof figmaTokens>) {
+function pxToRem(token: ExtractToken<typeof designTokens>) {
   if (typeof token.$value === 'string' && !token.$value.includes('{')) {
     token.$value = `${parseFloat(token.$value) / basePxFontSize}rem`;
   }
@@ -65,161 +65,150 @@ function pxToRem(token: ExtractToken<typeof figmaTokens>) {
   return token;
 }
 
-const themeTokensEntries = Object.entries({
-  default: figmaTokens.Theme,
-  // 'brand-2': figmaTokens['Brand #2'],
-  // 'brand-3': figmaTokens['Brand #3'],
-}).map(([key, themeGroup]) => {
-  const typographyTheme = omit(themeGroup, ['Background', 'Text', 'Icon', 'Border']);
+const typographyTheme = omit(designTokens.Theme, ['Background', 'Text', 'Icon', 'Border']);
 
-  function extractTypographyTokensWithPrefix(prefix: string) {
-    const result: Record<string, ExtractToken<typeof typographyTheme>> = {};
+function extractTypographyTokensWithPrefix(prefix: string) {
+  const result: Record<string, ExtractToken<typeof typographyTheme>> = {};
 
-    for (const [groupKey, group] of Object.entries(typographyTheme)) {
-      for (const [tokenKey, token] of Object.entries(group)) {
-        if (tokenKey.startsWith(prefix)) {
-          result[`${groupKey}${tokenKey.replace(prefix, '')}`] = token;
-        }
+  for (const [groupKey, group] of Object.entries(typographyTheme)) {
+    for (const [tokenKey, token] of Object.entries(group)) {
+      if (tokenKey.startsWith(prefix)) {
+        result[`${groupKey}${tokenKey.replace(prefix, '')}`] = token;
       }
     }
-
-    return result;
   }
 
-  const themeTokens = {
-    color: {
-      ...figmaTokens['Color Primitives'],
-    },
+  return result;
+}
 
-    'background-color': {
-      ...omit(themeGroup.Background, ['Utilities']),
-    },
+const themeTokens = {
+  color: {
+    ...designTokens['Color Primitives'],
+  },
 
-    'text-color': {
-      ...omit(themeGroup.Text, ['Utilities']),
-      icon: omit(themeGroup.Icon, ['Utilities']),
-    },
+  'background-color': {
+    ...omit(designTokens.Theme.Background, ['Utilities']),
+  },
 
-    'border-color': {
-      ...omit(themeGroup.Border, ['Utilities']),
-    },
+  'text-color': {
+    ...omit(designTokens.Theme.Text, ['Utilities']),
+    icon: omit(designTokens.Theme.Icon, ['Utilities']),
+  },
 
-    'ring-color': {
-      ...omit(themeGroup.Border, ['Utilities']),
-    },
+  'border-color': {
+    ...omit(designTokens.Theme.Border, ['Utilities']),
+  },
 
-    spacing: {
-      ...mapTokens(
-        {
-          ...figmaTokens.Size.Space,
-          Icon: figmaTokens.Size.Icon,
-        },
-        (key, token) => [key, pxToRem(token)],
-      ),
-    },
+  'ring-color': {
+    ...omit(designTokens.Theme.Border, ['Utilities']),
+  },
 
-    font: {
-      ...mapTokens(
-        omit(figmaTokens['Typography Primitives'], ['Weight', 'Scale']),
-        (key, token) => {
-          token.$type = 'fontFamily';
-
-          switch (key) {
-            case 'Family Sans': {
-              // @ts-expect-error
-              token.$value = [token.$value, 'sans-serif'];
-              break;
-            }
-            case 'Family Serif': {
-              // @ts-expect-error
-              token.$value = [token.$value, 'serif'];
-              break;
-            }
-            case 'Family Mono': {
-              // @ts-expect-error
-              token.$value = [token.$value, 'monospace'];
-              break;
-            }
-          }
-
-          return [key.replace(/^Family /, ''), token];
-        },
-      ),
-
-      ...extractTypographyTokensWithPrefix('Font Family'),
-    },
-
-    text: mapTokens(
+  spacing: {
+    ...mapTokens(
       {
-        ...mapTokens(figmaTokens['Typography Primitives'].Scale, (key, token) => [
-          key.replace(/Scale /, ''),
-          token,
-        ]),
-
-        ...extractTypographyTokensWithPrefix('Font Size'),
+        ...designTokens.Size.Space,
+        Icon: designTokens.Size.Icon,
       },
       (key, token) => [key, pxToRem(token)],
     ),
+  },
 
-    'font-weight': {
-      ...mapTokens(figmaTokens['Typography Primitives'].Weight, (key, token) => {
-        if (key.endsWith(' Italic')) {
-          return mapObjectSkip;
+  font: {
+    ...mapTokens(omit(designTokens['Typography Primitives'], ['Weight', 'Scale']), (key, token) => {
+      token.$type = 'fontFamily';
+
+      switch (key) {
+        case 'Family Sans': {
+          // @ts-expect-error
+          token.$value = [token.$value, 'sans-serif'];
+          break;
         }
+        case 'Family Serif': {
+          // @ts-expect-error
+          token.$value = [token.$value, 'serif'];
+          break;
+        }
+        case 'Family Mono': {
+          // @ts-expect-error
+          token.$value = [token.$value, 'monospace'];
+          break;
+        }
+      }
 
-        return [key.replace(/^Weight /, ''), token];
-      }),
+      return [key.replace(/^Family /, ''), token];
+    }),
 
-      ...extractTypographyTokensWithPrefix('Font Weight'),
+    ...extractTypographyTokensWithPrefix('Font Family'),
+  },
+
+  text: mapTokens(
+    {
+      ...mapTokens(designTokens['Typography Primitives'].Scale, (key, token) => [
+        key.replace(/Scale /, ''),
+        token,
+      ]),
+
+      ...extractTypographyTokensWithPrefix('Font Size'),
     },
+    (key, token) => [key, pxToRem(token)],
+  ),
 
-    tracking: mapTokens(
-      {
-        ...extractTypographyTokensWithPrefix('Letter Spacing'),
-      },
-      (key, token) => [key, pxToRem(token)],
-    ),
+  'font-weight': {
+    ...mapTokens(designTokens['Typography Primitives'].Weight, (key, token) => {
+      if (key.endsWith(' Italic')) {
+        return mapObjectSkip;
+      }
 
-    leading: mapTokens(
-      {
-        ...extractTypographyTokensWithPrefix('Line Height'),
-      },
-      (key, token) => [key, pxToRem(token)],
-    ),
+      return [key.replace(/^Weight /, ''), token];
+    }),
 
-    radius: {
-      ...figmaTokens.Size.Radius,
+    ...extractTypographyTokensWithPrefix('Font Weight'),
+  },
+
+  tracking: mapTokens(
+    {
+      ...extractTypographyTokensWithPrefix('Letter Spacing'),
     },
+    (key, token) => [key, pxToRem(token)],
+  ),
 
-    depth: {
-      ...figmaTokens.Size.Depth,
+  leading: mapTokens(
+    {
+      ...extractTypographyTokensWithPrefix('Line Height'),
     },
+    (key, token) => [key, pxToRem(token)],
+  ),
 
-    shadow: {
-      ...figmaTokens['Effect-styles']['Drop Shadow'],
-    },
+  radius: {
+    ...designTokens.Size.Radius,
+  },
 
-    'inset-shadow': {
-      ...figmaTokens['Effect-styles']['Inner Shadow'],
-    },
+  depth: {
+    ...designTokens.Size.Depth,
+  },
 
-    blur: {
-      ...figmaTokens['Size']['Blur'],
-    },
+  shadow: {
+    ...designTokens['Effect-styles']['Drop Shadow'],
+  },
 
-    'default-border-width': figmaTokens.Size.Stroke['Border'],
-    'default-ring-width': figmaTokens.Size.Stroke['Focus Ring'],
-  };
+  'inset-shadow': {
+    ...designTokens['Effect-styles']['Inner Shadow'],
+  },
 
-  return [`./packages/themes/${key}/tokens/theme.tokens.json`, themeTokens] as const;
-});
+  blur: {
+    ...designTokens['Size']['Blur'],
+  },
+
+  'default-border-width': designTokens.Size.Stroke['Border'],
+  'default-ring-width': designTokens.Size.Stroke['Focus Ring'],
+};
 
 const typographyTokens = {
-  typography: omit(figmaTokens['Typography-styles'], ['.Utilities']),
+  typography: omit(designTokens['Typography-styles'], ['.Utilities']),
 };
 
 const tailwindTokensFiles = new Map<string, Record<string, unknown>>([
-  ...themeTokensEntries,
+  ['./packages/ui/tokens/theme.tokens.json', themeTokens],
   ['./packages/ui/tokens/typography.tokens.json', typographyTokens],
 ]);
 
@@ -252,7 +241,7 @@ function rewriteReferencesInObject<T extends Record<string, unknown>>(object: T)
   ) as T;
 }
 
-function rewriteReferencesInToken(token: ExtractToken<typeof figmaTokens>) {
+function rewriteReferencesInToken(token: ExtractToken<typeof designTokens>) {
   if (typeof token.$value === 'object') {
     token.$value = Array.isArray(token.$value)
       ? token.$value.map((element) =>

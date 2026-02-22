@@ -912,7 +912,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.White.1000}",
-            "Dark": "{color.Gray.900}"
+            "Dark": "{color.Gray.900}",
+            "Brand #2 - Light": "{color.White.1000}",
+            "Brand #2 - Dark": "{color.Gray.900}",
+            "Brand #3 - Light": "{color.White.1000}",
+            "Brand #3 - Dark": "{color.Gray.900}"
           }
         }
       },
@@ -923,7 +927,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Gray.100}",
-            "Dark": "{color.Gray.800}"
+            "Dark": "{color.Gray.800}",
+            "Brand #2 - Light": "{color.Gray.100}",
+            "Brand #2 - Dark": "{color.Gray.800}",
+            "Brand #3 - Light": "{color.Gray.100}",
+            "Brand #3 - Dark": "{color.Gray.800}"
           }
         }
       },
@@ -934,7 +942,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Gray.300}",
-            "Dark": "{color.Gray.600}"
+            "Dark": "{color.Gray.600}",
+            "Brand #2 - Light": "{color.Gray.300}",
+            "Brand #2 - Dark": "{color.Gray.600}",
+            "Brand #3 - Light": "{color.Gray.300}",
+            "Brand #3 - Dark": "{color.Gray.600}"
           }
         }
       },
@@ -945,7 +957,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Gray.100}",
-            "Dark": "{color.Gray.700}"
+            "Dark": "{color.Gray.700}",
+            "Brand #2 - Light": "{color.Gray.100}",
+            "Brand #2 - Dark": "{color.Gray.700}",
+            "Brand #3 - Light": "{color.Gray.100}",
+            "Brand #3 - Dark": "{color.Gray.700}"
           }
         }
       },
@@ -956,7 +972,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Gray.200}",
-            "Dark": "{color.Gray.900}"
+            "Dark": "{color.Gray.900}",
+            "Brand #2 - Light": "{color.Gray.200}",
+            "Brand #2 - Dark": "{color.Gray.900}",
+            "Brand #3 - Light": "{color.Gray.200}",
+            "Brand #3 - Dark": "{color.Gray.900}"
           }
         }
       },
@@ -967,7 +987,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Gray.400}",
-            "Dark": "{color.Gray.700}"
+            "Dark": "{color.Gray.700}",
+            "Brand #2 - Light": "{color.Gray.400}",
+            "Brand #2 - Dark": "{color.Gray.700}",
+            "Brand #3 - Light": "{color.Gray.400}",
+            "Brand #3 - Dark": "{color.Gray.700}"
           }
         }
       }
@@ -980,7 +1004,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.800}",
-            "Dark": "{color.Brand A.100}"
+            "Dark": "{color.Brand A.100}",
+            "Brand #2 - Light": "{color.Brand A.800}",
+            "Brand #2 - Dark": "{color.Brand A.100}",
+            "Brand #3 - Light": "{color.Brand A.800}",
+            "Brand #3 - Dark": "{color.Brand A.100}"
           }
         }
       },
@@ -991,7 +1019,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.200}",
-            "Dark": "{color.Brand A.600}"
+            "Dark": "{color.Brand A.600}",
+            "Brand #2 - Light": "{color.Brand A.200}",
+            "Brand #2 - Dark": "{color.Brand A.600}",
+            "Brand #3 - Light": "{color.Brand A.200}",
+            "Brand #3 - Dark": "{color.Brand A.600}"
           }
         }
       },
@@ -1002,7 +1034,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.900}",
-            "Dark": "{color.Brand A.300}"
+            "Dark": "{color.Brand A.300}",
+            "Brand #2 - Light": "{color.Brand A.900}",
+            "Brand #2 - Dark": "{color.Brand A.300}",
+            "Brand #3 - Light": "{color.Brand A.900}",
+            "Brand #3 - Dark": "{color.Brand A.300}"
           }
         }
       },
@@ -1013,7 +1049,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.300}",
-            "Dark": "{color.Brand A.500}"
+            "Dark": "{color.Brand A.500}",
+            "Brand #2 - Light": "{color.Brand A.300}",
+            "Brand #2 - Dark": "{color.Brand A.500}",
+            "Brand #3 - Light": "{color.Brand A.300}",
+            "Brand #3 - Dark": "{color.Brand A.500}"
           }
         }
       },
@@ -1024,7 +1064,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.100}",
-            "Dark": "{color.Brand A.600}"
+            "Dark": "{color.Brand A.600}",
+            "Brand #2 - Light": "{color.Brand A.100}",
+            "Brand #2 - Dark": "{color.Brand A.600}",
+            "Brand #3 - Light": "{color.Brand A.100}",
+            "Brand #3 - Dark": "{color.Brand A.600}"
           }
         }
       },
@@ -1035,7 +1079,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.200}",
-            "Dark": "{color.Brand A.800}"
+            "Dark": "{color.Brand A.800}",
+            "Brand #2 - Light": "{color.Brand A.200}",
+            "Brand #2 - Dark": "{color.Brand A.800}",
+            "Brand #3 - Light": "{color.Brand A.200}",
+            "Brand #3 - Dark": "{color.Brand A.800}"
           }
         }
       }
@@ -1048,7 +1096,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Green.500}",
-            "Dark": "{color.Green.700}"
+            "Dark": "{color.Green.700}",
+            "Brand #2 - Light": "{color.Green.500}",
+            "Brand #2 - Dark": "{color.Green.700}",
+            "Brand #3 - Light": "{color.Green.500}",
+            "Brand #3 - Dark": "{color.Green.700}"
           }
         }
       },
@@ -1059,7 +1111,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Green.200}",
-            "Dark": "{color.Green.800}"
+            "Dark": "{color.Green.800}",
+            "Brand #2 - Light": "{color.Green.200}",
+            "Brand #2 - Dark": "{color.Green.800}",
+            "Brand #3 - Light": "{color.Green.200}",
+            "Brand #3 - Dark": "{color.Green.800}"
           }
         }
       },
@@ -1070,7 +1126,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Green.600}",
-            "Dark": "{color.Green.800}"
+            "Dark": "{color.Green.800}",
+            "Brand #2 - Light": "{color.Green.600}",
+            "Brand #2 - Dark": "{color.Green.800}",
+            "Brand #3 - Light": "{color.Green.600}",
+            "Brand #3 - Dark": "{color.Green.800}"
           }
         }
       },
@@ -1081,7 +1141,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Green.300}",
-            "Dark": "{color.Green.900}"
+            "Dark": "{color.Green.900}",
+            "Brand #2 - Light": "{color.Green.300}",
+            "Brand #2 - Dark": "{color.Green.900}",
+            "Brand #3 - Light": "{color.Green.300}",
+            "Brand #3 - Dark": "{color.Green.900}"
           }
         }
       },
@@ -1092,7 +1156,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Green.100}",
-            "Dark": "{color.Green.900}"
+            "Dark": "{color.Green.900}",
+            "Brand #2 - Light": "{color.Green.100}",
+            "Brand #2 - Dark": "{color.Green.900}",
+            "Brand #3 - Light": "{color.Green.100}",
+            "Brand #3 - Dark": "{color.Green.900}"
           }
         }
       },
@@ -1103,7 +1171,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Green.200}",
-            "Dark": "{color.Green.1000}"
+            "Dark": "{color.Green.1000}",
+            "Brand #2 - Light": "{color.Green.200}",
+            "Brand #2 - Dark": "{color.Green.1000}",
+            "Brand #3 - Light": "{color.Green.200}",
+            "Brand #3 - Dark": "{color.Green.1000}"
           }
         }
       }
@@ -1116,7 +1188,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Yellow.400}",
-            "Dark": "{color.Yellow.400}"
+            "Dark": "{color.Yellow.400}",
+            "Brand #2 - Light": "{color.Yellow.400}",
+            "Brand #2 - Dark": "{color.Yellow.400}",
+            "Brand #3 - Light": "{color.Yellow.400}",
+            "Brand #3 - Dark": "{color.Yellow.400}"
           }
         }
       },
@@ -1127,7 +1203,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Yellow.200}",
-            "Dark": "{color.Yellow.800}"
+            "Dark": "{color.Yellow.800}",
+            "Brand #2 - Light": "{color.Yellow.200}",
+            "Brand #2 - Dark": "{color.Yellow.800}",
+            "Brand #3 - Light": "{color.Yellow.200}",
+            "Brand #3 - Dark": "{color.Yellow.800}"
           }
         }
       },
@@ -1138,7 +1218,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Yellow.500}",
-            "Dark": "{color.Yellow.500}"
+            "Dark": "{color.Yellow.500}",
+            "Brand #2 - Light": "{color.Yellow.500}",
+            "Brand #2 - Dark": "{color.Yellow.500}",
+            "Brand #3 - Light": "{color.Yellow.500}",
+            "Brand #3 - Dark": "{color.Yellow.500}"
           }
         }
       },
@@ -1149,7 +1233,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Yellow.300}",
-            "Dark": "{color.Yellow.900}"
+            "Dark": "{color.Yellow.900}",
+            "Brand #2 - Light": "{color.Yellow.300}",
+            "Brand #2 - Dark": "{color.Yellow.900}",
+            "Brand #3 - Light": "{color.Yellow.300}",
+            "Brand #3 - Dark": "{color.Yellow.900}"
           }
         }
       },
@@ -1160,7 +1248,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Yellow.100}",
-            "Dark": "{color.Yellow.900}"
+            "Dark": "{color.Yellow.900}",
+            "Brand #2 - Light": "{color.Yellow.100}",
+            "Brand #2 - Dark": "{color.Yellow.900}",
+            "Brand #3 - Light": "{color.Yellow.100}",
+            "Brand #3 - Dark": "{color.Yellow.900}"
           }
         }
       },
@@ -1171,7 +1263,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Yellow.200}",
-            "Dark": "{color.Yellow.1000}"
+            "Dark": "{color.Yellow.1000}",
+            "Brand #2 - Light": "{color.Yellow.200}",
+            "Brand #2 - Dark": "{color.Yellow.1000}",
+            "Brand #3 - Light": "{color.Yellow.200}",
+            "Brand #3 - Dark": "{color.Yellow.1000}"
           }
         }
       }
@@ -1184,7 +1280,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Red.500}",
-            "Dark": "{color.Red.600}"
+            "Dark": "{color.Red.600}",
+            "Brand #2 - Light": "{color.Red.500}",
+            "Brand #2 - Dark": "{color.Red.600}",
+            "Brand #3 - Light": "{color.Red.500}",
+            "Brand #3 - Dark": "{color.Red.600}"
           }
         }
       },
@@ -1195,7 +1295,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Red.200}",
-            "Dark": "{color.Red.800}"
+            "Dark": "{color.Red.800}",
+            "Brand #2 - Light": "{color.Red.200}",
+            "Brand #2 - Dark": "{color.Red.800}",
+            "Brand #3 - Light": "{color.Red.200}",
+            "Brand #3 - Dark": "{color.Red.800}"
           }
         }
       },
@@ -1206,7 +1310,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Red.600}",
-            "Dark": "{color.Red.700}"
+            "Dark": "{color.Red.700}",
+            "Brand #2 - Light": "{color.Red.600}",
+            "Brand #2 - Dark": "{color.Red.700}",
+            "Brand #3 - Light": "{color.Red.600}",
+            "Brand #3 - Dark": "{color.Red.700}"
           }
         }
       },
@@ -1217,7 +1325,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Red.300}",
-            "Dark": "{color.Red.900}"
+            "Dark": "{color.Red.900}",
+            "Brand #2 - Light": "{color.Red.300}",
+            "Brand #2 - Dark": "{color.Red.900}",
+            "Brand #3 - Light": "{color.Red.300}",
+            "Brand #3 - Dark": "{color.Red.900}"
           }
         }
       },
@@ -1228,7 +1340,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Red.100}",
-            "Dark": "{color.Red.900}"
+            "Dark": "{color.Red.900}",
+            "Brand #2 - Light": "{color.Red.100}",
+            "Brand #2 - Dark": "{color.Red.900}",
+            "Brand #3 - Light": "{color.Red.100}",
+            "Brand #3 - Dark": "{color.Red.900}"
           }
         }
       },
@@ -1239,7 +1355,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Red.200}",
-            "Dark": "{color.Red.1000}"
+            "Dark": "{color.Red.1000}",
+            "Brand #2 - Light": "{color.Red.200}",
+            "Brand #2 - Dark": "{color.Red.1000}",
+            "Brand #3 - Light": "{color.Red.200}",
+            "Brand #3 - Dark": "{color.Red.1000}"
           }
         }
       }
@@ -1252,7 +1372,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.300}",
-            "Dark": "{color.Brand A.700}"
+            "Dark": "{color.Brand A.700}",
+            "Brand #2 - Light": "{color.Brand A.300}",
+            "Brand #2 - Dark": "{color.Brand A.700}",
+            "Brand #3 - Light": "{color.Brand A.300}",
+            "Brand #3 - Dark": "{color.Brand A.700}"
           }
         }
       }
@@ -1265,7 +1389,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Slate.700}",
-            "Dark": "{color.Slate.400}"
+            "Dark": "{color.Slate.400}",
+            "Brand #2 - Light": "{color.Slate.700}",
+            "Brand #2 - Dark": "{color.Slate.400}",
+            "Brand #3 - Light": "{color.Slate.700}",
+            "Brand #3 - Dark": "{color.Slate.400}"
           }
         }
       },
@@ -1276,7 +1404,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Slate.800}",
-            "Dark": "{color.Slate.500}"
+            "Dark": "{color.Slate.500}",
+            "Brand #2 - Light": "{color.Slate.800}",
+            "Brand #2 - Dark": "{color.Slate.500}",
+            "Brand #3 - Light": "{color.Slate.800}",
+            "Brand #3 - Dark": "{color.Slate.500}"
           }
         }
       },
@@ -1287,7 +1419,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Slate.300}",
-            "Dark": "{color.Slate.900}"
+            "Dark": "{color.Slate.900}",
+            "Brand #2 - Light": "{color.Slate.300}",
+            "Brand #2 - Dark": "{color.Slate.900}",
+            "Brand #3 - Light": "{color.Slate.300}",
+            "Brand #3 - Dark": "{color.Slate.900}"
           }
         }
       },
@@ -1298,7 +1434,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Slate.400}",
-            "Dark": "{color.Slate.1000}"
+            "Dark": "{color.Slate.1000}",
+            "Brand #2 - Light": "{color.Slate.400}",
+            "Brand #2 - Dark": "{color.Slate.1000}",
+            "Brand #3 - Light": "{color.Slate.400}",
+            "Brand #3 - Dark": "{color.Slate.1000}"
           }
         }
       },
@@ -1309,7 +1449,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Slate.200}",
-            "Dark": "{color.Slate.900}"
+            "Dark": "{color.Slate.900}",
+            "Brand #2 - Light": "{color.Slate.200}",
+            "Brand #2 - Dark": "{color.Slate.900}",
+            "Brand #3 - Light": "{color.Slate.200}",
+            "Brand #3 - Dark": "{color.Slate.900}"
           }
         }
       },
@@ -1320,7 +1464,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Slate.300}",
-            "Dark": "{color.Slate.1000}"
+            "Dark": "{color.Slate.1000}",
+            "Brand #2 - Light": "{color.Slate.300}",
+            "Brand #2 - Dark": "{color.Slate.1000}",
+            "Brand #3 - Light": "{color.Slate.300}",
+            "Brand #3 - Dark": "{color.Slate.1000}"
           }
         }
       }
@@ -1335,7 +1483,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Gray.900}",
-            "Dark": "{color.White.1000}"
+            "Dark": "{color.White.1000}",
+            "Brand #2 - Light": "{color.Gray.900}",
+            "Brand #2 - Dark": "{color.White.1000}",
+            "Brand #3 - Light": "{color.Gray.900}",
+            "Brand #3 - Dark": "{color.White.1000}"
           }
         }
       },
@@ -1346,7 +1498,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Gray.500}",
-            "Dark": "{color.White.500}"
+            "Dark": "{color.White.500}",
+            "Brand #2 - Light": "{color.Gray.500}",
+            "Brand #2 - Dark": "{color.White.500}",
+            "Brand #3 - Light": "{color.Gray.500}",
+            "Brand #3 - Dark": "{color.White.500}"
           }
         }
       },
@@ -1357,7 +1513,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Gray.400}",
-            "Dark": "{color.White.400}"
+            "Dark": "{color.White.400}",
+            "Brand #2 - Light": "{color.Gray.400}",
+            "Brand #2 - Dark": "{color.White.400}",
+            "Brand #3 - Light": "{color.Gray.400}",
+            "Brand #3 - Dark": "{color.White.400}"
           }
         }
       }
@@ -1370,7 +1530,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.800}",
-            "Dark": "{color.Brand A.100}"
+            "Dark": "{color.Brand A.100}",
+            "Brand #2 - Light": "{color.Brand A.800}",
+            "Brand #2 - Dark": "{color.Brand A.100}",
+            "Brand #3 - Light": "{color.Brand A.800}",
+            "Brand #3 - Dark": "{color.Brand A.100}"
           }
         }
       },
@@ -1381,7 +1545,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.600}",
-            "Dark": "{color.Brand A.300}"
+            "Dark": "{color.Brand A.300}",
+            "Brand #2 - Light": "{color.Brand A.600}",
+            "Brand #2 - Dark": "{color.Brand A.300}",
+            "Brand #3 - Light": "{color.Brand A.600}",
+            "Brand #3 - Dark": "{color.Brand A.300}"
           }
         }
       },
@@ -1392,7 +1560,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.500}",
-            "Dark": "{color.Brand A.400}"
+            "Dark": "{color.Brand A.400}",
+            "Brand #2 - Light": "{color.Brand A.500}",
+            "Brand #2 - Dark": "{color.Brand A.400}",
+            "Brand #3 - Light": "{color.Brand A.500}",
+            "Brand #3 - Dark": "{color.Brand A.400}"
           }
         }
       },
@@ -1403,7 +1575,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.100}",
-            "Dark": "{color.Brand A.900}"
+            "Dark": "{color.Brand A.900}",
+            "Brand #2 - Light": "{color.Brand A.100}",
+            "Brand #2 - Dark": "{color.Brand A.900}",
+            "Brand #3 - Light": "{color.Brand A.100}",
+            "Brand #3 - Dark": "{color.Brand A.900}"
           }
         }
       },
@@ -1414,7 +1590,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.900}",
-            "Dark": "{color.Brand A.100}"
+            "Dark": "{color.Brand A.100}",
+            "Brand #2 - Light": "{color.Brand A.900}",
+            "Brand #2 - Dark": "{color.Brand A.100}",
+            "Brand #3 - Light": "{color.Brand A.900}",
+            "Brand #3 - Dark": "{color.Brand A.100}"
           }
         }
       },
@@ -1425,7 +1605,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.800}",
-            "Dark": "{color.Brand A.100}"
+            "Dark": "{color.Brand A.100}",
+            "Brand #2 - Light": "{color.Brand A.800}",
+            "Brand #2 - Dark": "{color.Brand A.100}",
+            "Brand #3 - Light": "{color.Brand A.800}",
+            "Brand #3 - Dark": "{color.Brand A.100}"
           }
         }
       }
@@ -1438,7 +1622,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Green.800}",
-            "Dark": "{color.Green.200}"
+            "Dark": "{color.Green.200}",
+            "Brand #2 - Light": "{color.Green.800}",
+            "Brand #2 - Dark": "{color.Green.200}",
+            "Brand #3 - Light": "{color.Green.800}",
+            "Brand #3 - Dark": "{color.Green.200}"
           }
         }
       },
@@ -1449,7 +1637,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Green.600}",
-            "Dark": "{color.Green.400}"
+            "Dark": "{color.Green.400}",
+            "Brand #2 - Light": "{color.Green.600}",
+            "Brand #2 - Dark": "{color.Green.400}",
+            "Brand #3 - Light": "{color.Green.600}",
+            "Brand #3 - Dark": "{color.Green.400}"
           }
         }
       },
@@ -1460,7 +1652,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Green.500}",
-            "Dark": "{color.Green.600}"
+            "Dark": "{color.Green.600}",
+            "Brand #2 - Light": "{color.Green.500}",
+            "Brand #2 - Dark": "{color.Green.600}",
+            "Brand #3 - Light": "{color.Green.500}",
+            "Brand #3 - Dark": "{color.Green.600}"
           }
         }
       },
@@ -1471,7 +1667,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Green.100}",
-            "Dark": "{color.Green.100}"
+            "Dark": "{color.Green.100}",
+            "Brand #2 - Light": "{color.Green.100}",
+            "Brand #2 - Dark": "{color.Green.100}",
+            "Brand #3 - Light": "{color.Green.100}",
+            "Brand #3 - Dark": "{color.Green.100}"
           }
         }
       },
@@ -1482,7 +1682,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Green.800}",
-            "Dark": "{color.Green.100}"
+            "Dark": "{color.Green.100}",
+            "Brand #2 - Light": "{color.Green.800}",
+            "Brand #2 - Dark": "{color.Green.100}",
+            "Brand #3 - Light": "{color.Green.800}",
+            "Brand #3 - Dark": "{color.Green.100}"
           }
         }
       },
@@ -1493,7 +1697,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Green.800}",
-            "Dark": "{color.Green.100}"
+            "Dark": "{color.Green.100}",
+            "Brand #2 - Light": "{color.Green.800}",
+            "Brand #2 - Dark": "{color.Green.100}",
+            "Brand #3 - Light": "{color.Green.800}",
+            "Brand #3 - Dark": "{color.Green.100}"
           }
         }
       }
@@ -1506,7 +1714,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Yellow.900}",
-            "Dark": "{color.Yellow.200}"
+            "Dark": "{color.Yellow.200}",
+            "Brand #2 - Light": "{color.Yellow.900}",
+            "Brand #2 - Dark": "{color.Yellow.200}",
+            "Brand #3 - Light": "{color.Yellow.900}",
+            "Brand #3 - Dark": "{color.Yellow.200}"
           }
         }
       },
@@ -1517,7 +1729,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Yellow.700}",
-            "Dark": "{color.Yellow.400}"
+            "Dark": "{color.Yellow.400}",
+            "Brand #2 - Light": "{color.Yellow.700}",
+            "Brand #2 - Dark": "{color.Yellow.400}",
+            "Brand #3 - Light": "{color.Yellow.700}",
+            "Brand #3 - Dark": "{color.Yellow.400}"
           }
         }
       },
@@ -1528,7 +1744,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Yellow.600}",
-            "Dark": "{color.Yellow.600}"
+            "Dark": "{color.Yellow.600}",
+            "Brand #2 - Light": "{color.Yellow.600}",
+            "Brand #2 - Dark": "{color.Yellow.600}",
+            "Brand #3 - Light": "{color.Yellow.600}",
+            "Brand #3 - Dark": "{color.Yellow.600}"
           }
         }
       },
@@ -1539,7 +1759,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Yellow.1000}",
-            "Dark": "{color.Yellow.1000}"
+            "Dark": "{color.Yellow.1000}",
+            "Brand #2 - Light": "{color.Yellow.1000}",
+            "Brand #2 - Dark": "{color.Yellow.1000}",
+            "Brand #3 - Light": "{color.Yellow.1000}",
+            "Brand #3 - Dark": "{color.Yellow.1000}"
           }
         }
       },
@@ -1550,7 +1774,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Yellow.800}",
-            "Dark": "{color.Yellow.100}"
+            "Dark": "{color.Yellow.100}",
+            "Brand #2 - Light": "{color.Yellow.800}",
+            "Brand #2 - Dark": "{color.Yellow.100}",
+            "Brand #3 - Light": "{color.Yellow.800}",
+            "Brand #3 - Dark": "{color.Yellow.100}"
           }
         }
       },
@@ -1561,7 +1789,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Yellow.900}",
-            "Dark": "{color.Yellow.100}"
+            "Dark": "{color.Yellow.100}",
+            "Brand #2 - Light": "{color.Yellow.900}",
+            "Brand #2 - Dark": "{color.Yellow.100}",
+            "Brand #3 - Light": "{color.Yellow.900}",
+            "Brand #3 - Dark": "{color.Yellow.100}"
           }
         }
       }
@@ -1574,7 +1806,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Red.700}",
-            "Dark": "{color.Red.200}"
+            "Dark": "{color.Red.200}",
+            "Brand #2 - Light": "{color.Red.700}",
+            "Brand #2 - Dark": "{color.Red.200}",
+            "Brand #3 - Light": "{color.Red.700}",
+            "Brand #3 - Dark": "{color.Red.200}"
           }
         }
       },
@@ -1585,7 +1821,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Red.600}",
-            "Dark": "{color.Red.400}"
+            "Dark": "{color.Red.400}",
+            "Brand #2 - Light": "{color.Red.600}",
+            "Brand #2 - Dark": "{color.Red.400}",
+            "Brand #3 - Light": "{color.Red.600}",
+            "Brand #3 - Dark": "{color.Red.400}"
           }
         }
       },
@@ -1596,7 +1836,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Red.500}",
-            "Dark": "{color.Red.500}"
+            "Dark": "{color.Red.500}",
+            "Brand #2 - Light": "{color.Red.500}",
+            "Brand #2 - Dark": "{color.Red.500}",
+            "Brand #3 - Light": "{color.Red.500}",
+            "Brand #3 - Dark": "{color.Red.500}"
           }
         }
       },
@@ -1607,7 +1851,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Red.100}",
-            "Dark": "{color.Red.100}"
+            "Dark": "{color.Red.100}",
+            "Brand #2 - Light": "{color.Red.100}",
+            "Brand #2 - Dark": "{color.Red.100}",
+            "Brand #3 - Light": "{color.Red.100}",
+            "Brand #3 - Dark": "{color.Red.100}"
           }
         }
       },
@@ -1618,7 +1866,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Red.700}",
-            "Dark": "{color.Red.100}"
+            "Dark": "{color.Red.100}",
+            "Brand #2 - Light": "{color.Red.700}",
+            "Brand #2 - Dark": "{color.Red.100}",
+            "Brand #3 - Light": "{color.Red.700}",
+            "Brand #3 - Dark": "{color.Red.100}"
           }
         }
       },
@@ -1629,7 +1881,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Red.700}",
-            "Dark": "{color.Red.100}"
+            "Dark": "{color.Red.100}",
+            "Brand #2 - Light": "{color.Red.700}",
+            "Brand #2 - Dark": "{color.Red.100}",
+            "Brand #3 - Light": "{color.Red.700}",
+            "Brand #3 - Dark": "{color.Red.100}"
           }
         }
       }
@@ -1642,7 +1898,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.400}",
-            "Dark": "{color.Brand A.500}"
+            "Dark": "{color.Brand A.500}",
+            "Brand #2 - Light": "{color.Brand A.400}",
+            "Brand #2 - Dark": "{color.Brand A.500}",
+            "Brand #3 - Light": "{color.Brand A.400}",
+            "Brand #3 - Dark": "{color.Brand A.500}"
           }
         }
       },
@@ -1653,7 +1913,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.400}",
-            "Dark": "{color.Brand A.400}"
+            "Dark": "{color.Brand A.400}",
+            "Brand #2 - Light": "{color.Brand A.400}",
+            "Brand #2 - Dark": "{color.Brand A.400}",
+            "Brand #3 - Light": "{color.Brand A.400}",
+            "Brand #3 - Dark": "{color.Brand A.400}"
           }
         }
       }
@@ -1666,7 +1930,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Slate.900}",
-            "Dark": "{color.Slate.200}"
+            "Dark": "{color.Slate.200}",
+            "Brand #2 - Light": "{color.Slate.900}",
+            "Brand #2 - Dark": "{color.Slate.200}",
+            "Brand #3 - Light": "{color.Slate.900}",
+            "Brand #3 - Dark": "{color.Slate.200}"
           }
         }
       },
@@ -1677,7 +1945,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Slate.700}",
-            "Dark": "{color.Slate.300}"
+            "Dark": "{color.Slate.300}",
+            "Brand #2 - Light": "{color.Slate.700}",
+            "Brand #2 - Dark": "{color.Slate.300}",
+            "Brand #3 - Light": "{color.Slate.700}",
+            "Brand #3 - Dark": "{color.Slate.300}"
           }
         }
       },
@@ -1688,7 +1960,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Slate.600}",
-            "Dark": "{color.Slate.400}"
+            "Dark": "{color.Slate.400}",
+            "Brand #2 - Light": "{color.Slate.600}",
+            "Brand #2 - Dark": "{color.Slate.400}",
+            "Brand #3 - Light": "{color.Slate.600}",
+            "Brand #3 - Dark": "{color.Slate.400}"
           }
         }
       },
@@ -1699,7 +1975,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Slate.100}",
-            "Dark": "{color.Slate.1000}"
+            "Dark": "{color.Slate.1000}",
+            "Brand #2 - Light": "{color.Slate.100}",
+            "Brand #2 - Dark": "{color.Slate.1000}",
+            "Brand #3 - Light": "{color.Slate.100}",
+            "Brand #3 - Dark": "{color.Slate.1000}"
           }
         }
       },
@@ -1710,7 +1990,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Slate.900}",
-            "Dark": "{color.Slate.100}"
+            "Dark": "{color.Slate.100}",
+            "Brand #2 - Light": "{color.Slate.900}",
+            "Brand #2 - Dark": "{color.Slate.100}",
+            "Brand #3 - Light": "{color.Slate.900}",
+            "Brand #3 - Dark": "{color.Slate.100}"
           }
         }
       },
@@ -1721,7 +2005,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Slate.800}",
-            "Dark": "{color.Slate.100}"
+            "Dark": "{color.Slate.100}",
+            "Brand #2 - Light": "{color.Slate.800}",
+            "Brand #2 - Dark": "{color.Slate.100}",
+            "Brand #3 - Light": "{color.Slate.800}",
+            "Brand #3 - Dark": "{color.Slate.100}"
           }
         }
       }
@@ -1735,7 +2023,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Gray.900}",
-              "Dark": "{color.White.1000}"
+              "Dark": "{color.White.1000}",
+              "Brand #2 - Light": "{color.Gray.900}",
+              "Brand #2 - Dark": "{color.White.1000}",
+              "Brand #3 - Light": "{color.Gray.900}",
+              "Brand #3 - Dark": "{color.White.1000}"
             }
           }
         },
@@ -1746,7 +2038,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Gray.500}",
-              "Dark": "{color.White.500}"
+              "Dark": "{color.White.500}",
+              "Brand #2 - Light": "{color.Gray.500}",
+              "Brand #2 - Dark": "{color.White.500}",
+              "Brand #3 - Light": "{color.Gray.500}",
+              "Brand #3 - Dark": "{color.White.500}"
             }
           }
         },
@@ -1757,7 +2053,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Gray.400}",
-              "Dark": "{color.White.400}"
+              "Dark": "{color.White.400}",
+              "Brand #2 - Light": "{color.Gray.400}",
+              "Brand #2 - Dark": "{color.White.400}",
+              "Brand #3 - Light": "{color.Gray.400}",
+              "Brand #3 - Dark": "{color.White.400}"
             }
           }
         }
@@ -1770,7 +2070,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Brand A.800}",
-              "Dark": "{color.Brand A.100}"
+              "Dark": "{color.Brand A.100}",
+              "Brand #2 - Light": "{color.Brand A.800}",
+              "Brand #2 - Dark": "{color.Brand A.100}",
+              "Brand #3 - Light": "{color.Brand A.800}",
+              "Brand #3 - Dark": "{color.Brand A.100}"
             }
           }
         },
@@ -1781,7 +2085,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Brand A.600}",
-              "Dark": "{color.Brand A.300}"
+              "Dark": "{color.Brand A.300}",
+              "Brand #2 - Light": "{color.Brand A.600}",
+              "Brand #2 - Dark": "{color.Brand A.300}",
+              "Brand #3 - Light": "{color.Brand A.600}",
+              "Brand #3 - Dark": "{color.Brand A.300}"
             }
           }
         },
@@ -1792,7 +2100,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Brand A.500}",
-              "Dark": "{color.Brand A.400}"
+              "Dark": "{color.Brand A.400}",
+              "Brand #2 - Light": "{color.Brand A.500}",
+              "Brand #2 - Dark": "{color.Brand A.400}",
+              "Brand #3 - Light": "{color.Brand A.500}",
+              "Brand #3 - Dark": "{color.Brand A.400}"
             }
           }
         },
@@ -1803,7 +2115,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Brand A.100}",
-              "Dark": "{color.Brand A.900}"
+              "Dark": "{color.Brand A.900}",
+              "Brand #2 - Light": "{color.Brand A.100}",
+              "Brand #2 - Dark": "{color.Brand A.900}",
+              "Brand #3 - Light": "{color.Brand A.100}",
+              "Brand #3 - Dark": "{color.Brand A.900}"
             }
           }
         },
@@ -1814,7 +2130,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Brand A.900}",
-              "Dark": "{color.Brand A.100}"
+              "Dark": "{color.Brand A.100}",
+              "Brand #2 - Light": "{color.Brand A.900}",
+              "Brand #2 - Dark": "{color.Brand A.100}",
+              "Brand #3 - Light": "{color.Brand A.900}",
+              "Brand #3 - Dark": "{color.Brand A.100}"
             }
           }
         },
@@ -1825,7 +2145,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Brand A.800}",
-              "Dark": "{color.Brand A.100}"
+              "Dark": "{color.Brand A.100}",
+              "Brand #2 - Light": "{color.Brand A.800}",
+              "Brand #2 - Dark": "{color.Brand A.100}",
+              "Brand #3 - Light": "{color.Brand A.800}",
+              "Brand #3 - Dark": "{color.Brand A.100}"
             }
           }
         }
@@ -1838,7 +2162,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Green.800}",
-              "Dark": "{color.Green.200}"
+              "Dark": "{color.Green.200}",
+              "Brand #2 - Light": "{color.Green.800}",
+              "Brand #2 - Dark": "{color.Green.200}",
+              "Brand #3 - Light": "{color.Green.800}",
+              "Brand #3 - Dark": "{color.Green.200}"
             }
           }
         },
@@ -1849,7 +2177,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Green.600}",
-              "Dark": "{color.Green.400}"
+              "Dark": "{color.Green.400}",
+              "Brand #2 - Light": "{color.Green.600}",
+              "Brand #2 - Dark": "{color.Green.400}",
+              "Brand #3 - Light": "{color.Green.600}",
+              "Brand #3 - Dark": "{color.Green.400}"
             }
           }
         },
@@ -1860,7 +2192,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Green.500}",
-              "Dark": "{color.Green.600}"
+              "Dark": "{color.Green.600}",
+              "Brand #2 - Light": "{color.Green.500}",
+              "Brand #2 - Dark": "{color.Green.600}",
+              "Brand #3 - Light": "{color.Green.500}",
+              "Brand #3 - Dark": "{color.Green.600}"
             }
           }
         },
@@ -1871,7 +2207,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Green.100}",
-              "Dark": "{color.Green.100}"
+              "Dark": "{color.Green.100}",
+              "Brand #2 - Light": "{color.Green.100}",
+              "Brand #2 - Dark": "{color.Green.100}",
+              "Brand #3 - Light": "{color.Green.100}",
+              "Brand #3 - Dark": "{color.Green.100}"
             }
           }
         },
@@ -1882,7 +2222,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Green.800}",
-              "Dark": "{color.Green.100}"
+              "Dark": "{color.Green.100}",
+              "Brand #2 - Light": "{color.Green.800}",
+              "Brand #2 - Dark": "{color.Green.100}",
+              "Brand #3 - Light": "{color.Green.800}",
+              "Brand #3 - Dark": "{color.Green.100}"
             }
           }
         },
@@ -1893,7 +2237,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Green.900}",
-              "Dark": "{color.Green.100}"
+              "Dark": "{color.Green.100}",
+              "Brand #2 - Light": "{color.Green.900}",
+              "Brand #2 - Dark": "{color.Green.100}",
+              "Brand #3 - Light": "{color.Green.900}",
+              "Brand #3 - Dark": "{color.Green.100}"
             }
           }
         }
@@ -1906,7 +2254,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Yellow.900}",
-              "Dark": "{color.Yellow.200}"
+              "Dark": "{color.Yellow.200}",
+              "Brand #2 - Light": "{color.Yellow.900}",
+              "Brand #2 - Dark": "{color.Yellow.200}",
+              "Brand #3 - Light": "{color.Yellow.900}",
+              "Brand #3 - Dark": "{color.Yellow.200}"
             }
           }
         },
@@ -1917,7 +2269,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Yellow.700}",
-              "Dark": "{color.Yellow.400}"
+              "Dark": "{color.Yellow.400}",
+              "Brand #2 - Light": "{color.Yellow.700}",
+              "Brand #2 - Dark": "{color.Yellow.400}",
+              "Brand #3 - Light": "{color.Yellow.700}",
+              "Brand #3 - Dark": "{color.Yellow.400}"
             }
           }
         },
@@ -1928,7 +2284,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Yellow.600}",
-              "Dark": "{color.Yellow.600}"
+              "Dark": "{color.Yellow.600}",
+              "Brand #2 - Light": "{color.Yellow.600}",
+              "Brand #2 - Dark": "{color.Yellow.600}",
+              "Brand #3 - Light": "{color.Yellow.600}",
+              "Brand #3 - Dark": "{color.Yellow.600}"
             }
           }
         },
@@ -1939,7 +2299,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Yellow.1000}",
-              "Dark": "{color.Yellow.1000}"
+              "Dark": "{color.Yellow.1000}",
+              "Brand #2 - Light": "{color.Yellow.1000}",
+              "Brand #2 - Dark": "{color.Yellow.1000}",
+              "Brand #3 - Light": "{color.Yellow.1000}",
+              "Brand #3 - Dark": "{color.Yellow.1000}"
             }
           }
         },
@@ -1950,7 +2314,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Yellow.800}",
-              "Dark": "{color.Yellow.100}"
+              "Dark": "{color.Yellow.100}",
+              "Brand #2 - Light": "{color.Yellow.800}",
+              "Brand #2 - Dark": "{color.Yellow.100}",
+              "Brand #3 - Light": "{color.Yellow.800}",
+              "Brand #3 - Dark": "{color.Yellow.100}"
             }
           }
         },
@@ -1961,7 +2329,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Yellow.900}",
-              "Dark": "{color.Yellow.100}"
+              "Dark": "{color.Yellow.100}",
+              "Brand #2 - Light": "{color.Yellow.900}",
+              "Brand #2 - Dark": "{color.Yellow.100}",
+              "Brand #3 - Light": "{color.Yellow.900}",
+              "Brand #3 - Dark": "{color.Yellow.100}"
             }
           }
         }
@@ -1974,7 +2346,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Red.700}",
-              "Dark": "{color.Red.200}"
+              "Dark": "{color.Red.200}",
+              "Brand #2 - Light": "{color.Red.700}",
+              "Brand #2 - Dark": "{color.Red.200}",
+              "Brand #3 - Light": "{color.Red.700}",
+              "Brand #3 - Dark": "{color.Red.200}"
             }
           }
         },
@@ -1985,7 +2361,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Red.600}",
-              "Dark": "{color.Red.400}"
+              "Dark": "{color.Red.400}",
+              "Brand #2 - Light": "{color.Red.600}",
+              "Brand #2 - Dark": "{color.Red.400}",
+              "Brand #3 - Light": "{color.Red.600}",
+              "Brand #3 - Dark": "{color.Red.400}"
             }
           }
         },
@@ -1996,7 +2376,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Red.500}",
-              "Dark": "{color.Red.500}"
+              "Dark": "{color.Red.500}",
+              "Brand #2 - Light": "{color.Red.500}",
+              "Brand #2 - Dark": "{color.Red.500}",
+              "Brand #3 - Light": "{color.Red.500}",
+              "Brand #3 - Dark": "{color.Red.500}"
             }
           }
         },
@@ -2007,7 +2391,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Red.100}",
-              "Dark": "{color.Red.100}"
+              "Dark": "{color.Red.100}",
+              "Brand #2 - Light": "{color.Red.100}",
+              "Brand #2 - Dark": "{color.Red.100}",
+              "Brand #3 - Light": "{color.Red.100}",
+              "Brand #3 - Dark": "{color.Red.100}"
             }
           }
         },
@@ -2018,7 +2406,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Red.700}",
-              "Dark": "{color.Red.100}"
+              "Dark": "{color.Red.100}",
+              "Brand #2 - Light": "{color.Red.700}",
+              "Brand #2 - Dark": "{color.Red.100}",
+              "Brand #3 - Light": "{color.Red.700}",
+              "Brand #3 - Dark": "{color.Red.100}"
             }
           }
         },
@@ -2029,7 +2421,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Red.700}",
-              "Dark": "{color.Red.100}"
+              "Dark": "{color.Red.100}",
+              "Brand #2 - Light": "{color.Red.700}",
+              "Brand #2 - Dark": "{color.Red.100}",
+              "Brand #3 - Light": "{color.Red.700}",
+              "Brand #3 - Dark": "{color.Red.100}"
             }
           }
         }
@@ -2042,7 +2438,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Brand A.400}",
-              "Dark": "{color.Brand A.500}"
+              "Dark": "{color.Brand A.500}",
+              "Brand #2 - Light": "{color.Brand A.400}",
+              "Brand #2 - Dark": "{color.Brand A.500}",
+              "Brand #3 - Light": "{color.Brand A.400}",
+              "Brand #3 - Dark": "{color.Brand A.500}"
             }
           }
         },
@@ -2053,7 +2453,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Brand A.400}",
-              "Dark": "{color.Brand A.400}"
+              "Dark": "{color.Brand A.400}",
+              "Brand #2 - Light": "{color.Brand A.400}",
+              "Brand #2 - Dark": "{color.Brand A.400}",
+              "Brand #3 - Light": "{color.Brand A.400}",
+              "Brand #3 - Dark": "{color.Brand A.400}"
             }
           }
         }
@@ -2066,7 +2470,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Slate.900}",
-              "Dark": "{color.Slate.200}"
+              "Dark": "{color.Slate.200}",
+              "Brand #2 - Light": "{color.Slate.900}",
+              "Brand #2 - Dark": "{color.Slate.200}",
+              "Brand #3 - Light": "{color.Slate.900}",
+              "Brand #3 - Dark": "{color.Slate.200}"
             }
           }
         },
@@ -2077,7 +2485,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Slate.700}",
-              "Dark": "{color.Slate.300}"
+              "Dark": "{color.Slate.300}",
+              "Brand #2 - Light": "{color.Slate.700}",
+              "Brand #2 - Dark": "{color.Slate.300}",
+              "Brand #3 - Light": "{color.Slate.700}",
+              "Brand #3 - Dark": "{color.Slate.300}"
             }
           }
         },
@@ -2088,7 +2500,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Slate.600}",
-              "Dark": "{color.Slate.400}"
+              "Dark": "{color.Slate.400}",
+              "Brand #2 - Light": "{color.Slate.600}",
+              "Brand #2 - Dark": "{color.Slate.400}",
+              "Brand #3 - Light": "{color.Slate.600}",
+              "Brand #3 - Dark": "{color.Slate.400}"
             }
           }
         },
@@ -2099,7 +2515,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Slate.100}",
-              "Dark": "{color.Slate.1000}"
+              "Dark": "{color.Slate.1000}",
+              "Brand #2 - Light": "{color.Slate.100}",
+              "Brand #2 - Dark": "{color.Slate.1000}",
+              "Brand #3 - Light": "{color.Slate.100}",
+              "Brand #3 - Dark": "{color.Slate.1000}"
             }
           }
         },
@@ -2110,7 +2530,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Slate.900}",
-              "Dark": "{color.Slate.100}"
+              "Dark": "{color.Slate.100}",
+              "Brand #2 - Light": "{color.Slate.900}",
+              "Brand #2 - Dark": "{color.Slate.100}",
+              "Brand #3 - Light": "{color.Slate.900}",
+              "Brand #3 - Dark": "{color.Slate.100}"
             }
           }
         },
@@ -2121,7 +2545,11 @@
           "$extensions": {
             "mode": {
               "Light": "{color.Slate.800}",
-              "Dark": "{color.Slate.100}"
+              "Dark": "{color.Slate.100}",
+              "Brand #2 - Light": "{color.Slate.800}",
+              "Brand #2 - Dark": "{color.Slate.100}",
+              "Brand #3 - Light": "{color.Slate.800}",
+              "Brand #3 - Dark": "{color.Slate.100}"
             }
           }
         }
@@ -2137,7 +2565,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Gray.300}",
-            "Dark": "{color.Gray.600}"
+            "Dark": "{color.Gray.600}",
+            "Brand #2 - Light": "{color.Gray.300}",
+            "Brand #2 - Dark": "{color.Gray.600}",
+            "Brand #3 - Light": "{color.Gray.300}",
+            "Brand #3 - Dark": "{color.Gray.600}"
           }
         }
       },
@@ -2148,7 +2580,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Gray.500}",
-            "Dark": "{color.Gray.500}"
+            "Dark": "{color.Gray.500}",
+            "Brand #2 - Light": "{color.Gray.500}",
+            "Brand #2 - Dark": "{color.Gray.500}",
+            "Brand #3 - Light": "{color.Gray.500}",
+            "Brand #3 - Dark": "{color.Gray.500}"
           }
         }
       },
@@ -2159,7 +2595,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Gray.700}",
-            "Dark": "{color.Gray.400}"
+            "Dark": "{color.Gray.400}",
+            "Brand #2 - Light": "{color.Gray.700}",
+            "Brand #2 - Dark": "{color.Gray.400}",
+            "Brand #3 - Light": "{color.Gray.700}",
+            "Brand #3 - Dark": "{color.Gray.400}"
           }
         }
       }
@@ -2172,7 +2612,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.800}",
-            "Dark": "{color.Brand A.100}"
+            "Dark": "{color.Brand A.100}",
+            "Brand #2 - Light": "{color.Brand A.800}",
+            "Brand #2 - Dark": "{color.Brand A.100}",
+            "Brand #3 - Light": "{color.Brand A.800}",
+            "Brand #3 - Dark": "{color.Brand A.100}"
           }
         }
       },
@@ -2183,7 +2627,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.600}",
-            "Dark": "{color.Brand A.300}"
+            "Dark": "{color.Brand A.300}",
+            "Brand #2 - Light": "{color.Brand A.600}",
+            "Brand #2 - Dark": "{color.Brand A.300}",
+            "Brand #3 - Light": "{color.Brand A.600}",
+            "Brand #3 - Dark": "{color.Brand A.300}"
           }
         }
       },
@@ -2194,7 +2642,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.500}",
-            "Dark": "{color.Brand A.400}"
+            "Dark": "{color.Brand A.400}",
+            "Brand #2 - Light": "{color.Brand A.500}",
+            "Brand #2 - Dark": "{color.Brand A.400}",
+            "Brand #3 - Light": "{color.Brand A.500}",
+            "Brand #3 - Dark": "{color.Brand A.400}"
           }
         }
       }
@@ -2207,7 +2659,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Green.800}",
-            "Dark": "{color.Green.200}"
+            "Dark": "{color.Green.200}",
+            "Brand #2 - Light": "{color.Green.800}",
+            "Brand #2 - Dark": "{color.Green.200}",
+            "Brand #3 - Light": "{color.Green.800}",
+            "Brand #3 - Dark": "{color.Green.200}"
           }
         }
       },
@@ -2218,7 +2674,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Green.600}",
-            "Dark": "{color.Green.400}"
+            "Dark": "{color.Green.400}",
+            "Brand #2 - Light": "{color.Green.600}",
+            "Brand #2 - Dark": "{color.Green.400}",
+            "Brand #3 - Light": "{color.Green.600}",
+            "Brand #3 - Dark": "{color.Green.400}"
           }
         }
       },
@@ -2229,7 +2689,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Green.500}",
-            "Dark": "{color.Green.600}"
+            "Dark": "{color.Green.600}",
+            "Brand #2 - Light": "{color.Green.500}",
+            "Brand #2 - Dark": "{color.Green.600}",
+            "Brand #3 - Light": "{color.Green.500}",
+            "Brand #3 - Dark": "{color.Green.600}"
           }
         }
       }
@@ -2242,7 +2706,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Yellow.900}",
-            "Dark": "{color.Yellow.200}"
+            "Dark": "{color.Yellow.200}",
+            "Brand #2 - Light": "{color.Yellow.900}",
+            "Brand #2 - Dark": "{color.Yellow.200}",
+            "Brand #3 - Light": "{color.Yellow.900}",
+            "Brand #3 - Dark": "{color.Yellow.200}"
           }
         }
       },
@@ -2253,7 +2721,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Yellow.700}",
-            "Dark": "{color.Yellow.400}"
+            "Dark": "{color.Yellow.400}",
+            "Brand #2 - Light": "{color.Yellow.700}",
+            "Brand #2 - Dark": "{color.Yellow.400}",
+            "Brand #3 - Light": "{color.Yellow.700}",
+            "Brand #3 - Dark": "{color.Yellow.400}"
           }
         }
       },
@@ -2264,7 +2736,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Yellow.600}",
-            "Dark": "{color.Yellow.600}"
+            "Dark": "{color.Yellow.600}",
+            "Brand #2 - Light": "{color.Yellow.600}",
+            "Brand #2 - Dark": "{color.Yellow.600}",
+            "Brand #3 - Light": "{color.Yellow.600}",
+            "Brand #3 - Dark": "{color.Yellow.600}"
           }
         }
       }
@@ -2277,7 +2753,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Red.700}",
-            "Dark": "{color.Red.200}"
+            "Dark": "{color.Red.200}",
+            "Brand #2 - Light": "{color.Red.700}",
+            "Brand #2 - Dark": "{color.Red.200}",
+            "Brand #3 - Light": "{color.Red.700}",
+            "Brand #3 - Dark": "{color.Red.200}"
           }
         }
       },
@@ -2288,7 +2768,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Red.600}",
-            "Dark": "{color.Red.400}"
+            "Dark": "{color.Red.400}",
+            "Brand #2 - Light": "{color.Red.600}",
+            "Brand #2 - Dark": "{color.Red.400}",
+            "Brand #3 - Light": "{color.Red.600}",
+            "Brand #3 - Dark": "{color.Red.400}"
           }
         }
       },
@@ -2299,7 +2783,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Red.500}",
-            "Dark": "{color.Red.500}"
+            "Dark": "{color.Red.500}",
+            "Brand #2 - Light": "{color.Red.500}",
+            "Brand #2 - Dark": "{color.Red.500}",
+            "Brand #3 - Light": "{color.Red.500}",
+            "Brand #3 - Dark": "{color.Red.500}"
           }
         }
       }
@@ -2312,7 +2800,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.400}",
-            "Dark": "{color.Brand A.600}"
+            "Dark": "{color.Brand A.600}",
+            "Brand #2 - Light": "{color.Brand A.400}",
+            "Brand #2 - Dark": "{color.Brand A.600}",
+            "Brand #3 - Light": "{color.Brand A.400}",
+            "Brand #3 - Dark": "{color.Brand A.600}"
           }
         }
       }
@@ -2325,7 +2817,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Slate.900}",
-            "Dark": "{color.Slate.100}"
+            "Dark": "{color.Slate.100}",
+            "Brand #2 - Light": "{color.Slate.900}",
+            "Brand #2 - Dark": "{color.Slate.100}",
+            "Brand #3 - Light": "{color.Slate.900}",
+            "Brand #3 - Dark": "{color.Slate.100}"
           }
         }
       },
@@ -2336,7 +2832,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Slate.600}",
-            "Dark": "{color.Slate.500}"
+            "Dark": "{color.Slate.500}",
+            "Brand #2 - Light": "{color.Slate.600}",
+            "Brand #2 - Dark": "{color.Slate.500}",
+            "Brand #3 - Light": "{color.Slate.600}",
+            "Brand #3 - Dark": "{color.Slate.500}"
           }
         }
       },
@@ -2347,7 +2847,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Slate.400}",
-            "Dark": "{color.Slate.600}"
+            "Dark": "{color.Slate.600}",
+            "Brand #2 - Light": "{color.Slate.400}",
+            "Brand #2 - Dark": "{color.Slate.600}",
+            "Brand #3 - Light": "{color.Slate.400}",
+            "Brand #3 - Dark": "{color.Slate.600}"
           }
         }
       }
@@ -2362,7 +2866,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Gray.300}",
-            "Dark": "{color.Gray.600}"
+            "Dark": "{color.Gray.600}",
+            "Brand #2 - Light": "{color.Gray.300}",
+            "Brand #2 - Dark": "{color.Gray.600}",
+            "Brand #3 - Light": "{color.Gray.300}",
+            "Brand #3 - Dark": "{color.Gray.600}"
           }
         }
       },
@@ -2373,7 +2881,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Gray.500}",
-            "Dark": "{color.Gray.500}"
+            "Dark": "{color.Gray.500}",
+            "Brand #2 - Light": "{color.Gray.500}",
+            "Brand #2 - Dark": "{color.Gray.500}",
+            "Brand #3 - Light": "{color.Gray.500}",
+            "Brand #3 - Dark": "{color.Gray.500}"
           }
         }
       },
@@ -2384,7 +2896,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Gray.700}",
-            "Dark": "{color.Gray.400}"
+            "Dark": "{color.Gray.400}",
+            "Brand #2 - Light": "{color.Gray.700}",
+            "Brand #2 - Dark": "{color.Gray.400}",
+            "Brand #3 - Light": "{color.Gray.700}",
+            "Brand #3 - Dark": "{color.Gray.400}"
           }
         }
       }
@@ -2397,7 +2913,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.800}",
-            "Dark": "{color.Brand A.100}"
+            "Dark": "{color.Brand A.100}",
+            "Brand #2 - Light": "{color.Brand A.800}",
+            "Brand #2 - Dark": "{color.Brand A.100}",
+            "Brand #3 - Light": "{color.Brand A.800}",
+            "Brand #3 - Dark": "{color.Brand A.100}"
           }
         }
       },
@@ -2408,7 +2928,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.600}",
-            "Dark": "{color.Brand A.300}"
+            "Dark": "{color.Brand A.300}",
+            "Brand #2 - Light": "{color.Brand A.600}",
+            "Brand #2 - Dark": "{color.Brand A.300}",
+            "Brand #3 - Light": "{color.Brand A.600}",
+            "Brand #3 - Dark": "{color.Brand A.300}"
           }
         }
       },
@@ -2419,7 +2943,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.500}",
-            "Dark": "{color.Brand A.400}"
+            "Dark": "{color.Brand A.400}",
+            "Brand #2 - Light": "{color.Brand A.500}",
+            "Brand #2 - Dark": "{color.Brand A.400}",
+            "Brand #3 - Light": "{color.Brand A.500}",
+            "Brand #3 - Dark": "{color.Brand A.400}"
           }
         }
       }
@@ -2432,7 +2960,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Green.800}",
-            "Dark": "{color.Green.200}"
+            "Dark": "{color.Green.200}",
+            "Brand #2 - Light": "{color.Green.800}",
+            "Brand #2 - Dark": "{color.Green.200}",
+            "Brand #3 - Light": "{color.Green.800}",
+            "Brand #3 - Dark": "{color.Green.200}"
           }
         }
       },
@@ -2443,7 +2975,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Green.600}",
-            "Dark": "{color.Green.400}"
+            "Dark": "{color.Green.400}",
+            "Brand #2 - Light": "{color.Green.600}",
+            "Brand #2 - Dark": "{color.Green.400}",
+            "Brand #3 - Light": "{color.Green.600}",
+            "Brand #3 - Dark": "{color.Green.400}"
           }
         }
       },
@@ -2454,7 +2990,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Green.500}",
-            "Dark": "{color.Green.600}"
+            "Dark": "{color.Green.600}",
+            "Brand #2 - Light": "{color.Green.500}",
+            "Brand #2 - Dark": "{color.Green.600}",
+            "Brand #3 - Light": "{color.Green.500}",
+            "Brand #3 - Dark": "{color.Green.600}"
           }
         }
       }
@@ -2467,7 +3007,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Yellow.900}",
-            "Dark": "{color.Yellow.200}"
+            "Dark": "{color.Yellow.200}",
+            "Brand #2 - Light": "{color.Yellow.900}",
+            "Brand #2 - Dark": "{color.Yellow.200}",
+            "Brand #3 - Light": "{color.Yellow.900}",
+            "Brand #3 - Dark": "{color.Yellow.200}"
           }
         }
       },
@@ -2478,7 +3022,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Yellow.700}",
-            "Dark": "{color.Yellow.400}"
+            "Dark": "{color.Yellow.400}",
+            "Brand #2 - Light": "{color.Yellow.700}",
+            "Brand #2 - Dark": "{color.Yellow.400}",
+            "Brand #3 - Light": "{color.Yellow.700}",
+            "Brand #3 - Dark": "{color.Yellow.400}"
           }
         }
       },
@@ -2489,7 +3037,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Yellow.600}",
-            "Dark": "{color.Yellow.600}"
+            "Dark": "{color.Yellow.600}",
+            "Brand #2 - Light": "{color.Yellow.600}",
+            "Brand #2 - Dark": "{color.Yellow.600}",
+            "Brand #3 - Light": "{color.Yellow.600}",
+            "Brand #3 - Dark": "{color.Yellow.600}"
           }
         }
       }
@@ -2502,7 +3054,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Red.700}",
-            "Dark": "{color.Red.200}"
+            "Dark": "{color.Red.200}",
+            "Brand #2 - Light": "{color.Red.700}",
+            "Brand #2 - Dark": "{color.Red.200}",
+            "Brand #3 - Light": "{color.Red.700}",
+            "Brand #3 - Dark": "{color.Red.200}"
           }
         }
       },
@@ -2513,7 +3069,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Red.600}",
-            "Dark": "{color.Red.400}"
+            "Dark": "{color.Red.400}",
+            "Brand #2 - Light": "{color.Red.600}",
+            "Brand #2 - Dark": "{color.Red.400}",
+            "Brand #3 - Light": "{color.Red.600}",
+            "Brand #3 - Dark": "{color.Red.400}"
           }
         }
       },
@@ -2524,7 +3084,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Red.500}",
-            "Dark": "{color.Red.500}"
+            "Dark": "{color.Red.500}",
+            "Brand #2 - Light": "{color.Red.500}",
+            "Brand #2 - Dark": "{color.Red.500}",
+            "Brand #3 - Light": "{color.Red.500}",
+            "Brand #3 - Dark": "{color.Red.500}"
           }
         }
       }
@@ -2537,7 +3101,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Brand A.400}",
-            "Dark": "{color.Brand A.600}"
+            "Dark": "{color.Brand A.600}",
+            "Brand #2 - Light": "{color.Brand A.400}",
+            "Brand #2 - Dark": "{color.Brand A.600}",
+            "Brand #3 - Light": "{color.Brand A.400}",
+            "Brand #3 - Dark": "{color.Brand A.600}"
           }
         }
       }
@@ -2550,7 +3118,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Slate.900}",
-            "Dark": "{color.Slate.100}"
+            "Dark": "{color.Slate.100}",
+            "Brand #2 - Light": "{color.Slate.900}",
+            "Brand #2 - Dark": "{color.Slate.100}",
+            "Brand #3 - Light": "{color.Slate.900}",
+            "Brand #3 - Dark": "{color.Slate.100}"
           }
         }
       },
@@ -2561,7 +3133,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Slate.600}",
-            "Dark": "{color.Slate.500}"
+            "Dark": "{color.Slate.500}",
+            "Brand #2 - Light": "{color.Slate.600}",
+            "Brand #2 - Dark": "{color.Slate.500}",
+            "Brand #3 - Light": "{color.Slate.600}",
+            "Brand #3 - Dark": "{color.Slate.500}"
           }
         }
       },
@@ -2572,7 +3148,11 @@
         "$extensions": {
           "mode": {
             "Light": "{color.Slate.400}",
-            "Dark": "{color.Slate.600}"
+            "Dark": "{color.Slate.600}",
+            "Brand #2 - Light": "{color.Slate.400}",
+            "Brand #2 - Dark": "{color.Slate.600}",
+            "Brand #3 - Light": "{color.Slate.400}",
+            "Brand #3 - Dark": "{color.Slate.600}"
           }
         }
       }
@@ -2947,7 +3527,11 @@
       "$extensions": {
         "mode": {
           "Light": "{font.Brand A.Sans}",
-          "Dark": "{font.Brand A.Sans}"
+          "Dark": "{font.Brand A.Sans}",
+          "Brand #2 - Light": "{font.Brand A.Sans}",
+          "Brand #2 - Dark": "{font.Brand A.Sans}",
+          "Brand #3 - Light": "{font.Brand A.Sans}",
+          "Brand #3 - Dark": "{font.Brand A.Sans}"
         }
       }
     },
@@ -2958,7 +3542,11 @@
       "$extensions": {
         "mode": {
           "Light": "{font.Brand A.Sans}",
-          "Dark": "{font.Brand A.Sans}"
+          "Dark": "{font.Brand A.Sans}",
+          "Brand #2 - Light": "{font.Brand A.Sans}",
+          "Brand #2 - Dark": "{font.Brand A.Sans}",
+          "Brand #3 - Light": "{font.Brand A.Sans}",
+          "Brand #3 - Dark": "{font.Brand A.Sans}"
         }
       }
     },
@@ -2969,7 +3557,11 @@
       "$extensions": {
         "mode": {
           "Light": "{font.Brand A.Sans}",
-          "Dark": "{font.Brand A.Sans}"
+          "Dark": "{font.Brand A.Sans}",
+          "Brand #2 - Light": "{font.Brand A.Sans}",
+          "Brand #2 - Dark": "{font.Brand A.Sans}",
+          "Brand #3 - Light": "{font.Brand A.Sans}",
+          "Brand #3 - Dark": "{font.Brand A.Sans}"
         }
       }
     },
@@ -2980,7 +3572,11 @@
       "$extensions": {
         "mode": {
           "Light": "{font.Brand A.Sans}",
-          "Dark": "{font.Brand A.Sans}"
+          "Dark": "{font.Brand A.Sans}",
+          "Brand #2 - Light": "{font.Brand A.Sans}",
+          "Brand #2 - Dark": "{font.Brand A.Sans}",
+          "Brand #3 - Light": "{font.Brand A.Sans}",
+          "Brand #3 - Dark": "{font.Brand A.Sans}"
         }
       }
     },
@@ -2991,7 +3587,11 @@
       "$extensions": {
         "mode": {
           "Light": "{font.Brand A.Sans}",
-          "Dark": "{font.Brand A.Sans}"
+          "Dark": "{font.Brand A.Sans}",
+          "Brand #2 - Light": "{font.Brand A.Sans}",
+          "Brand #2 - Dark": "{font.Brand A.Sans}",
+          "Brand #3 - Light": "{font.Brand A.Sans}",
+          "Brand #3 - Dark": "{font.Brand A.Sans}"
         }
       }
     },
@@ -3002,7 +3602,11 @@
       "$extensions": {
         "mode": {
           "Light": "{font.Brand A.Sans}",
-          "Dark": "{font.Brand A.Sans}"
+          "Dark": "{font.Brand A.Sans}",
+          "Brand #2 - Light": "{font.Brand A.Sans}",
+          "Brand #2 - Dark": "{font.Brand A.Sans}",
+          "Brand #3 - Light": "{font.Brand A.Sans}",
+          "Brand #3 - Dark": "{font.Brand A.Sans}"
         }
       }
     },
@@ -3013,7 +3617,11 @@
       "$extensions": {
         "mode": {
           "Light": "{font.Brand A.Mono}",
-          "Dark": "{font.Brand A.Mono}"
+          "Dark": "{font.Brand A.Mono}",
+          "Brand #2 - Light": "{font.Brand A.Mono}",
+          "Brand #2 - Dark": "{font.Brand A.Mono}",
+          "Brand #3 - Light": "{font.Brand A.Mono}",
+          "Brand #3 - Dark": "{font.Brand A.Mono}"
         }
       }
     }
@@ -3106,7 +3714,11 @@
       "$extensions": {
         "mode": {
           "Light": "{text.10}",
-          "Dark": "{text.10}"
+          "Dark": "{text.10}",
+          "Brand #2 - Light": "{text.10}",
+          "Brand #2 - Dark": "{text.10}",
+          "Brand #3 - Light": "{text.10}",
+          "Brand #3 - Dark": "{text.10}"
         }
       }
     },
@@ -3117,7 +3729,11 @@
       "$extensions": {
         "mode": {
           "Light": "{text.08}",
-          "Dark": "{text.08}"
+          "Dark": "{text.08}",
+          "Brand #2 - Light": "{text.08}",
+          "Brand #2 - Dark": "{text.08}",
+          "Brand #3 - Light": "{text.08}",
+          "Brand #3 - Dark": "{text.08}"
         }
       }
     },
@@ -3128,7 +3744,11 @@
       "$extensions": {
         "mode": {
           "Light": "{text.06}",
-          "Dark": "{text.06}"
+          "Dark": "{text.06}",
+          "Brand #2 - Light": "{text.06}",
+          "Brand #2 - Dark": "{text.06}",
+          "Brand #3 - Light": "{text.06}",
+          "Brand #3 - Dark": "{text.06}"
         }
       }
     },
@@ -3139,7 +3759,11 @@
       "$extensions": {
         "mode": {
           "Light": "{text.05}",
-          "Dark": "{text.05}"
+          "Dark": "{text.05}",
+          "Brand #2 - Light": "{text.05}",
+          "Brand #2 - Dark": "{text.05}",
+          "Brand #3 - Light": "{text.05}",
+          "Brand #3 - Dark": "{text.05}"
         }
       }
     },
@@ -3150,7 +3774,11 @@
       "$extensions": {
         "mode": {
           "Light": "{text.04}",
-          "Dark": "{text.04}"
+          "Dark": "{text.04}",
+          "Brand #2 - Light": "{text.04}",
+          "Brand #2 - Dark": "{text.04}",
+          "Brand #3 - Light": "{text.04}",
+          "Brand #3 - Dark": "{text.04}"
         }
       }
     },
@@ -3161,7 +3789,11 @@
       "$extensions": {
         "mode": {
           "Light": "{text.03}",
-          "Dark": "{text.03}"
+          "Dark": "{text.03}",
+          "Brand #2 - Light": "{text.03}",
+          "Brand #2 - Dark": "{text.03}",
+          "Brand #3 - Light": "{text.03}",
+          "Brand #3 - Dark": "{text.03}"
         }
       }
     },
@@ -3172,7 +3804,11 @@
       "$extensions": {
         "mode": {
           "Light": "{text.02}",
-          "Dark": "{text.02}"
+          "Dark": "{text.02}",
+          "Brand #2 - Light": "{text.02}",
+          "Brand #2 - Dark": "{text.02}",
+          "Brand #3 - Light": "{text.02}",
+          "Brand #3 - Dark": "{text.02}"
         }
       }
     },
@@ -3183,7 +3819,11 @@
       "$extensions": {
         "mode": {
           "Light": "{text.04}",
-          "Dark": "{text.04}"
+          "Dark": "{text.04}",
+          "Brand #2 - Light": "{text.04}",
+          "Brand #2 - Dark": "{text.04}",
+          "Brand #3 - Light": "{text.04}",
+          "Brand #3 - Dark": "{text.04}"
         }
       }
     },
@@ -3194,7 +3834,11 @@
       "$extensions": {
         "mode": {
           "Light": "{text.03}",
-          "Dark": "{text.03}"
+          "Dark": "{text.03}",
+          "Brand #2 - Light": "{text.03}",
+          "Brand #2 - Dark": "{text.03}",
+          "Brand #3 - Light": "{text.03}",
+          "Brand #3 - Dark": "{text.03}"
         }
       }
     }
@@ -3279,7 +3923,11 @@
       "$extensions": {
         "mode": {
           "Light": "{font-weight.Bold}",
-          "Dark": "{font-weight.Bold}"
+          "Dark": "{font-weight.Bold}",
+          "Brand #2 - Light": "{font-weight.Bold}",
+          "Brand #2 - Dark": "{font-weight.Bold}",
+          "Brand #3 - Light": "{font-weight.Bold}",
+          "Brand #3 - Dark": "{font-weight.Bold}"
         }
       }
     },
@@ -3290,7 +3938,11 @@
       "$extensions": {
         "mode": {
           "Light": "{font-weight.Semibold}",
-          "Dark": "{font-weight.Semibold}"
+          "Dark": "{font-weight.Semibold}",
+          "Brand #2 - Light": "{font-weight.Semibold}",
+          "Brand #2 - Dark": "{font-weight.Semibold}",
+          "Brand #3 - Light": "{font-weight.Semibold}",
+          "Brand #3 - Dark": "{font-weight.Semibold}"
         }
       }
     },
@@ -3301,7 +3953,11 @@
       "$extensions": {
         "mode": {
           "Light": "{font-weight.Semibold}",
-          "Dark": "{font-weight.Semibold}"
+          "Dark": "{font-weight.Semibold}",
+          "Brand #2 - Light": "{font-weight.Semibold}",
+          "Brand #2 - Dark": "{font-weight.Semibold}",
+          "Brand #3 - Light": "{font-weight.Semibold}",
+          "Brand #3 - Dark": "{font-weight.Semibold}"
         }
       }
     },
@@ -3312,7 +3968,11 @@
       "$extensions": {
         "mode": {
           "Light": "{font-weight.Semibold}",
-          "Dark": "{font-weight.Semibold}"
+          "Dark": "{font-weight.Semibold}",
+          "Brand #2 - Light": "{font-weight.Semibold}",
+          "Brand #2 - Dark": "{font-weight.Semibold}",
+          "Brand #3 - Light": "{font-weight.Semibold}",
+          "Brand #3 - Dark": "{font-weight.Semibold}"
         }
       }
     },
@@ -3323,7 +3983,11 @@
       "$extensions": {
         "mode": {
           "Light": "{font-weight.Semibold}",
-          "Dark": "{font-weight.Semibold}"
+          "Dark": "{font-weight.Semibold}",
+          "Brand #2 - Light": "{font-weight.Semibold}",
+          "Brand #2 - Dark": "{font-weight.Semibold}",
+          "Brand #3 - Light": "{font-weight.Semibold}",
+          "Brand #3 - Dark": "{font-weight.Semibold}"
         }
       }
     },
@@ -3334,7 +3998,11 @@
       "$extensions": {
         "mode": {
           "Light": "{font-weight.Regular}",
-          "Dark": "{font-weight.Regular}"
+          "Dark": "{font-weight.Regular}",
+          "Brand #2 - Light": "{font-weight.Regular}",
+          "Brand #2 - Dark": "{font-weight.Regular}",
+          "Brand #3 - Light": "{font-weight.Regular}",
+          "Brand #3 - Dark": "{font-weight.Regular}"
         }
       }
     },
@@ -3345,7 +4013,11 @@
       "$extensions": {
         "mode": {
           "Light": "{font-weight.Regular}",
-          "Dark": "{font-weight.Regular}"
+          "Dark": "{font-weight.Regular}",
+          "Brand #2 - Light": "{font-weight.Regular}",
+          "Brand #2 - Dark": "{font-weight.Regular}",
+          "Brand #3 - Light": "{font-weight.Regular}",
+          "Brand #3 - Dark": "{font-weight.Regular}"
         }
       }
     },
@@ -3356,7 +4028,11 @@
       "$extensions": {
         "mode": {
           "Light": "{font-weight.Regular}",
-          "Dark": "{font-weight.Regular}"
+          "Dark": "{font-weight.Regular}",
+          "Brand #2 - Light": "{font-weight.Regular}",
+          "Brand #2 - Dark": "{font-weight.Regular}",
+          "Brand #3 - Light": "{font-weight.Regular}",
+          "Brand #3 - Dark": "{font-weight.Regular}"
         }
       }
     },
@@ -3367,7 +4043,11 @@
       "$extensions": {
         "mode": {
           "Light": "{font-weight.Regular}",
-          "Dark": "{font-weight.Regular}"
+          "Dark": "{font-weight.Regular}",
+          "Brand #2 - Light": "{font-weight.Regular}",
+          "Brand #2 - Dark": "{font-weight.Regular}",
+          "Brand #3 - Light": "{font-weight.Regular}",
+          "Brand #3 - Dark": "{font-weight.Regular}"
         }
       }
     }
@@ -3380,7 +4060,11 @@
       "$extensions": {
         "mode": {
           "Light": "-0.125rem",
-          "Dark": "-0.125rem"
+          "Dark": "-0.125rem",
+          "Brand #2 - Light": "-0.125rem",
+          "Brand #2 - Dark": "-0.125rem",
+          "Brand #3 - Light": "-0.125rem",
+          "Brand #3 - Dark": "-0.125rem"
         }
       }
     },
@@ -3391,7 +4075,11 @@
       "$extensions": {
         "mode": {
           "Light": "-0.125rem",
-          "Dark": "-0.125rem"
+          "Dark": "-0.125rem",
+          "Brand #2 - Light": "-0.125rem",
+          "Brand #2 - Dark": "-0.125rem",
+          "Brand #3 - Light": "-0.125rem",
+          "Brand #3 - Dark": "-0.125rem"
         }
       }
     },
@@ -3402,7 +4090,11 @@
       "$extensions": {
         "mode": {
           "Light": "-0.125rem",
-          "Dark": "-0.125rem"
+          "Dark": "-0.125rem",
+          "Brand #2 - Light": "-0.125rem",
+          "Brand #2 - Dark": "-0.125rem",
+          "Brand #3 - Light": "-0.125rem",
+          "Brand #3 - Dark": "-0.125rem"
         }
       }
     },
@@ -3413,7 +4105,11 @@
       "$extensions": {
         "mode": {
           "Light": "-0.03125rem",
-          "Dark": "-0.03125rem"
+          "Dark": "-0.03125rem",
+          "Brand #2 - Light": "-0.03125rem",
+          "Brand #2 - Dark": "-0.03125rem",
+          "Brand #3 - Light": "-0.03125rem",
+          "Brand #3 - Dark": "-0.03125rem"
         }
       }
     },
@@ -3424,7 +4120,11 @@
       "$extensions": {
         "mode": {
           "Light": "-0.125rem",
-          "Dark": "-0.125rem"
+          "Dark": "-0.125rem",
+          "Brand #2 - Light": "-0.125rem",
+          "Brand #2 - Dark": "-0.125rem",
+          "Brand #3 - Light": "-0.125rem",
+          "Brand #3 - Dark": "-0.125rem"
         }
       }
     },
@@ -3435,7 +4135,11 @@
       "$extensions": {
         "mode": {
           "Light": "0rem",
-          "Dark": "0rem"
+          "Dark": "0rem",
+          "Brand #2 - Light": "0rem",
+          "Brand #2 - Dark": "0rem",
+          "Brand #3 - Light": "0rem",
+          "Brand #3 - Dark": "0rem"
         }
       }
     },
@@ -3446,7 +4150,11 @@
       "$extensions": {
         "mode": {
           "Light": "0rem",
-          "Dark": "0rem"
+          "Dark": "0rem",
+          "Brand #2 - Light": "0rem",
+          "Brand #2 - Dark": "0rem",
+          "Brand #3 - Light": "0rem",
+          "Brand #3 - Dark": "0rem"
         }
       }
     }
@@ -3459,7 +4167,11 @@
       "$extensions": {
         "mode": {
           "Light": "5.400000125rem",
-          "Dark": "5.400000125rem"
+          "Dark": "5.400000125rem",
+          "Brand #2 - Light": "5.400000125rem",
+          "Brand #2 - Dark": "5.400000125rem",
+          "Brand #3 - Light": "5.400000125rem",
+          "Brand #3 - Dark": "5.400000125rem"
         }
       }
     },
@@ -3470,7 +4182,11 @@
       "$extensions": {
         "mode": {
           "Light": "3.599999875rem",
-          "Dark": "3.599999875rem"
+          "Dark": "3.599999875rem",
+          "Brand #2 - Light": "3.599999875rem",
+          "Brand #2 - Dark": "3.599999875rem",
+          "Brand #3 - Light": "3.599999875rem",
+          "Brand #3 - Dark": "3.599999875rem"
         }
       }
     },
@@ -3481,7 +4197,11 @@
       "$extensions": {
         "mode": {
           "Light": "2.400000125rem",
-          "Dark": "0rem"
+          "Dark": "0rem",
+          "Brand #2 - Light": "2.400000125rem",
+          "Brand #2 - Dark": "0rem",
+          "Brand #3 - Light": "2.400000125rem",
+          "Brand #3 - Dark": "0rem"
         }
       }
     },
@@ -3492,7 +4212,11 @@
       "$extensions": {
         "mode": {
           "Light": "1.7999999375rem",
-          "Dark": "1.7999999375rem"
+          "Dark": "1.7999999375rem",
+          "Brand #2 - Light": "1.7999999375rem",
+          "Brand #2 - Dark": "1.7999999375rem",
+          "Brand #3 - Light": "1.7999999375rem",
+          "Brand #3 - Dark": "1.7999999375rem"
         }
       }
     },
@@ -3503,7 +4227,11 @@
       "$extensions": {
         "mode": {
           "Light": "1.5rem",
-          "Dark": "1.5rem"
+          "Dark": "1.5rem",
+          "Brand #2 - Light": "1.5rem",
+          "Brand #2 - Dark": "1.5rem",
+          "Brand #3 - Light": "1.5rem",
+          "Brand #3 - Dark": "1.5rem"
         }
       }
     },
@@ -3514,7 +4242,11 @@
       "$extensions": {
         "mode": {
           "Light": "1.4rem",
-          "Dark": "1.4rem"
+          "Dark": "1.4rem",
+          "Brand #2 - Light": "1.4rem",
+          "Brand #2 - Dark": "1.4rem",
+          "Brand #3 - Light": "1.4rem",
+          "Brand #3 - Dark": "1.4rem"
         }
       }
     },
@@ -3525,7 +4257,11 @@
       "$extensions": {
         "mode": {
           "Light": "1.75rem",
-          "Dark": "1.75rem"
+          "Dark": "1.75rem",
+          "Brand #2 - Light": "1.75rem",
+          "Brand #2 - Dark": "1.75rem",
+          "Brand #3 - Light": "1.75rem",
+          "Brand #3 - Dark": "1.75rem"
         }
       }
     },
@@ -3536,7 +4272,11 @@
       "$extensions": {
         "mode": {
           "Light": "1.225rem",
-          "Dark": "1.225rem"
+          "Dark": "1.225rem",
+          "Brand #2 - Light": "1.225rem",
+          "Brand #2 - Dark": "1.225rem",
+          "Brand #3 - Light": "1.225rem",
+          "Brand #3 - Dark": "1.225rem"
         }
       }
     },
@@ -3547,7 +4287,11 @@
       "$extensions": {
         "mode": {
           "Light": "1rem",
-          "Dark": "1rem"
+          "Dark": "1rem",
+          "Brand #2 - Light": "1rem",
+          "Brand #2 - Dark": "1rem",
+          "Brand #3 - Light": "1rem",
+          "Brand #3 - Dark": "1rem"
         }
       }
     },
@@ -3558,7 +4302,11 @@
       "$extensions": {
         "mode": {
           "Light": "1.225rem",
-          "Dark": "1.225rem"
+          "Dark": "1.225rem",
+          "Brand #2 - Light": "1.225rem",
+          "Brand #2 - Dark": "1.225rem",
+          "Brand #3 - Light": "1.225rem",
+          "Brand #3 - Dark": "1.225rem"
         }
       }
     },
@@ -3569,7 +4317,11 @@
       "$extensions": {
         "mode": {
           "Light": "1rem",
-          "Dark": "1rem"
+          "Dark": "1rem",
+          "Brand #2 - Light": "1rem",
+          "Brand #2 - Dark": "1rem",
+          "Brand #3 - Light": "1rem",
+          "Brand #3 - Dark": "1rem"
         }
       }
     }

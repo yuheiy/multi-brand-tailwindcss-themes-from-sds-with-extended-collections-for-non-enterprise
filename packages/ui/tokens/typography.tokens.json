@@ -16,7 +16,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:845e8354434e37fe4da0a643226e3052f99985c7,"
+        "styleId": "S:e05065be790dd67e05ed8570612080019773b20e,"
       }
     },
     "Title Page": {
@@ -35,7 +35,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:a3fbd440c9df44346db0d6d49578a75a0ddabf8a,"
+        "styleId": "S:9675eb1e0bbd88db8fbcafb1c287d4e315dbabe4,"
       }
     },
     "Subtitle": {
@@ -54,7 +54,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:f5bcbf31092e640b5b480d17dbeca68fcf2d66a2,"
+        "styleId": "S:0b8b63fc1f75e7c6c075854f62f0e1e11f35a4ca,"
       }
     },
     "Heading": {
@@ -73,7 +73,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:27eea16368cfe0f28720141e51c9a8f81ed13333,"
+        "styleId": "S:3812a160408a5f194bc07a09dc0bdf8315ae1d79,"
       }
     },
     "Subheading": {
@@ -92,7 +92,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:af5003065e9fbfc5962fcdd94386b53d35cc2a8f,"
+        "styleId": "S:bf2f52457780889937465af5f0adda28f990f8a2,"
       }
     },
     "Body Base": {
@@ -111,7 +111,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:405ec549e21e2109eed6f2b97d39b1b4be5f97b5,"
+        "styleId": "S:7e416b4d963d209dc3866c7b55a197878e47806e,"
       }
     },
     "Body Strong": {
@@ -130,7 +130,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:90055d0ce86a788b006130cf21e5098f0cf66473,"
+        "styleId": "S:ad0a2ca3d03ad1e71dbafaaf70ca240b05da3aad,"
       }
     },
     "Body Emphasis": {
@@ -149,7 +149,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:fc8dc9bda7397fe5e75cd28149b38fa122036176,"
+        "styleId": "S:0bb0ffe04ae8d83a87012041273a21e045688a37,"
       }
     },
     "Body Link": {
@@ -168,7 +168,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:1223e8c47909339bda91a08ba4e61fbf0b9cec08,"
+        "styleId": "S:2f7fdd7bf779d3f7c769d48f5fc9c0cd5410f521,"
       }
     },
     "Body Small": {
@@ -187,7 +187,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:8e67965a7636ff54cad74414ab3ff3f3acd425ac,"
+        "styleId": "S:df69cd149814bb9dc1b0bd9850320a2dfaa266f9,"
       }
     },
     "Body Small Strong": {
@@ -206,7 +206,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:35d26ebda8366c4a7cf9ae8845e4026f8767dcc2,"
+        "styleId": "S:f150f0c8e877566767fac2c06bb8c2ccf91d195e,"
       }
     },
     "Body Code": {
@@ -225,7 +225,7 @@
       },
       "$description": "",
       "$extensions": {
-        "styleId": "S:6b838144a55c9a593b14ef33f869ba93e0cac9c3,"
+        "styleId": "S:00515c9e85b32dd9d7f73a6103442e58863fa972,"
       }
     },
     "Single Line": {
@@ -245,7 +245,7 @@
         },
         "$description": "Used for any text element where you need 100% line height. For example, an input field, a label.",
         "$extensions": {
-          "styleId": "S:a149996630389cdf932367d19de1e82a007569cb,"
+          "styleId": "S:a350b2f2ddf64c563f7f6963d3a5181db34e96b6,"
         }
       },
       "Body Small Strong": {
@@ -264,7 +264,7 @@
         },
         "$description": "",
         "$extensions": {
-          "styleId": "S:0cddacf0e31a2fd9beb9df428e0cc3c93da0c05b,"
+          "styleId": "S:f319d523edd1b390db9bd466a98e4315d73ee78a,"
         }
       }
     }
