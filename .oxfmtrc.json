@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "experimentalTailwindcss": {
+    "stylesheet": "./apps/web/src/index.css",
+    "functions": ["tv", "twMerge"]
+  },
+  "singleQuote": true,
+  "experimentalSortPackageJson": true,
+  "ignorePatterns": [
+    "packages/**/*.generated.css",
+    "packages/**/*.tokens.json",
+    "packages/ui/src/tailwind-merge-config.json"
+  ]
+}
