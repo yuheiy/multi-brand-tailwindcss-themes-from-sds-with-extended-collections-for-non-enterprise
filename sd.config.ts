@@ -60,35 +60,6 @@ StyleDictionary.registerPreprocessor({
   preprocessor: (dictionary) => resolveModes(dictionary) as PreprocessedTokens,
 });
 
-StyleDictionary.registerTransform({
-  name: 'custom/shadow',
-  type: transformTypes.value,
-  transitive: true,
-  filter: (token) => token.$type === 'shadow',
-  transform: (token) => {
-    if (typeof token.$value !== 'object') {
-      // already transformed to string
-      return token.$value;
-    }
-
-    const stringifyShadow = (val: any) => {
-      // check if the shadows are objects, they might already be transformed to strings if they were refs
-      if (typeof val !== 'object') {
-        return val;
-      }
-      const { inset, color, offsetX, offsetY, blur, spread } = val;
-      return `${inset ? `inset ` : ''}${offsetX ?? 0} ${offsetY ?? 0} ${blur ?? 0} ${
-        spread ? `${spread} ` : ''
-      }${color ?? `#000000`}`;
-    };
-
-    if (Array.isArray(token.$value)) {
-      return token.$value.map(stringifyShadow).join(', ');
-    }
-    return stringifyShadow(token.$value);
-  },
-});
-
 StyleDictionary.registerFormat({
   name: 'custom/typography',
   format: async ({ dictionary }) => {
@@ -202,7 +173,11 @@ const config: Config = {
       ].map((themeKey) => [
         `theme/${themeKey}`,
         {
-          transforms: [transforms.nameKebab, transforms.fontFamilyCss, 'custom/shadow'],
+          transforms: [
+            transforms.nameKebab,
+            transforms.fontFamilyCss,
+            transforms.shadowCssShorthand,
+          ],
           files: [
             {
               destination: `./packages/themes/${themeKey}/theme.generated.css`,
