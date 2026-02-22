@@ -1,18 +1,6 @@
-# Simple Design System with Extended Collections to Tailwind CSS (for non-enterprise plans)
+# Multi-Brand Tailwind CSS Themes from Simple Design System with Extended Collections (for non-enterprise plans)
 
-A reference implementation for transforming Figma design tokens into Tailwind CSS v4 themes using [TokensBrücke](https://www.figma.com/community/plugin/1254538877056388290/tokensbrucke) and [Style Dictionary](https://styledictionary.com/), adapted for non-enterprise Figma environments where [Extended Collections](https://help.figma.com/hc/en-us/articles/36346281624471-Extend-a-variable-collection) and the [Variables REST API](https://www.figma.com/developers/api#variables) are not available.
-
-## Overview
-
-This project demonstrates how to:
-
-- Export Figma variables and styles as design tokens
-- Transform Figma's token structure to Tailwind's theme format
-- Generate CSS variables compatible with Tailwind CSS v4
-- Handle Figma modes (Light/Dark, size variants)
-- Support multiple themes without Figma's Extended Collections (enterprise-only feature)
-
-Based on [Simple Design System with Extended Collections](https://www.figma.com/community/file/1575803530898880325).
+A demo project for building multi-brand Tailwind CSS themes based on [Simple Design System with Extended Collections](https://www.figma.com/community/file/1575803530898880325). Uses [TokensBrücke](https://www.figma.com/community/plugin/1254538877056388290/tokensbrucke) and [Style Dictionary](https://styledictionary.com/) to transform Figma design tokens, adapted for non-enterprise Figma environments where Extended Collections and the Variables REST API are not available.
 
 ## Pipeline
 
@@ -71,7 +59,7 @@ pnpm dev
 ## Project Structure
 
 ```
-sds-with-extended-collections-to-tailwindcss/
+multi-brand-tailwindcss-themes-from-sds-with-extended-collections-for-non-enterprise/
 ├── scripts/
 │   ├── design.tokens.json          # TokensBrücke export (input)
 │   └── build-tailwind-tokens.ts    # Token transformation logic
@@ -101,6 +89,14 @@ sds-with-extended-collections-to-tailwindcss/
 ## How It Works
 
 ### 1. Token Export (Figma → JSON)
+
+The original [Simple Design System with Extended Collections](https://www.figma.com/community/file/1575803530898880325) uses [Extended Collections](https://help.figma.com/hc/en-us/articles/36346281624471-Extend-a-variable-collection) for multi-brand management. However, Extended Collections is an enterprise-only feature. Non-enterprise users must add brand themes to the Theme collection before exporting:
+
+1. Open the Theme collection in the Variables panel
+2. Use **Duplicate mode** on the `Light` mode, then rename it to `Brand #2 - Light`
+3. Use **Duplicate mode** on the `Dark` mode, then rename it to `Brand #2 - Dark`
+4. Adjust the variable values in the new modes for your brand
+5. Repeat for additional brands (Brand #3, etc.)
 
 Use [TokensBrücke](https://www.figma.com/community/plugin/1254538877056388290/tokensbrucke) to export Figma variables and styles:
 
@@ -169,11 +165,19 @@ Token references are rewritten to match the new structure:
 
 ### 3. CSS Generation (JSON → CSS)
 
-Style Dictionary (`sd.config.ts`) generates the final CSS.
+Style Dictionary (`sd.config.ts`) generates the final CSS. Each theme is defined with its corresponding light/dark mode keys:
+
+```typescript
+const themes: Record<string, [lightModeKey: string, darkModeKey: string]> = {
+  default: ['Light', 'Dark'],
+  'brand-2': ['Brand #2 - Light', 'Brand #2 - Dark'],
+  'brand-3': ['Brand #3 - Light', 'Brand #3 - Dark'],
+};
+```
 
 **Mode resolution (preprocessor):**
 
-Each theme registers its own preprocessor (`custom/mode-${key}`) that resolves the appropriate mode values from `$extensions.mode`. The light/dark mode keys vary per theme (e.g., `Light`/`Dark` for default, `Brand #2 - Light`/`Brand #2 - Dark` for brand-2):
+Each theme registers its own preprocessor (`custom/mode-${key}`) that resolves the appropriate mode values from `$extensions.mode`:
 
 ```typescript
 // Light/Dark modes → light-dark() function
@@ -231,6 +235,43 @@ Each theme registers its own preprocessor (`custom/mode-${key}`) that resolves t
   font-weight: 400;
   letter-spacing: var(--tracking-body);
 }
+```
+
+## Integration
+
+### Application Setup
+
+Import Tailwind CSS with your theme:
+
+```css
+/* apps/web/src/index.css */
+@import 'tailwindcss';
+@import '@acme/ui/index.css';
+@import '@acme/theme-default/index.css';
+@source '../node_modules/@acme/ui';
+```
+
+### Using Tokens
+
+Use the generated Tailwind utilities in your HTML/JSX:
+
+```html
+<div class="bg-brand-default p-400 text-brand-on-brand">
+  <h1 class="typography-title-hero">Hello World</h1>
+</div>
+```
+
+### Switching Themes
+
+Import a different theme package:
+
+```diff
+ /* apps/web/src/index.css */
+ @import 'tailwindcss';
+ @import '@acme/ui/index.css';
+-@import '@acme/theme-default/index.css';
++@import '@acme/theme-brand-2/index.css';
+ @source '../node_modules/@acme/ui';
 ```
 
 ## Customization Guide
@@ -310,109 +351,6 @@ Enable dark mode in your application:
 }
 ```
 
-### Multiple Themes
-
-The original [Simple Design System with Extended Collections](https://www.figma.com/community/file/1575803530898880325) uses [Extended Collections](https://help.figma.com/hc/en-us/articles/36346281624471-Extend-a-variable-collection) for multi-brand management. However, Extended Collections is an enterprise-only feature. Non-enterprise users cannot access extended collections, so the brand themes must be added to the Theme collection using **Duplicate mode**.
-
-**Adding brand themes to the Theme collection:**
-
-1. Open the Theme collection in the Variables panel
-2. Use **Duplicate mode** on the `Light` mode, then rename it to `Brand #2 - Light`
-3. Use **Duplicate mode** on the `Dark` mode, then rename it to `Brand #2 - Dark`
-4. Adjust the variable values in the new modes for your brand
-5. Repeat for additional brands (Brand #3, etc.)
-6. Re-export using TokensBrücke
-
-After migration, all brand mode values are consolidated within the single Theme collection's `$extensions.mode`:
-
-```json
-{
-  "Theme": {
-    "Background": {
-      "Primary": {
-        "$type": "color",
-        "$value": "#ffffff",
-        "$extensions": {
-          "mode": {
-            "Light": "#ffffff",
-            "Dark": "#1a1a1a",
-            "Brand #2 - Light": "#f8f8f8",
-            "Brand #2 - Dark": "#1c1c1c",
-            "Brand #3 - Light": "#fafafa",
-            "Brand #3 - Dark": "#1e1e1e"
-          }
-        }
-      }
-    }
-  }
-}
-```
-
-All themes share a single token file (`packages/ui/tokens/theme.tokens.json`). Each theme resolves its own mode values via a per-theme preprocessor in `sd.config.ts`:
-
-**Define theme mode mappings in `sd.config.ts`:**
-
-```typescript
-const themes: Record<string, [lightModeKey: string, darkModeKey: string]> = {
-  default: ['Light', 'Dark'],
-  'brand-2': ['Brand #2 - Light', 'Brand #2 - Dark'],
-  'brand-3': ['Brand #3 - Light', 'Brand #3 - Dark'],
-};
-```
-
-Each theme gets its own preprocessor (`custom/mode-${key}`) and platform configuration that generates `packages/themes/${key}/theme.generated.css` from the shared tokens.
-
-**Create theme directories:**
-
-```
-packages/themes/
-├── default/
-│   ├── theme.generated.css    # (generated)
-│   ├── index.css
-│   └── package.json
-├── brand-2/
-│   └── ...
-└── brand-3/
-    └── ...
-```
-
-## Integration
-
-### Application Setup
-
-Import Tailwind CSS with your theme:
-
-```css
-/* apps/web/src/index.css */
-@import 'tailwindcss';
-@import '@acme/ui/index.css';
-@import '@acme/theme-default/index.css';
-@source '../node_modules/@acme/ui';
-```
-
-### Using Tokens
-
-Use the generated Tailwind utilities in your HTML/JSX:
-
-```html
-<div class="bg-brand-default p-400 text-brand-on-brand">
-  <h1 class="typography-title-hero">Hello World</h1>
-</div>
-```
-
-### Switching Themes
-
-Import a different theme package:
-
-```diff
- /* apps/web/src/index.css */
- @import 'tailwindcss';
- @import '@acme/ui/index.css';
--@import '@acme/theme-default/index.css';
-+@import '@acme/theme-brand-2/index.css';
- @source '../node_modules/@acme/ui';
-```
-
 ## Background
 
 ### Why Transform Tokens?
@@ -433,4 +371,4 @@ The [Simple Design System](https://github.com/figma/sds) wasn't designed for Tai
 - Transform Figma's structure to Tailwind's requirements
 - Handle multi-brand themes in non-enterprise Figma environments
 - Preserve mode information through the transformation
-- Generate production-ready Tailwind CSS v4 themes
+- Generate production-ready Tailwind CSS themes
