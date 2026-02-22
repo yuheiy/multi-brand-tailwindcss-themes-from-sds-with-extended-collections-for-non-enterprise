@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "node --run build:sd && pnpm run -r build",
-    "build:sd": "node scripts/build-tailwind-tokens.ts && style-dictionary build --config sd.config.ts",
+    "build:sd": "node scripts/transform-design-tokens.ts && style-dictionary build --config sd.config.ts",
     "dev": "pnpm run -r --parallel dev"
   },
   "devDependencies": {

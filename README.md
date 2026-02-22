@@ -15,7 +15,7 @@ A demo project for building multi-brand Tailwind CSS themes based on [Simple Des
 │     ▼                                                                       │
 │   scripts/design.tokens.json                                                │
 │     │                                                                       │
-│     │  Transform via build-tailwind-tokens.ts                               │
+│     │  Transform via transform-design-tokens.ts                             │
 │     │    • Map Figma structure → Tailwind theme keys                        │
 │     │    • Rewrite token references                                         │
 │     ▼                                                                       │
@@ -62,7 +62,7 @@ pnpm dev
 multi-brand-tailwindcss-themes-from-sds-with-extended-collections-for-non-enterprise/
 ├── scripts/
 │   ├── design.tokens.json          # TokensBrücke export (input)
-│   └── build-tailwind-tokens.ts    # Token transformation logic
+│   └── transform-design-tokens.ts  # Token transformation logic
 ├── packages/
 │   ├── themes/
 │   │   ├── default/
@@ -137,7 +137,7 @@ The export creates `scripts/design.tokens.json` with this structure:
 
 ### 2. Token Transformation (JSON → Tailwind-compatible JSON)
 
-`scripts/build-tailwind-tokens.ts` restructures tokens for Tailwind:
+`scripts/transform-design-tokens.ts` restructures tokens for Tailwind:
 
 **Mapping Figma structure to Tailwind theme keys:**
 
@@ -280,27 +280,27 @@ Import a different theme package:
 
 1. **Export your Figma tokens** using TokensBrücke with the required settings
 2. **Replace** `scripts/design.tokens.json` with your export
-3. **Update** `scripts/build-tailwind-tokens.ts` to match your token structure
+3. **Update** `scripts/transform-design-tokens.ts` to match your token structure
 
 ### Token Mapping
 
-Modify the mapping in `build-tailwind-tokens.ts` to match your Figma organization:
+Modify the mapping in `transform-design-tokens.ts` to match your Figma organization:
 
 ```typescript
 const themeTokens = {
   // Map your Figma collections to Tailwind theme keys
   'background-color': {
-    ...omit(themeGroup.Background, ['Utilities']),
+    ...omit(designTokens.Theme.Background, ['Utilities']),
   },
 
   'text-color': {
-    ...omit(themeGroup.Text, ['Utilities']),
-    icon: omit(themeGroup.Icon, ['Utilities']),
+    ...omit(designTokens.Theme.Text, ['Utilities']),
+    icon: omit(designTokens.Theme.Icon, ['Utilities']),
   },
 
   // Add your own mappings
   'accent-color': {
-    ...themeGroup.Accent,
+    ...designTokens.Theme.Accent,
   },
 };
 ```
