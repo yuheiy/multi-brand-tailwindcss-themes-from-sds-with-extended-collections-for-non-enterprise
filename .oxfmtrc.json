@@ -5,7 +5,7 @@
     "functions": ["tv", "twMerge"]
   },
   "singleQuote": true,
-  "experimentalSortPackageJson": true,
+  "experimentalSortImports": {},
   "ignorePatterns": [
     "packages/**/*.generated.css",
     "packages/**/*.tokens.json",

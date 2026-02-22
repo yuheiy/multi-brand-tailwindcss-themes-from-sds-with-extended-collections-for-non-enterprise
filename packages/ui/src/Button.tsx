@@ -1,5 +1,6 @@
 import React from 'react';
 import { type VariantProps } from 'tailwind-variants';
+
 import { tv } from './utils';
 
 type ButtonVariants = VariantProps<typeof button>;

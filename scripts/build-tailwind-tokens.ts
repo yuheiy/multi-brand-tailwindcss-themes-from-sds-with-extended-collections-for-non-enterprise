@@ -1,7 +1,9 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+
 import { omit } from 'es-toolkit';
 import mapObject, { mapObjectSkip } from 'map-obj';
+
 import designTokens from './design.tokens.json' with { type: 'json' };
 
 function isObject(value: unknown) {
